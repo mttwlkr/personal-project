@@ -1,0 +1,1 @@
+export const getGames = jest.fn()
