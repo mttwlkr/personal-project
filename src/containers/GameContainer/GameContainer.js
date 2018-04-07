@@ -3,6 +3,8 @@ import './GameContainer.js';
 import { connect } from 'react-redux';
 import { addGamesToStore } from '../../actions';
 import { getGames } from '../../fetches/get-games';
+import GameCard from '../../components/GameCard/GameCard.js';
+import './GameContainer.css';
 
 export class GameContainer extends Component {
 
@@ -12,10 +14,19 @@ export class GameContainer extends Component {
   }
 
   render() {
+    const { games } = this.props;
+    let displayGames = 'loading';
+
+    if (games.posts) {
+      displayGames = games.posts.map( game => {
+        return <GameCard game={game} key={game.id}/>
+      })    
+    }
+
     return (
-      <div className='game-container'>
-        I'm a Game Container
-      </div>
+      <section className='game-container'>
+        {displayGames}
+      </section>
     )
   }
 }
@@ -29,3 +40,5 @@ export const mapDispatchToProps = (dispatch) => ({
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(GameContainer)
+
+

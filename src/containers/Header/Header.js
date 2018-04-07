@@ -11,12 +11,12 @@ class Header extends Component {
 
   render() {
     return (
-      <div>
+      <header>
         <h1>SLVSH</h1>
         <NavLink to='/games'>Games</NavLink>
         <NavLink to='/riders'>Riders</NavLink>
         <NavLink to='/create'>Create</NavLink>
-      </div>
+      </header>
     )
   }
 }
