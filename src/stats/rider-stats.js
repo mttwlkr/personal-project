@@ -1,4 +1,4 @@
-[
+export const riderStats = [
   {
     "slvsh_id": 24,
     "rider_name": "Aiden Sheahan",
