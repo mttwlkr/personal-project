@@ -27,11 +27,15 @@ describe('GameContainer', () => {
   })
 
   it('should map the correct state', () => {
-
+    const mockState = {games: 'henrik vs quinn'}
+    const mapped = mapStateToProps(mockState)
+    expect(mapped.games).toEqual(mockState.games)
   })
 
   it('should dispatch the correct props', () => {
-
+    const mockDispatch = jest.fn();
+    const mapped = mapDispatchToProps(mockDispatch)
+    expect(mockAddGamesToStore).toHaveBeenCalled()
   })
 
 })

@@ -6,6 +6,6 @@ export const getGames = async () => {
     const games = await response.json()
     return games
   } catch (error) {
-    throw await error 
+    throw error 
   }    
 }
