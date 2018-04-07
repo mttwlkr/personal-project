@@ -12,7 +12,6 @@ export class GameContainer extends Component {
   }
 
   render() {
-    console.log(this.props)
     return (
       <div className='game-container'>
         I'm a Game Container
@@ -21,8 +20,8 @@ export class GameContainer extends Component {
   }
 }
 
-export const mapStateToProps = (state) => ({
-  games: state.games
+export const mapStateToProps = ({games}) => ({
+  games
 })
 
 export const mapDispatchToProps = (dispatch) => ({
