@@ -1,0 +1,9 @@
+.game-container-card {
+  width: 250px;
+  height: 400px;
+  border: 1px solid coral;
+}
+
+.game-card-thumbnail {
+  width: 200px;
+}
