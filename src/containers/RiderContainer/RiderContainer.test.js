@@ -8,12 +8,15 @@ jest.mock('../../fetches/get-riders')
 
 describe('RiderContainer', () => {
 
+  const mockAddStatsToStore = jest.fn()
   const mockAddRidersToStore = jest.fn()
   let wrapper;
 
   beforeEach(() => {
     wrapper = shallow(<RiderContainer 
       addRidersToStore={mockAddRidersToStore}
+      addStatsToStore={mockAddStatsToStore}
+      riders={mockAPIRidersData}
     />)
   })
 

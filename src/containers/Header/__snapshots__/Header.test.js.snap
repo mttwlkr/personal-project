@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          SLVSH
+</h1>,
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          to="/games"
+>
+          Games
+</NavLink>,
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          to="/riders"
+>
+          Riders
+</NavLink>,
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          to="/create"
+>
+          Create
+</NavLink>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "SLVSH",
+        },
+        "ref": null,
+        "rendered": "SLVSH",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "active",
+          "ariaCurrent": "true",
+          "children": "Games",
+          "to": "/games",
+        },
+        "ref": null,
+        "rendered": "Games",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "active",
+          "ariaCurrent": "true",
+          "children": "Riders",
+          "to": "/riders",
+        },
+        "ref": null,
+        "rendered": "Riders",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "active",
+          "ariaCurrent": "true",
+          "children": "Create",
+          "to": "/create",
+        },
+        "ref": null,
+        "rendered": "Create",
+        "type": [Function],
+      },
+    ],
+    "type": "header",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            SLVSH
+</h1>,
+          <NavLink
+            activeClassName="active"
+            ariaCurrent="true"
+            to="/games"
+>
+            Games
+</NavLink>,
+          <NavLink
+            activeClassName="active"
+            ariaCurrent="true"
+            to="/riders"
+>
+            Riders
+</NavLink>,
+          <NavLink
+            activeClassName="active"
+            ariaCurrent="true"
+            to="/create"
+>
+            Create
+</NavLink>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "SLVSH",
+          },
+          "ref": null,
+          "rendered": "SLVSH",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "ariaCurrent": "true",
+            "children": "Games",
+            "to": "/games",
+          },
+          "ref": null,
+          "rendered": "Games",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "ariaCurrent": "true",
+            "children": "Riders",
+            "to": "/riders",
+          },
+          "ref": null,
+          "rendered": "Riders",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "ariaCurrent": "true",
+            "children": "Create",
+            "to": "/create",
+          },
+          "ref": null,
+          "rendered": "Create",
+          "type": [Function],
+        },
+      ],
+      "type": "header",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

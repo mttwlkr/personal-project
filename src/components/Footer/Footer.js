@@ -4,12 +4,18 @@ const Footer = () => {
 
   return (
     <div className='footer'>
-      <p>&#169 2018 Slvsh LLC | All rights reserved</p>
+      <p>&copy; 2018 Slvsh LLC | All rights reserved</p>
       <section>
         <p>Follow SLVSH</p>
-        <div>Facebook</div>
-        <div>Instagram</div>
-        <div>Twitter</div>
+        <a target="_blank" href="https://www.facebook.com/theslvsh" rel="noopener noreferrer">
+          Facebook
+        </a>
+        <a target="_blank" href="https://www.instagram.com/theslvsh" rel="noopener noreferrer">
+          Instagram
+        </a>
+        <a target="_blank" href="https://twitter.com/theslvsh" rel="noopener noreferrer">
+          Twitter
+        </a>
       </section>
     </div>
   )

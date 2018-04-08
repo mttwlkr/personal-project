@@ -13,7 +13,8 @@ describe('GameContainer', () => {
 
   beforeEach(() => {
     wrapper = shallow(<GameContainer 
-      addGamesToStore={mockAddGamesToStore} 
+      addGamesToStore={mockAddGamesToStore}
+      games={mockAPIGamesData}
     />) 
   })
 

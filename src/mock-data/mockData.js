@@ -35,8 +35,8 @@ export const mockAPIRidersData = [
 ]
 
 export const mockAPIGamesData = {
-"current_page": 1,
-"total_pages": 42,
+  "current_page": 1,
+  "total_pages": 42,
   "posts": [
     {
       "id": 869,
@@ -225,7 +225,55 @@ export const mockAPIGamesData = {
   ]
 } 
 
+export const mockRiderReducerState = [
+  {
+    "id": 5,
+    "name": "Noah Wallace",
+    "sponsor": "Giro",
+    "avatar": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/005/original/Noah_Wallace.jpg?1427290713",
+    "country": "us",
+    "birthdate": "1991-07-02",
+    "slvsh_avg": 489,
+    "url": "http://www.slvsh.com/riders/5.json",
+    "age": 26
+  }
+]
 
+export const mockRiderReducerActionObject = {
+  type: 'ADD_STATS_TO_STORE', 
+  riderStats: {
+    "5": {
+      "slvsh_id": 5,
+      "stat_rider_name": 'Noah Wallace',
+      "Offense": 0.74,
+      "Defense": 0.571,
+      "Lines": 0.583,
+      "Difficulty": 0.24,
+      "total_player_rating": 0.5335,
+      "games_played": 3  
+    }
+  }
+}
+
+export const mockRiderReducerExpected = {
+  "id": 5,
+  "name": "Noah Wallace",
+  "sponsor": "Giro",
+  "avatar": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/005/original/Noah_Wallace.jpg?1427290713",
+  "country": "us",
+  "birthdate": "1991-07-02",
+  "slvsh_avg": 489,
+  "url": "http://www.slvsh.com/riders/5.json",
+  "age": 26,
+  "slvsh_id": 5,
+  "stat_rider_name": 'Noah Wallace',
+  "Offense": 0.74,
+  "Defense": 0.571,
+  "Lines": 0.583,
+  "Difficulty": 0.24,
+  "total_player_rating": 0.5335,
+  "games_played": 3 
+}
 
 
 
