@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getRiders } from '../../fetches/get-riders';
-import { addRidersToStore } from '../../actions';
+import { addRidersToStore, addStatsToStore } from '../../actions';
 import RiderCard from '../../components/RiderCard/RiderCard.js';
-import { riderStats } from '../../stats/rider-stats';
-import './RiderContainer.css'
+import { riderStatsObject } from '../../stats/rider-stats-object';
+import './RiderContainer.css';
 
 export class RiderContainer extends Component {
 
   async componentDidMount() {
     const riders = await getRiders();
     this.props.addRidersToStore(riders);
-  }
-
-  getRiderStats(id) {
-    
+    this.props.addStatsToStore(riderStatsObject);
   }
 
   render() {
@@ -22,15 +19,18 @@ export class RiderContainer extends Component {
     let displayRiders = 'loading';
     
     if (riders.length) {
-      displayRiders = riders.map( rider => {
+      displayRiders = riders.map((rider, idx) => {
         return <RiderCard rider={rider} key={rider.id} />
       })
     }
 
     return (
-      <section className='rider-container'>
-        {displayRiders}
-      </section>
+      <div>
+
+        <section className='rider-container'>
+          {displayRiders}
+        </section>
+      </div>
     )
   }
 }
@@ -40,7 +40,8 @@ export const mapStateToProps = ({riders}) => ({
 })
 
 export const mapDispatchToProps = (dispatch) => ({
-  addRidersToStore: (riders) => dispatch(addRidersToStore(riders))
+  addRidersToStore: (riders) => dispatch(addRidersToStore(riders)),
+  addStatsToStore: (riderStatsObject) => dispatch(addStatsToStore(riderStatsObject))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(RiderContainer)
