@@ -6,7 +6,7 @@ describe('footer', () => {
 
   let wrapper;
 
-  it.skip('should match the snapshot', () => {
+  it('should match the snapshot', () => {
     wrapper = shallow(<Footer />)
     expect(wrapper).toMatchSnapshot()
   })

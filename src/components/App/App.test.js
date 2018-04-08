@@ -1,9 +1,8 @@
 import App from './App';
 import React from 'react';
 import { shallow } from 'enzyme';
-import { mockAPIRidersData, mockAPIGamesData } from '../../mock-data/mockData';
 
-describe.skip('App', () => {
+describe('App', () => {
 
   let wrapper;
 
@@ -11,7 +10,7 @@ describe.skip('App', () => {
     wrapper = shallow(<App />)
   })
   
-  it.skip('should match the snapshot', () => {
+  it('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot()
   })
 

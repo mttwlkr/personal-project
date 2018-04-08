@@ -16,17 +16,24 @@ export class RiderContainer extends Component {
 
   render() {
     const { riders } = this.props;
-    let displayRiders = 'loading';
+    let displayRiders = 'Riders loading...';
+    let topRiders = 'Stats loading...'
     
     if (riders.length) {
       displayRiders = riders.map((rider, idx) => {
         return <RiderCard rider={rider} key={rider.id} />
       })
+
+      topRiders = riders.filter(rider => {
+        
+      })
     }
 
     return (
       <div>
+        <section className='stat-container'>
 
+        </section>
         <section className='rider-container'>
           {displayRiders}
         </section>

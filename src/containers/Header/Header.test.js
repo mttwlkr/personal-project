@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import Header from './Header.js';
 
 describe('Header', () => {
 
@@ -9,10 +10,7 @@ describe('Header', () => {
     wrapper = shallow(<Header />)
   })
 
-  it.skip('should match the snapshot', () => {
+  it('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot()
   })
-
-  
-
 })

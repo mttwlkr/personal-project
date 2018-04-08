@@ -1,4 +1,6 @@
 import ridersReducer from './riders-reducer';
+import { riderStatsObject } from '../stats/rider-stats-object.js';
+import { mockRiderReducerState, mockRiderReducerActionObject, mockRiderReducerExpected } from '../mock-data/mockData.js';
 
 describe('ridersReducer', () => {
 
@@ -14,6 +16,7 @@ describe('ridersReducer', () => {
   })
 
   it('should return a new object with the rider and updated stats', () => {
-    const mockAction = {type: 'ADD_STATS_TO_STORE', someBigMockObjectThatIWillMakeLater}
+    const answer = ridersReducer(mockRiderReducerState, mockRiderReducerActionObject)
+    expect(...answer).toEqual(mockRiderReducerExpected)
   })
 })

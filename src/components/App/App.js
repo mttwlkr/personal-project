@@ -9,7 +9,6 @@ import { Route, Switch} from 'react-router-dom';
 export class App extends Component {
 
   render() {
-
     return (
       <div className="App">
         <Header />
@@ -18,7 +17,6 @@ export class App extends Component {
         <Route exact path='/riders' component={RiderContainer}></Route>
         <Footer />
       </div>
-
     );
   }
 }
