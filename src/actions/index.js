@@ -8,10 +8,11 @@ export const addRidersToStore = (riders) => ({
   riders
 })
 
-// export const addRiderStatsToStore = () => ({
-//   type: 'ADD_RIDER_STATS_TO_STORE',
+export const addStatsToStore = (riderStats) => ({
+  type: 'ADD_STATS_TO_STORE',
+  riderStats
+})
 
-// })
 
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import './GameCard.css';
 
 const GameCard = ({game}) => {
-  
+
   return (
     <div className='game-container-card'>
       <h3>{game.title}</h3>
