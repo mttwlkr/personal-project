@@ -12,10 +12,3 @@ export const addStatsToStore = (riderStats) => ({
   type: 'ADD_STATS_TO_STORE',
   riderStats
 })
-
-
-
-
-// export const userLogin = (logInInfo) => ({
-//   type: ''
-// })

@@ -35,8 +35,8 @@ export const mockAPIRidersData = [
 ]
 
 export const mockAPIGamesData = {
-"current_page": 1,
-"total_pages": 42,
+  "current_page": 1,
+  "total_pages": 42,
   "posts": [
     {
       "id": 869,
@@ -224,7 +224,6 @@ export const mockAPIGamesData = {
     }
   ]
 } 
-
 
 
 

@@ -2,7 +2,6 @@ import React from 'react';
 import './RiderCard.css';
 
 const RiderCard = ({rider}) => {
-
   return (
     <div className='rider-container-card'>
       <h3>{rider.name}</h3>
@@ -18,7 +17,6 @@ const RiderCard = ({rider}) => {
     </div>
   )
 }
-
 
 export default RiderCard;
 
