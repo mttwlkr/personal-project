@@ -22,6 +22,7 @@ ShallowWrapper {
           className="nav-btn-div"
 >
           <img
+                    alt="slvsh-logo"
                     className="slvsh-logo"
                     src="http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png"
           />
@@ -113,6 +114,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <img
+              alt="slvsh-logo"
               className="slvsh-logo"
               src="http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png"
 />,
@@ -180,6 +182,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "alt": "slvsh-logo",
               "className": "slvsh-logo",
               "src": "http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png",
             },
@@ -316,6 +319,7 @@ ShallowWrapper {
             className="nav-btn-div"
 >
             <img
+                        alt="slvsh-logo"
                         className="slvsh-logo"
                         src="http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png"
             />
@@ -407,6 +411,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <img
+                alt="slvsh-logo"
                 className="slvsh-logo"
                 src="http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png"
 />,
@@ -474,6 +479,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "alt": "slvsh-logo",
                 "className": "slvsh-logo",
                 "src": "http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png",
               },

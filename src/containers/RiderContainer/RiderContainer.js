@@ -23,7 +23,6 @@ export class RiderContainer extends Component {
       displayRiders = riders.map((rider, idx) => {
         return <RiderCard rider={rider} key={rider.id} />
       })
-
       topRiders = riders.filter(rider => {
         
       })

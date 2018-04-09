@@ -17,3 +17,8 @@ export const addVideoToPlayer = (id) => ({
   type: 'ADD_VIDEO_TO_PLAYER',
   id
 })
+
+export const addSingleGameToStore = (currentGame) => ({
+  type: 'ADD_SINGLE_GAME_TO_STORE',
+  currentGame
+})
