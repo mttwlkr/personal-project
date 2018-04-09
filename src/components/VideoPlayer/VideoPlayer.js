@@ -38,8 +38,6 @@ class VideoPlayer extends Component {
   }
 }
 
-// export default VideoPlayer
-
 const mapStateToProps = ({player, games}) => ({
   player,
   games
