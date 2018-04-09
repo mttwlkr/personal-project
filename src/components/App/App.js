@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import GameContainer from '../../containers/GameContainer/GameContainer.js';
 import RiderContainer from '../../containers/RiderContainer/RiderContainer';
+import VideoPlayer from '../VideoPlayer/VideoPlayer.js';
 import Header from '../../containers/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import { Route, Switch} from 'react-router-dom';
@@ -15,6 +16,7 @@ export class App extends Component {
         <Route exact path='/' component={GameContainer}></Route>
         <Route exact path='/games' component={GameContainer}></Route>    
         <Route exact path='/riders' component={RiderContainer}></Route>
+        <Route exact path='/games/:game' component={VideoPlayer}></Route>
         <Footer />
       </div>
     );

@@ -5,6 +5,7 @@ import { addGamesToStore } from '../../actions';
 import { getGames } from '../../fetches/get-games';
 import GameCard from '../../components/GameCard/GameCard.js';
 import './GameContainer.css';
+import { withRouter } from 'react-router';
 
 export class GameContainer extends Component {
 
@@ -13,13 +14,17 @@ export class GameContainer extends Component {
     this.props.addGamesToStore(games);
   }
 
+  handleRoute = (gameID) => {
+    this.props.history.push(`/games/${gameID}`)
+  }
+
   render() {
     const { games } = this.props;
     let displayGames = 'loading';
 
     if (games.posts) {
       displayGames = games.posts.map( game => {
-        return <GameCard game={game} key={game.id}/>
+        return <GameCard game={game} key={game.id} handleRoute={this.handleRoute}/>
       })    
     }
 
@@ -39,6 +44,6 @@ export const mapDispatchToProps = (dispatch) => ({
   addGamesToStore: (games) => dispatch(addGamesToStore(games))
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(GameContainer)
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(GameContainer))
 
 

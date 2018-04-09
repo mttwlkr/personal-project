@@ -1,0 +1,24 @@
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  top: 0;
+  background: #fff;
+  display: flex;
+  height: 70px;
+  align-items: center;
+}
+
+.slvsh-logo {
+  height: 50px;
+  padding: 13px 0 7px 0;
+}
+
+.nav-btn-div {
+  border: 1px solid coral;
+}
+
+.nav-btn {
+  color: #2c3e50;
+  font-family: 'Proxima Nova', lucida, helvetica, sans-serif;
+}

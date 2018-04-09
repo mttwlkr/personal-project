@@ -6,12 +6,15 @@ header {
   border: 1px solid coral;
 }
 
-.game-container {
-  border: 1px solid magenta;
-}
-
+.game-container,
 .rider-container {
   border: 1px solid chartreuse;
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #efefef;
+  justify-content: center;
 }
+
 
 

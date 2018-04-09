@@ -1,9 +1,39 @@
 .game-container-card {
-  width: 250px;
-  height: 400px;
-  border: 1px solid coral;
+  width: 400px;
+  height: 350px;
+  background: #fff;
+  margin: 2em 1em 0em 1em;
 }
 
-.game-card-thumbnail {
-  width: 200px;
+.game-card-image {
+  width: 100%;
+}
+
+.game-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-card-title {
+  margin-top: 0em;
+  margin-bottom: 0;
+  padding: 0.2em 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+.game-card-type {
+  margin: 0em;
+  color: white;
+  background: #53e2ff;
+  padding: 3px 10px;
+  margin: .3em auto;
+}
+
+.game-card-loc-date {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  opacity: 0.6;
 }

@@ -11,8 +11,8 @@ const RiderCard = ({rider}) => {
 
   return (
     <div className='rider-container-card'>
-      <h3>{rider.name}</h3>
       <img className='rider-card-thumbnail' src={rider.avatar}/>
+      <h3>{rider.name}</h3>
       <p>{rider.country}</p>
       <p>{`Sponsor: ${rider.sponsor}`}</p>
       <section>
