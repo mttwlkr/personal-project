@@ -11,7 +11,11 @@ const RiderCard = ({rider}) => {
 
   return (
     <div className='rider-container-card'>
-      <img className='rider-card-thumbnail' src={rider.avatar}/>
+      <img 
+        className='rider-card-thumbnail' 
+        src={rider.avatar}
+        alt='slvsh-rider-thumbnail'
+      />
       <h3>{rider.name}</h3>
       <p>{rider.country}</p>
       <p>{`Sponsor: ${rider.sponsor}`}</p>

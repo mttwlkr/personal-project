@@ -16,6 +16,7 @@ class Header extends Component {
         <div className='nav-btn-div'>
         <img 
           className="slvsh-logo"
+          alt='slvsh-logo'
           src="http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png"
         />
         <NavLink 
