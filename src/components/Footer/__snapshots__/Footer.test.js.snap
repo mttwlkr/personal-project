@@ -27,18 +27,21 @@ ShallowWrapper {
           </p>
           <a
                     href="https://www.facebook.com/theslvsh"
+                    rel="noopener noreferrer"
                     target="_blank"
           >
                     Facebook
           </a>
           <a
                     href="https://www.instagram.com/theslvsh"
+                    rel="noopener noreferrer"
                     target="_blank"
           >
                     Instagram
           </a>
           <a
                     href="https://twitter.com/theslvsh"
+                    rel="noopener noreferrer"
                     target="_blank"
           >
                     Twitter
@@ -71,18 +74,21 @@ ShallowWrapper {
 </p>,
             <a
               href="https://www.facebook.com/theslvsh"
+              rel="noopener noreferrer"
               target="_blank"
 >
               Facebook
 </a>,
             <a
               href="https://www.instagram.com/theslvsh"
+              rel="noopener noreferrer"
               target="_blank"
 >
               Instagram
 </a>,
             <a
               href="https://twitter.com/theslvsh"
+              rel="noopener noreferrer"
               target="_blank"
 >
               Twitter
@@ -109,6 +115,7 @@ ShallowWrapper {
             "props": Object {
               "children": "Facebook",
               "href": "https://www.facebook.com/theslvsh",
+              "rel": "noopener noreferrer",
               "target": "_blank",
             },
             "ref": null,
@@ -122,6 +129,7 @@ ShallowWrapper {
             "props": Object {
               "children": "Instagram",
               "href": "https://www.instagram.com/theslvsh",
+              "rel": "noopener noreferrer",
               "target": "_blank",
             },
             "ref": null,
@@ -135,6 +143,7 @@ ShallowWrapper {
             "props": Object {
               "children": "Twitter",
               "href": "https://twitter.com/theslvsh",
+              "rel": "noopener noreferrer",
               "target": "_blank",
             },
             "ref": null,
@@ -145,7 +154,7 @@ ShallowWrapper {
         "type": "section",
       },
     ],
-    "type": "div",
+    "type": "footer",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -163,18 +172,21 @@ ShallowWrapper {
             </p>
             <a
                         href="https://www.facebook.com/theslvsh"
+                        rel="noopener noreferrer"
                         target="_blank"
             >
                         Facebook
             </a>
             <a
                         href="https://www.instagram.com/theslvsh"
+                        rel="noopener noreferrer"
                         target="_blank"
             >
                         Instagram
             </a>
             <a
                         href="https://twitter.com/theslvsh"
+                        rel="noopener noreferrer"
                         target="_blank"
             >
                         Twitter
@@ -207,18 +219,21 @@ ShallowWrapper {
 </p>,
               <a
                 href="https://www.facebook.com/theslvsh"
+                rel="noopener noreferrer"
                 target="_blank"
 >
                 Facebook
 </a>,
               <a
                 href="https://www.instagram.com/theslvsh"
+                rel="noopener noreferrer"
                 target="_blank"
 >
                 Instagram
 </a>,
               <a
                 href="https://twitter.com/theslvsh"
+                rel="noopener noreferrer"
                 target="_blank"
 >
                 Twitter
@@ -245,6 +260,7 @@ ShallowWrapper {
               "props": Object {
                 "children": "Facebook",
                 "href": "https://www.facebook.com/theslvsh",
+                "rel": "noopener noreferrer",
                 "target": "_blank",
               },
               "ref": null,
@@ -258,6 +274,7 @@ ShallowWrapper {
               "props": Object {
                 "children": "Instagram",
                 "href": "https://www.instagram.com/theslvsh",
+                "rel": "noopener noreferrer",
                 "target": "_blank",
               },
               "ref": null,
@@ -271,6 +288,7 @@ ShallowWrapper {
               "props": Object {
                 "children": "Twitter",
                 "href": "https://twitter.com/theslvsh",
+                "rel": "noopener noreferrer",
                 "target": "_blank",
               },
               "ref": null,
@@ -281,7 +299,7 @@ ShallowWrapper {
           "type": "section",
         },
       ],
-      "type": "div",
+      "type": "footer",
     },
   ],
   Symbol(enzyme.__options__): Object {

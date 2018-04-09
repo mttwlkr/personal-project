@@ -23,4 +23,8 @@ export class App extends Component {
   }
 }
 
+// instead of component routing, make a fetch call based on the id passed in on 19
+// make one game/rider container that is hooked up to the store 
+// look into single game fetching on the api. 
+
 export default App

@@ -34,6 +34,11 @@ ShallowWrapper {
           exact={true}
           path="/riders"
 />,
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/games/:game"
+/>,
         <Footer />,
       ],
       "className": "App",
@@ -91,6 +96,19 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "exact": true,
+          "path": "/games/:game",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
         "nodeType": "function",
         "props": Object {},
         "ref": null,
@@ -122,6 +140,11 @@ ShallowWrapper {
             component={[Function]}
             exact={true}
             path="/riders"
+/>,
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/games/:game"
 />,
           <Footer />,
         ],
@@ -172,6 +195,19 @@ ShallowWrapper {
             "component": [Function],
             "exact": true,
             "path": "/riders",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "exact": true,
+            "path": "/games/:game",
           },
           "ref": null,
           "rendered": null,

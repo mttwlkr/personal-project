@@ -18,30 +18,90 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-          SLVSH
-</h1>,
-        <NavLink
-          activeClassName="active"
-          ariaCurrent="true"
-          to="/games"
+        <div
+          className="nav-btn-div"
 >
-          Games
-</NavLink>,
-        <NavLink
-          activeClassName="active"
-          ariaCurrent="true"
-          to="/riders"
+          <img
+                    className="slvsh-logo"
+                    src="http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png"
+          />
+          <NavLink
+                    activeClassName="active"
+                    activeStyle={
+                              Object {
+                                        "color": "#ff0049",
+                                      }
+                    }
+                    ariaCurrent="true"
+                    className="nav-btn nav-games"
+                    style={
+                              Object {
+                                        "textDecoration": "none",
+                                      }
+                    }
+                    to="/games"
+          >
+                    GAMES
+          </NavLink>
+          <NavLink
+                    activeClassName="active"
+                    activeStyle={
+                              Object {
+                                        "color": "#ff0049",
+                                      }
+                    }
+                    ariaCurrent="true"
+                    className="nav-btn nav-riders"
+                    style={
+                              Object {
+                                        "textDecoration": "none",
+                                      }
+                    }
+                    to="/riders"
+          >
+                    RIDERS
+          </NavLink>
+          <NavLink
+                    activeClassName="active"
+                    activeStyle={
+                              Object {
+                                        "color": "#ff0049",
+                                      }
+                    }
+                    ariaCurrent="true"
+                    className="nav-btn nav-create"
+                    style={
+                              Object {
+                                        "textDecoration": "none",
+                                      }
+                    }
+                    to="/create"
+          >
+                    CREATE
+          </NavLink>
+</div>,
+        <div
+          className="login-div"
 >
-          Riders
-</NavLink>,
-        <NavLink
-          activeClassName="active"
-          ariaCurrent="true"
-          to="/create"
->
-          Create
-</NavLink>,
+          <NavLink
+                    activeClassName="active"
+                    activeStyle={
+                              Object {
+                                        "color": "#ff0049",
+                                      }
+                    }
+                    ariaCurrent="true"
+                    className="nav-btn nav-create"
+                    style={
+                              Object {
+                                        "textDecoration": "none",
+                                      }
+                    }
+                    to="/login"
+          >
+                    LOGIN
+          </NavLink>
+</div>,
       ],
     },
     "ref": null,
@@ -51,53 +111,196 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "SLVSH",
+          "children": Array [
+            <img
+              className="slvsh-logo"
+              src="http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png"
+/>,
+            <NavLink
+              activeClassName="active"
+              activeStyle={
+                            Object {
+                                          "color": "#ff0049",
+                                        }
+              }
+              ariaCurrent="true"
+              className="nav-btn nav-games"
+              style={
+                            Object {
+                                          "textDecoration": "none",
+                                        }
+              }
+              to="/games"
+>
+              GAMES
+</NavLink>,
+            <NavLink
+              activeClassName="active"
+              activeStyle={
+                            Object {
+                                          "color": "#ff0049",
+                                        }
+              }
+              ariaCurrent="true"
+              className="nav-btn nav-riders"
+              style={
+                            Object {
+                                          "textDecoration": "none",
+                                        }
+              }
+              to="/riders"
+>
+              RIDERS
+</NavLink>,
+            <NavLink
+              activeClassName="active"
+              activeStyle={
+                            Object {
+                                          "color": "#ff0049",
+                                        }
+              }
+              ariaCurrent="true"
+              className="nav-btn nav-create"
+              style={
+                            Object {
+                                          "textDecoration": "none",
+                                        }
+              }
+              to="/create"
+>
+              CREATE
+</NavLink>,
+          ],
+          "className": "nav-btn-div",
         },
         "ref": null,
-        "rendered": "SLVSH",
-        "type": "h1",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "slvsh-logo",
+              "src": "http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "activeStyle": Object {
+                "color": "#ff0049",
+              },
+              "ariaCurrent": "true",
+              "children": "GAMES",
+              "className": "nav-btn nav-games",
+              "style": Object {
+                "textDecoration": "none",
+              },
+              "to": "/games",
+            },
+            "ref": null,
+            "rendered": "GAMES",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "activeStyle": Object {
+                "color": "#ff0049",
+              },
+              "ariaCurrent": "true",
+              "children": "RIDERS",
+              "className": "nav-btn nav-riders",
+              "style": Object {
+                "textDecoration": "none",
+              },
+              "to": "/riders",
+            },
+            "ref": null,
+            "rendered": "RIDERS",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "activeStyle": Object {
+                "color": "#ff0049",
+              },
+              "ariaCurrent": "true",
+              "children": "CREATE",
+              "className": "nav-btn nav-create",
+              "style": Object {
+                "textDecoration": "none",
+              },
+              "to": "/create",
+            },
+            "ref": null,
+            "rendered": "CREATE",
+            "type": [Function],
+          },
+        ],
+        "type": "div",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "host",
         "props": Object {
-          "activeClassName": "active",
-          "ariaCurrent": "true",
-          "children": "Games",
-          "to": "/games",
+          "children": <NavLink
+            activeClassName="active"
+            activeStyle={
+                        Object {
+                                    "color": "#ff0049",
+                                  }
+            }
+            ariaCurrent="true"
+            className="nav-btn nav-create"
+            style={
+                        Object {
+                                    "textDecoration": "none",
+                                  }
+            }
+            to="/login"
+>
+            LOGIN
+</NavLink>,
+          "className": "login-div",
         },
         "ref": null,
-        "rendered": "Games",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "active",
-          "ariaCurrent": "true",
-          "children": "Riders",
-          "to": "/riders",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "activeStyle": Object {
+              "color": "#ff0049",
+            },
+            "ariaCurrent": "true",
+            "children": "LOGIN",
+            "className": "nav-btn nav-create",
+            "style": Object {
+              "textDecoration": "none",
+            },
+            "to": "/login",
+          },
+          "ref": null,
+          "rendered": "LOGIN",
+          "type": [Function],
         },
-        "ref": null,
-        "rendered": "Riders",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "active",
-          "ariaCurrent": "true",
-          "children": "Create",
-          "to": "/create",
-        },
-        "ref": null,
-        "rendered": "Create",
-        "type": [Function],
+        "type": "div",
       },
     ],
     "type": "header",
@@ -109,30 +312,90 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            SLVSH
-</h1>,
-          <NavLink
-            activeClassName="active"
-            ariaCurrent="true"
-            to="/games"
+          <div
+            className="nav-btn-div"
 >
-            Games
-</NavLink>,
-          <NavLink
-            activeClassName="active"
-            ariaCurrent="true"
-            to="/riders"
+            <img
+                        className="slvsh-logo"
+                        src="http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png"
+            />
+            <NavLink
+                        activeClassName="active"
+                        activeStyle={
+                                    Object {
+                                                "color": "#ff0049",
+                                              }
+                        }
+                        ariaCurrent="true"
+                        className="nav-btn nav-games"
+                        style={
+                                    Object {
+                                                "textDecoration": "none",
+                                              }
+                        }
+                        to="/games"
+            >
+                        GAMES
+            </NavLink>
+            <NavLink
+                        activeClassName="active"
+                        activeStyle={
+                                    Object {
+                                                "color": "#ff0049",
+                                              }
+                        }
+                        ariaCurrent="true"
+                        className="nav-btn nav-riders"
+                        style={
+                                    Object {
+                                                "textDecoration": "none",
+                                              }
+                        }
+                        to="/riders"
+            >
+                        RIDERS
+            </NavLink>
+            <NavLink
+                        activeClassName="active"
+                        activeStyle={
+                                    Object {
+                                                "color": "#ff0049",
+                                              }
+                        }
+                        ariaCurrent="true"
+                        className="nav-btn nav-create"
+                        style={
+                                    Object {
+                                                "textDecoration": "none",
+                                              }
+                        }
+                        to="/create"
+            >
+                        CREATE
+            </NavLink>
+</div>,
+          <div
+            className="login-div"
 >
-            Riders
-</NavLink>,
-          <NavLink
-            activeClassName="active"
-            ariaCurrent="true"
-            to="/create"
->
-            Create
-</NavLink>,
+            <NavLink
+                        activeClassName="active"
+                        activeStyle={
+                                    Object {
+                                                "color": "#ff0049",
+                                              }
+                        }
+                        ariaCurrent="true"
+                        className="nav-btn nav-create"
+                        style={
+                                    Object {
+                                                "textDecoration": "none",
+                                              }
+                        }
+                        to="/login"
+            >
+                        LOGIN
+            </NavLink>
+</div>,
         ],
       },
       "ref": null,
@@ -142,53 +405,196 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "SLVSH",
+            "children": Array [
+              <img
+                className="slvsh-logo"
+                src="http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png"
+/>,
+              <NavLink
+                activeClassName="active"
+                activeStyle={
+                                Object {
+                                                "color": "#ff0049",
+                                              }
+                }
+                ariaCurrent="true"
+                className="nav-btn nav-games"
+                style={
+                                Object {
+                                                "textDecoration": "none",
+                                              }
+                }
+                to="/games"
+>
+                GAMES
+</NavLink>,
+              <NavLink
+                activeClassName="active"
+                activeStyle={
+                                Object {
+                                                "color": "#ff0049",
+                                              }
+                }
+                ariaCurrent="true"
+                className="nav-btn nav-riders"
+                style={
+                                Object {
+                                                "textDecoration": "none",
+                                              }
+                }
+                to="/riders"
+>
+                RIDERS
+</NavLink>,
+              <NavLink
+                activeClassName="active"
+                activeStyle={
+                                Object {
+                                                "color": "#ff0049",
+                                              }
+                }
+                ariaCurrent="true"
+                className="nav-btn nav-create"
+                style={
+                                Object {
+                                                "textDecoration": "none",
+                                              }
+                }
+                to="/create"
+>
+                CREATE
+</NavLink>,
+            ],
+            "className": "nav-btn-div",
           },
           "ref": null,
-          "rendered": "SLVSH",
-          "type": "h1",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "slvsh-logo",
+                "src": "http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "activeStyle": Object {
+                  "color": "#ff0049",
+                },
+                "ariaCurrent": "true",
+                "children": "GAMES",
+                "className": "nav-btn nav-games",
+                "style": Object {
+                  "textDecoration": "none",
+                },
+                "to": "/games",
+              },
+              "ref": null,
+              "rendered": "GAMES",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "activeStyle": Object {
+                  "color": "#ff0049",
+                },
+                "ariaCurrent": "true",
+                "children": "RIDERS",
+                "className": "nav-btn nav-riders",
+                "style": Object {
+                  "textDecoration": "none",
+                },
+                "to": "/riders",
+              },
+              "ref": null,
+              "rendered": "RIDERS",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "activeStyle": Object {
+                  "color": "#ff0049",
+                },
+                "ariaCurrent": "true",
+                "children": "CREATE",
+                "className": "nav-btn nav-create",
+                "style": Object {
+                  "textDecoration": "none",
+                },
+                "to": "/create",
+              },
+              "ref": null,
+              "rendered": "CREATE",
+              "type": [Function],
+            },
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "host",
           "props": Object {
-            "activeClassName": "active",
-            "ariaCurrent": "true",
-            "children": "Games",
-            "to": "/games",
+            "children": <NavLink
+              activeClassName="active"
+              activeStyle={
+                            Object {
+                                          "color": "#ff0049",
+                                        }
+              }
+              ariaCurrent="true"
+              className="nav-btn nav-create"
+              style={
+                            Object {
+                                          "textDecoration": "none",
+                                        }
+              }
+              to="/login"
+>
+              LOGIN
+</NavLink>,
+            "className": "login-div",
           },
           "ref": null,
-          "rendered": "Games",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "active",
-            "ariaCurrent": "true",
-            "children": "Riders",
-            "to": "/riders",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "activeStyle": Object {
+                "color": "#ff0049",
+              },
+              "ariaCurrent": "true",
+              "children": "LOGIN",
+              "className": "nav-btn nav-create",
+              "style": Object {
+                "textDecoration": "none",
+              },
+              "to": "/login",
+            },
+            "ref": null,
+            "rendered": "LOGIN",
+            "type": [Function],
           },
-          "ref": null,
-          "rendered": "Riders",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "active",
-            "ariaCurrent": "true",
-            "children": "Create",
-            "to": "/create",
-          },
-          "ref": null,
-          "rendered": "Create",
-          "type": [Function],
+          "type": "div",
         },
       ],
       "type": "header",
