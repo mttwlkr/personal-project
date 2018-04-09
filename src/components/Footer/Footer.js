@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
 
   return (
-    <div className='footer'>
+    <footer className='footer'>
       <p>&copy; 2018 Slvsh LLC | All rights reserved</p>
       <section>
         <p>Follow SLVSH</p>
@@ -17,7 +17,7 @@ const Footer = () => {
           Twitter
         </a>
       </section>
-    </div>
+    </footer>
   )
 }
 

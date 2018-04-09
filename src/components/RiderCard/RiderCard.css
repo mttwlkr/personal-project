@@ -1,7 +1,6 @@
 .rider-container-card {
   width: 250px;
   height: 500px;
-  border: 1px solid coral;
   background: #fff;
   margin: 2em 1em 0em 1em;
 }
@@ -10,6 +9,7 @@
   width: 100%;
 }
 
-h3 {
-  margin: 0;
+h3,
+p {
+  margin: .8em 0;
 }

@@ -16,6 +16,7 @@ export class GameContainer extends Component {
 
   handleRoute = (gameID) => {
     this.props.history.push(`/games/${gameID}`)
+    // dispatch an add game to player action
   }
 
   render() {

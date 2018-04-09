@@ -7,18 +7,33 @@ header {
   display: flex;
   height: 70px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .slvsh-logo {
   height: 50px;
-  padding: 13px 0 7px 0;
+  padding: 1.3% 0 .7% 2%;
 }
 
 .nav-btn-div {
-  border: 1px solid coral;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-left: 7%;
 }
 
 .nav-btn {
   color: #2c3e50;
   font-family: 'Proxima Nova', lucida, helvetica, sans-serif;
+  line-height: 47px;
+  padding: 0 5px;
+  font-weight: 800;
+}
+
+.nav-btn:hover {
+  color: #ff0049;
+}
+
+.login-div {
+  margin-right: 7%;
 }
