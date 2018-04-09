@@ -1,14 +1,18 @@
 import React from 'react';
 import './GameCard.css';
 
-const GameCard = ({game}) => {
+const GameCard = ({game, handleRoute}) => {
   return (
-    <div className='game-container-card'>
-      <h3>{game.title}</h3>
-      <img className='game-card-thumbnail' src={game.poster_img}/>
-      <p>{game.type}</p>
-      <p>{`${game.publish_date} ago`}</p>
-      <p>{game.location}</p>
+    <div 
+      className='game-container-card'
+      onClick={() => handleRoute(game.id)}
+    >
+      <img className='game-card-image' src={game.poster_img}/>
+      <div className='game-card-info'>
+        <p className='game-card-type'>{game.type}</p>
+        <h3 className='game-card-title'>{game.title.replace(/&nbsp;/gi,'')}</h3>
+        <p className='game-card-loc-date'>{`${game.location}, ${game.publish_date} ago`}</p>
+      </div>
     </div>
   )
 }
