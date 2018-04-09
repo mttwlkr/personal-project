@@ -1,44 +1,47 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router';
+import './VideoPlayer.css';
 
 class VideoPlayer extends Component {
 
-  // async componentDidMount() {
-  //   debugger;
-  //   const gameID = this.props.match.params.game
-  //   const posts = await this.props.games.posts
-  //   const displayGame = posts.find( post => {
-  //     return post.id === gameID
-  //   })
-  //   console.log(displayGame)
-  // }
-
   render() {
 
-    // const { games, match } = this.props;
+    const { match, player, games } = this.props;
+    let theGame;
+    if (games.posts) {
+      theGame = games.posts.find( game => game.id === player[0])
+    }
+
+    console.log(theGame)
 
     return (
-      <div>
-        <iframe
-          width="640" 
-          height="360" 
-          // src="https://www.youtube.com/embed/b_9xjpVljtM"
-          src="https://player.vimeo.com/video/189262515"
-          frameBorder="0" 
-          allow="autoplay; encrypted-media" 
-          allowFullScreen
-        ></iframe>
+      <div className='video-container'>
+        <section className='video-player-div'>
+          <iframe
+            className='iFrame'
+            width="640" 
+            height="360" 
+            src={theGame.video_url}
+            frameBorder="0" 
+            allow="autoplay; encrypted-media" 
+            allowFullScreen
+          ></iframe>
+          <h2>{theGame.title.replace(/&nbsp;/gi,'')}</h2>
+          <p>{`${theGame.location} about ${theGame.publish_date} ago`}</p>
+        </section>
+        <section className='video-player-editorial'>
+          {theGame.description}
+        </section>
       </div>
     )    
   }
 }
 
-export default VideoPlayer
+const mapStateToProps = ({player, games}) => ({
+  player,
+  games
+})
 
-// const mapStateToProps = ({games}) => ({
-//   games
-// })
 
-
-// export default withRouter(connect(mapStateToProps)(VideoPlayer));
+export default withRouter(connect(mapStateToProps)(VideoPlayer));

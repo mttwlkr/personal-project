@@ -6,6 +6,7 @@ import { getGames } from '../../fetches/get-games';
 import GameCard from '../../components/GameCard/GameCard.js';
 import './GameContainer.css';
 import { withRouter } from 'react-router';
+import { addVideoToPlayer } from '../../actions';
 
 export class GameContainer extends Component {
 
@@ -16,6 +17,7 @@ export class GameContainer extends Component {
 
   handleRoute = (gameID) => {
     this.props.history.push(`/games/${gameID}`)
+    this.props.addVideoToPlayer(gameID)
   }
 
   render() {
@@ -41,7 +43,8 @@ export const mapStateToProps = ({games}) => ({
 })
 
 export const mapDispatchToProps = (dispatch) => ({
-  addGamesToStore: (games) => dispatch(addGamesToStore(games))
+  addGamesToStore: (games) => dispatch(addGamesToStore(games)),
+  addVideoToPlayer: (id) => dispatch(addVideoToPlayer(id))
 })
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(GameContainer))

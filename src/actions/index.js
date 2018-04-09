@@ -12,3 +12,8 @@ export const addStatsToStore = (riderStats) => ({
   type: 'ADD_STATS_TO_STORE',
   riderStats
 })
+
+export const addVideoToPlayer = (id) => ({
+  type: 'ADD_VIDEO_TO_PLAYER',
+  id
+})
