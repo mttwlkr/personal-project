@@ -1,0 +1,15 @@
+.page-navigation-button-div {
+  background: #efefef;
+  padding: 2% 0;
+}
+
+button {
+  background: transparent;
+  border: none;
+  font-weight: 800;
+  color: #2c3e50; 
+}
+
+button:hover {
+  color: #ff0049;
+}
