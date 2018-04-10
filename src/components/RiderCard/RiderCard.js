@@ -1,5 +1,6 @@
 import React from 'react';
 import './RiderCard.css';
+import FlagIcon from '../FlagIconFactory/FlagIconFactory';
 
 const RiderCard = ({rider}) => {
   const statKeys = Object.keys(rider).filter( key => {
@@ -16,8 +17,13 @@ const RiderCard = ({rider}) => {
         src={rider.avatar}
         alt='slvsh-rider-thumbnail'
       />
+
       <h3>{rider.name}</h3>
-      <p>{rider.country}</p>
+      <FlagIcon 
+        code={rider.country} 
+        size={'1.5x'} 
+      />
+      
       <p>{`Sponsor: ${rider.sponsor}`}</p>
       <section>
         {`SLVSH Games Played: ${rider.games_played || 0}`}
