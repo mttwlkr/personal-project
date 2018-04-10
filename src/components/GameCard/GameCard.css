@@ -23,17 +23,29 @@
   line-height: 1.2em;
 }
 
-.game-card-type {
-  margin: 0em;
-  color: white;
-  background: #53e2ff;
-  padding: 3px 10px;
-  margin: .3em auto;
-}
-
 .game-card-loc-date {
   font-size: 12px;
   font-weight: 400;
   font-style: italic;
   opacity: 0.6;
+}
+
+.game-card-type {
+  margin: 0em;
+  color: white;
+  padding: 3px 10px;
+  margin: .3em auto;
+  text-transform: uppercase;
+}
+
+.slvsh-style {
+  background: #53e2ff;
+}
+
+.film-style {
+  background: black;
+}
+
+.instabanger-style {
+  background: red;
 }

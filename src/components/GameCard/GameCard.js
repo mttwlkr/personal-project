@@ -2,6 +2,27 @@ import React from 'react';
 import './GameCard.css';
 
 const GameCard = ({game, handleRoute}) => {
+  let gameStyling;
+  let gameType;
+  
+  switch(game.post_class) {
+    case 'slvsh':
+      gameStyling = 'slvsh-style';
+      gameType = 'S.L.V.S.H.'
+      break;
+    case 'film':
+      gameStyling = 'film-style';
+      gameType = 'THEATER';
+      break;
+    case 'instabanger':
+      gameStyling = 'instabanger-style';
+      gameType = 'INSTABANGER';
+      break;
+    default:
+      gameStyling = ''
+      gameType = 'SLVSH';
+  }
+
   return (
     <div 
       className='game-container-card'
@@ -12,8 +33,8 @@ const GameCard = ({game, handleRoute}) => {
         alt='slvsh-video-thumbnail'
       />
       <div className='game-card-info'>
-        <p className='game-card-type'>{game.type}</p>
-        <h3 className='game-card-title'>{game.title.replace(/&nbsp;/gi,'')}</h3>
+        <p className={`game-card-type ${gameStyling}`}>{gameType}</p>
+        <h3 className='game-card-title'>{game.title.replace(/&nbsp;/gi,' ')}</h3>
         <p className='game-card-loc-date'>{`${game.location}, ${game.publish_date} ago`}</p>
       </div>
     </div>
