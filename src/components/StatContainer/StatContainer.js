@@ -30,9 +30,6 @@ const StatContainer = (props) => {
     stats = getStats()
   }
 
-  console.log('display stats', displayStats)
-  console.log('stats', stats)
-
   return (
     <div className='table-div'>
       <table>
@@ -43,8 +40,8 @@ const StatContainer = (props) => {
           </thead>
           <tbody>
               <tr>
-                  <td>The table body</td>
-                  <td>with two columns</td>
+                  <td>{stats.topOffense[0]}</td>
+                  <td>{stats.topOffense[1]}</td>
               </tr>
           </tbody>
           <tfoot>

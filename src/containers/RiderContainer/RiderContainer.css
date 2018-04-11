@@ -1,0 +1,17 @@
+.stat-container {
+  margin-top: 70px;
+}
+
+.trick-key {
+  list-style-type: none;
+  width: 50%;
+  padding: 1em;
+  margin: 1em;
+  background-color: #efefef;
+}
+
+.trick-key-div {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}

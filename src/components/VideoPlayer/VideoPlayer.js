@@ -45,10 +45,11 @@ export class VideoPlayer extends Component {
               allowFullScreen
             ></iframe>
             <h2>{theGame.title.replace(/&nbsp;/gi,'')}</h2>
-            <p>{`${theGame.location} about ${theGame.publish_date} ago`}</p>
+            <p>{`${theGame.location} on ${theGame.formatted_publish_date}`}</p>
           </section>
-          <section className='video-player-editorial'>
-            {theGame.description}
+          <section className='video-player-editorial-div'>
+            {theGame.description !== 'undefined' && theGame.description}
+            {theGame.editorial !== 'undefined' && theGame.editorial}
           </section>
           </div>
         }
