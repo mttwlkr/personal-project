@@ -13,3 +13,12 @@ h3,
 p {
   margin: .8em 0;
 }
+
+.rider-card-info {
+  text-align: left;
+  padding: .5em 1.5em;
+}
+
+.rider-card-stat-title {
+  font-weight: 800;
+}

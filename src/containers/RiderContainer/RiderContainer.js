@@ -35,7 +35,7 @@ export class RiderContainer extends Component {
     return (
       <div>
         <section className='stat-container'>
-          { riders.length &&
+          { riders.length > 0 &&
             <ReactTable
               data={statsForTable}
               columns={columns}
@@ -46,10 +46,10 @@ export class RiderContainer extends Component {
         </section>
         <section className='trick-key-div'>
           <ul className='trick-key'>
-            <li><strong>Offense:</strong> Tricks Called / Tricks Landed</li>
-            <li><strong>Defense:</strong> Tricks Called On / Tricks Landed</li>
-            <li><strong>Difficulty:</strong> Tricks Called / Letters Given</li>
-            <li><strong>Overall:</strong> Average of Offense & Defense & Difficulty</li>
+            <li><strong><span className='trick-key-li-offense'>Offense:</span></strong> Tricks Called / Tricks Landed</li>
+            <li><strong><span className='trick-key-li-defense'>Defense:</span></strong> Tricks Called On / Tricks Landed</li>
+            <li><strong><span className='trick-key-li-difficulty'>Difficulty:</span></strong> Tricks Called / Letters Given</li>
+            <li><strong><span className='trick-key-li-overall'>Overall:</span></strong> Average of Offense & Defense & Difficulty</li>
           </ul>
         </section>
         <section className='rider-container'>

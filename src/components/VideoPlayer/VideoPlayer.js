@@ -28,35 +28,37 @@ export class VideoPlayer extends Component {
       theGame = games.posts.find( game => game.id === player[0])
     }
 
-    return (
-      <div className='video-container'>
-        { !theGame && <h1>Loading</h1> }
-        { theGame && 
-          <div>
-          <section className='video-player-div'>
-            <iframe
-              title='video-player'
-              className='iFrame'
-              width="640" 
-              height="360" 
-              src={theGame.video_url}
-              frameBorder="0" 
-              allow="autoplay; encrypted-media" 
-              allowFullScreen
-            ></iframe>
+  return (
+    <div className='main-video-player-div'>
+      { !theGame && <h1>Loading</h1> }
+      { theGame && 
+        <div>
+          <section className='video-player-editorial-title'>
             <h2>{theGame.title.replace(/&nbsp;/gi,'')}</h2>
             <p>{`${theGame.location} on ${theGame.formatted_publish_date}`}</p>
           </section>
-          <section className='video-player-editorial-div'>
-            {theGame.description !== 'undefined' && theGame.description}
+          <div className="video-container-style-div">
+            <div className="video-container">
+              <iframe
+                title='video-player'
+                width="640" 
+                height="360" 
+                src={theGame.video_url}
+                frameBorder="0" 
+                allow="autoplay; encrypted-media" 
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div> 
+          <section className='video-player-editorial-body'>
             {theGame.editorial !== 'undefined' && theGame.editorial}
+            {theGame.description !== 'undefined' && theGame.description}
           </section>
-          </div>
-        }
-      </div>
-    )    
-  }
-}
+        </div>
+      }
+    </div>
+  )}
+}      
 
 export const mapStateToProps = ({player, games}) => ({
   player,
