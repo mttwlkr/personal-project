@@ -4,10 +4,10 @@ import FlagIcon from '../FlagIconFactory/FlagIconFactory';
 
 const RiderCard = ({rider}) => {
   const statKeys = Object.keys(rider).filter( key => {
-    return key === "Offense" || key === "Defense" || key === "Lines" || key === "Difficulty" || key === "Overall"
+    return key === "Offense" || key === "Defense" || key === "Difficulty" || key === "Overall"
   })
   const displayStats = statKeys.map( stat => {
-    return <div>{`${stat} : ${rider[stat]}`}</div>
+    return <div className='rider-card-stat'>{`${stat} : ${rider[stat]}`}</div>
   })
 
   return (
@@ -21,7 +21,7 @@ const RiderCard = ({rider}) => {
       <h3>{rider.name}</h3>
       <FlagIcon 
         code={rider.country} 
-        size={'1.5x'} 
+        size={'lg'} 
       />
       
       <p>{`Sponsor: ${rider.sponsor}`}</p>

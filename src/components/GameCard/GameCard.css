@@ -12,6 +12,7 @@
 .game-card-info {
   display: flex;
   flex-direction: column;
+  padding: 1% 4%;
 }
 
 .game-card-title {
