@@ -1,0 +1,47 @@
+.stat-container {
+  margin-top: 70px;
+}
+
+.trick-key {
+  list-style-type: none;
+  width: 37%;
+  padding: 1em 1em 1em 3em;
+  margin: 1em;
+  background-color: #efefef;
+}
+
+.trick-key-div {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.trick-key li {
+  text-align: left;
+}
+
+.trick-key-li-offense {
+  margin-right: .5em;
+}
+
+.trick-key-li-defense {
+  margin-right: .4em;
+}
+
+.trick-key-li-difficulty {
+  margin-right: 0em;
+}
+
+.trick-key-li-overall {
+  margin-right: .8em;
+}
+
+.rider-container-card:hover {
+  box-shadow: 0px 0px 20px 0px grey;
+}
+
+@media (max-width: 700px) {
+  .trick-key {
+    width: 80%;
+  }
+}
