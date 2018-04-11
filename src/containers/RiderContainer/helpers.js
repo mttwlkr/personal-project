@@ -1,5 +1,5 @@
 export const columns = [{
-  Header: 'Stats',
+  Header: 'SLVSH STATS',
   headerClassName: 'my-stats-column',
   columns: [
     { Header: 'Name',

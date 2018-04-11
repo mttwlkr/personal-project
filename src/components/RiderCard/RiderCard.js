@@ -8,7 +8,7 @@ const RiderCard = ({rider}) => {
   })
   const displayStats = statKeys.map( stat => {
     return <div className='rider-card-stat'>
-      <span className='rider-card-stat-title'>{`${stat}`}</span>{` : ${rider[stat]}`}</div>
+      <span className='rider-card-stat-title'>{`${stat}`}</span>{`: ${rider[stat]}`}</div>
   })
 
   return (
@@ -24,12 +24,18 @@ const RiderCard = ({rider}) => {
         code={rider.country} 
         size={'lg'} 
       />
-      
-      <p>{`Sponsor: ${rider.sponsor}`}</p>
+
       <section className='rider-card-info'>
-        {`SLVSH Games Played: ${rider.games_played || 0}`}
+        <h4 className='rider-card-games-played-title'>{`SLVSH Games:`}
+          <span className='rider-card-games-played-value'>{` ${rider.games_played || 0}`}</span>
+        </h4>
         {displayStats}
+        <p className='rider-card-sponsor'>
+          <span className='rider-card-sponsor-title'>{`Sponsor: `}</span>{`${rider.sponsor}`}
+        </p>
       </section>
+
+
     </div>
   )
 }
