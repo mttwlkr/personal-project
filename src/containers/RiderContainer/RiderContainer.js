@@ -5,6 +5,7 @@ import { addRidersToStore, addStatsToStore } from '../../actions';
 import RiderCard from '../../components/RiderCard/RiderCard.js';
 import { riderStatsObject } from '../../stats/rider-stats-object';
 import './RiderContainer.css';
+import StatContainer from '../../components/StatContainer/StatContainer.js'
 
 export class RiderContainer extends Component {
 
@@ -17,21 +18,18 @@ export class RiderContainer extends Component {
   render() {
     const { riders } = this.props;
     let displayRiders = 'Riders loading...';
-    let topRiders = 'Stats loading...'
-    
+    let topRiders = riders.length ? <StatContainer /> : 'Top Riders loading...'
+
     if (riders.length) {
       displayRiders = riders.map((rider, idx) => {
         return <RiderCard rider={rider} key={rider.id} />
-      })
-      topRiders = riders.filter(rider => {
-        
       })
     }
 
     return (
       <div>
         <section className='stat-container'>
-
+          {topRiders}
         </section>
         <section className='rider-container'>
           {displayRiders}

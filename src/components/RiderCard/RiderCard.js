@@ -1,12 +1,13 @@
 import React from 'react';
 import './RiderCard.css';
+import FlagIcon from '../FlagIconFactory/FlagIconFactory';
 
 const RiderCard = ({rider}) => {
   const statKeys = Object.keys(rider).filter( key => {
-    return key === "Offense" || key === "Defense" || key === "Lines" || key === "Difficulty" || key === "Overall"
+    return key === "Offense" || key === "Defense" || key === "Difficulty" || key === "Overall"
   })
   const displayStats = statKeys.map( stat => {
-    return <div>{`${stat} : ${rider[stat]}`}</div>
+    return <div className='rider-card-stat'>{`${stat} : ${rider[stat]}`}</div>
   })
 
   return (
@@ -16,8 +17,13 @@ const RiderCard = ({rider}) => {
         src={rider.avatar}
         alt='slvsh-rider-thumbnail'
       />
+
       <h3>{rider.name}</h3>
-      <p>{rider.country}</p>
+      <FlagIcon 
+        code={rider.country} 
+        size={'lg'} 
+      />
+      
       <p>{`Sponsor: ${rider.sponsor}`}</p>
       <section>
         {`SLVSH Games Played: ${rider.games_played || 0}`}
