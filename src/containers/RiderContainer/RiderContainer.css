@@ -4,26 +4,37 @@
 
 .trick-key {
   list-style-type: none;
-  width: 37%;
-  padding: 1em 1em 1em 3em;
-  margin: 1em;
+  padding: 1em 1em 1em 1em;
+  margin: 1em auto;
   background-color: #efefef;
-  border: 1px solid #ff0049;
-}
+  border: 1px solid #212f3c;
+}   
 
 .trick-key-div {
   display: flex;
+  margin-top: 70px;
+  margin-bottom: -70px;
+  background-color: #efefef;
+  display: flex;
   justify-content: center;
-  background-color: #fff;
 }
 
-.my-stats-column {
+.slvsh-stats-header {
   font-weight: 800;
 }
 
 .stats-key-title,
-.trick-key-li-title {
+.trick-key-li-title,
+.column-header {
   color: #2c3e50;
+}
+
+.column-header:hover {
+  font-weight: 800;
+}
+
+.slvsh-stats-header:hover {
+  color: #ff0049;
 }
 
 .stats-key-title {
@@ -63,7 +74,7 @@
   width: 40px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 420px) {
   .trick-key {
     width: 80%;
   }

@@ -1,18 +1,24 @@
 export const columns = [{
   Header: 'SLVSH STATS',
-  headerClassName: 'my-stats-column',
+  headerClassName: 'slvsh-stats-header',
   columns: [
     { Header: 'Name',
-      accessor: 'name' },
+      accessor: 'name',
+      headerClassName: 'column-header'},
     { Header: 'Games Played',
-      accessor: 'games_played' },          
+      accessor: 'games_played',
+      headerClassName: 'column-header'},          
     { Header: 'Offense',
-      accessor: 'Offense' },
+      accessor: 'Offense',
+      headerClassName: 'column-header' },
     { Header: 'Defense',
-      accessor: 'Defense' }, 
+      accessor: 'Defense',
+      headerClassName: 'column-header' }, 
     { Header: 'Difficulty',
-      accessor: 'Difficulty' },
+      accessor: 'Difficulty',
+      headerClassName: 'column-header' },
     { Header: 'Overall',
-      accessor: 'Overall'}      
+      accessor: 'Overall',
+      headerClassName: 'column-header'}      
   ]
 }]
