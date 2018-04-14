@@ -34,7 +34,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Rob Heule",
     "Offense": 0.6,
     "Defense": 0.764,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.333,
     "Overall": 0.5656666667,
     "games_played": 1
@@ -44,7 +44,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Will Wesson",
     "Offense": 0.307,
     "Defense": 0.671,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.346,
     "Overall": 0.4413333333,
     "games_played": 3
@@ -54,7 +54,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Max Hill",
     "Offense": 0.647,
     "Defense": 0.428,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0,
     "Overall": 0.3583333333,
     "games_played": 1
@@ -254,7 +254,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Steve Stepp",
     "Offense": 0.5,
     "Defense": 0.533,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.375,
     "Overall": 0.4693333333,
     "games_played": 1
@@ -264,7 +264,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Joey Van Der Meer",
     "Offense": 0.733,
     "Defense": 0.25,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.266,
     "Overall": 0.31225,
     "games_played": 1
@@ -284,7 +284,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Elias Ambuhl",
     "Offense": 0.833,
     "Defense": 0.555,
-    "Lines": "",
+    "Lines": 0,
     "Difficulty": 0.416,
     "Overall": 0.6013333333,
     "games_played": 1
@@ -334,7 +334,7 @@ export const riderStatsObject = {
     "stat_rider_name": "LJ Strenio",
     "Offense": 0.6,
     "Defense": 0.3,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.225,
     "Overall": 0.375,
     "games_played": 2
@@ -342,10 +342,10 @@ export const riderStatsObject = {
   "45": {
     "slvsh_id": 45,
     "stat_rider_name": "Giray Dadali",
-    "Offense": "None Set",
+    "Offense": 0,
     "Defense": 0.76,
-    "Lines": "None Set",
-    "Difficulty": "None Set",
+    "Lines": 0,
+    "Difficulty": 0,
     "Overall": 0.76,
     "games_played": 1
   },
@@ -353,7 +353,7 @@ export const riderStatsObject = {
     "slvsh_id": 46,
     "stat_rider_name": "Sander Hadley",
     "Offense": 1,
-    "Defense": "",
+    "Defense": 0,
     "Lines": 1,
     "Difficulty": 0.235,
     "Overall": 0.55875,
@@ -444,7 +444,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Noah Albaladejo",
     "Offense": 0.682,
     "Defense": 0.541,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.636,
     "Overall": 0.6196666667,
     "games_played": 3
@@ -464,7 +464,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Will Berman",
     "Offense": 0.736,
     "Defense": 0.272,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.21,
     "Overall": 0.406,
     "games_played": 1
@@ -534,7 +534,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Jeremie Veilleux",
     "Offense": 0.25,
     "Defense": 0.363,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.25,
     "Overall": 0.2876666667,
     "games_played": 1
@@ -604,7 +604,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Brenden Reid",
     "Offense": 0.5,
     "Defense": 0.636,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.25,
     "Overall": 0.462,
     "games_played": 1
@@ -684,7 +684,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Jake Doan",
     "Offense": 0.538,
     "Defense": 0.562,
-    "Lines": "",
+    "Lines": 0,
     "Difficulty": 0.307,
     "Overall": 0.469,
     "games_played": 1
@@ -764,7 +764,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Teal Harle",
     "Offense": 0.6,
     "Defense": 0.4,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.3,
     "Overall": 0.4333333333,
     "games_played": 1
@@ -774,7 +774,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Andy Partridge",
     "Offense": 0.5,
     "Defense": 0.333,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.25,
     "Overall": 0.361,
     "games_played": 1
@@ -864,7 +864,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Blake Wilson",
     "Offense": 0.6,
     "Defense": 0.666,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.5,
     "Overall": 0.5886666667,
     "games_played": 1
@@ -884,7 +884,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Carlitos Aguareles Loan",
     "Offense": 0.666,
     "Defense": 0.444,
-    "Lines": "None Set",
+    "Lines": 0,
     "Difficulty": 0.166,
     "Overall": 0.4253333333,
     "games_played": 1
@@ -1045,7 +1045,7 @@ export const riderStatsObject = {
     "Offense": 0.882,
     "Defense": 0.5,
     "Lines": 0.333,
-    "Difficulty": "",
+    "Difficulty": 0,
     "Overall": 0.42875,
     "games_played": 1
   },
@@ -1114,7 +1114,7 @@ export const riderStatsObject = {
     "stat_rider_name": "Banks Gilberti",
     "Offense": 0.571,
     "Defense": 0.615,
-    "Lines": "",
+    "Lines": 0,
     "Difficulty": 0.285,
     "Overall": 0.4903333333,
     "games_played": 1

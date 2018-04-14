@@ -8,7 +8,9 @@ const RiderCard = ({rider}) => {
   })
   const displayStats = statKeys.map( stat => {
     return <div className='rider-card-stat'>
-      <span className='rider-card-stat-title'>{`${stat}`}</span>{`: ${rider[stat]}`}</div>
+        <span className='rider-card-stat-title'>{`${stat}`}</span>
+        {`: ${(rider[stat]).toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 3 })}`}
+      </div>
   })
 
   return (
@@ -34,8 +36,6 @@ const RiderCard = ({rider}) => {
           <span className='rider-card-sponsor-title'>{`Sponsor: `}</span>{`${rider.sponsor}`}
         </p>
       </section>
-
-
     </div>
   )
 }
