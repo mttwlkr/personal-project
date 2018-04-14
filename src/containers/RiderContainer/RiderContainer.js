@@ -5,7 +5,6 @@ import { addRidersToStore, addStatsToStore } from '../../actions';
 import RiderCard from '../../components/RiderCard/RiderCard.js';
 import { riderStatsObject } from '../../stats/rider-stats-object';
 import './RiderContainer.css';
-// import StatContainer from '../../components/StatContainer/StatContainer.js';
 import ReactTable from 'react-table';
 import "react-table/react-table.css";
 import { columns } from './helpers.js'
@@ -27,6 +26,7 @@ export class RiderContainer extends Component {
       displayRiders = riders.map((rider, idx) => {
         return <RiderCard rider={rider} key={rider.id} />
       })
+
       statsForTable = riders.filter(rider => {
         return rider.Offense || rider.Defense
       })
