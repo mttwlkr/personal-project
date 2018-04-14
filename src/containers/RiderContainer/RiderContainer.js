@@ -10,11 +10,33 @@ import "react-table/react-table.css";
 import { columns } from './helpers.js'
 
 export class RiderContainer extends Component {
+  constructor() {
+    super()
+    this.state = {
+      clicked: false
+    }
+  }
 
   async componentDidMount() {
     const riders = await getRiders();
     this.props.addRidersToStore(riders);
     this.props.addStatsToStore(riderStatsObject);
+  }
+
+  handleOriginal = (e) => {
+    switch(e.target.className) {
+      case "rt-th slvsh-stats-header":
+        this.setState({clicked: !this.state.clicked})
+        break;
+      case "trick-key-div":
+        this.setState({clicked: !this.state.clicked})
+        break;
+      case "trick-key":
+        this.setState({clicked: !this.state.clicked})
+        break;
+      default:
+        this.setState({clicked: false})
+    }
   }
 
   render() {
@@ -34,25 +56,33 @@ export class RiderContainer extends Component {
 
     return (
       <div>
+        { this.state.clicked &&         
+          <section className='trick-key-div'
+            onClick={this.handleOriginal}
+          >
+            <ul className='trick-key'>
+              <h3 className='stats-key-title'>STATS KEY</h3>
+              <li><strong><span className='trick-key-li-title trick-key-li-offense'>Offense:</span></strong> Tricks Called / Tricks Landed</li>
+              <li><strong><span className='trick-key-li-title trick-key-li-defense'>Defense:</span></strong> Tricks Called On / Tricks Landed</li>
+              <li><strong><span className='trick-key-li-title trick-key-li-difficulty'>Difficulty:</span></strong> Tricks Called / Letters Given</li>
+              <li><strong><span className='trick-key-li-title trick-key-li-overall'>Overall:</span></strong> Average of Offense & Defense & Difficulty</li>
+            </ul>
+          </section>
+        }
         <section className='stat-container'>
           { riders.length > 0 &&
             <ReactTable
+              getProps={(state, rowInfo, column, instance) => {
+                return {
+                  onClick: (e) => this.handleOriginal(e)
+                }
+              }}
               data={statsForTable}
               columns={columns}
               pageSizeOptions={[5, 10, 20]}
               defaultPageSize={5}
             />
           }
-        </section>
-        <section className='trick-key-div'>
-
-          <ul className='trick-key'>
-            <h3 className='stats-key-title'>STATS KEY</h3>
-            <li><strong><span className='trick-key-li-title trick-key-li-offense'>Offense:</span></strong> Tricks Called / Tricks Landed</li>
-            <li><strong><span className='trick-key-li-title trick-key-li-defense'>Defense:</span></strong> Tricks Called On / Tricks Landed</li>
-            <li><strong><span className='trick-key-li-title trick-key-li-difficulty'>Difficulty:</span></strong> Tricks Called / Letters Given</li>
-            <li><strong><span className='trick-key-li-title trick-key-li-overall'>Overall:</span></strong> Average of Offense & Defense & Difficulty</li>
-          </ul>
         </section>
         <section className='rider-container'>
           { 
