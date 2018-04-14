@@ -45,11 +45,13 @@ export class RiderContainer extends Component {
           }
         </section>
         <section className='trick-key-div'>
+
           <ul className='trick-key'>
-            <li><strong><span className='trick-key-li-offense'>Offense:</span></strong> Tricks Called / Tricks Landed</li>
-            <li><strong><span className='trick-key-li-defense'>Defense:</span></strong> Tricks Called On / Tricks Landed</li>
-            <li><strong><span className='trick-key-li-difficulty'>Difficulty:</span></strong> Tricks Called / Letters Given</li>
-            <li><strong><span className='trick-key-li-overall'>Overall:</span></strong> Average of Offense & Defense & Difficulty</li>
+            <h3 className='stats-key-title'>STATS KEY</h3>
+            <li><strong><span className='trick-key-li-title trick-key-li-offense'>Offense:</span></strong> Tricks Called / Tricks Landed</li>
+            <li><strong><span className='trick-key-li-title trick-key-li-defense'>Defense:</span></strong> Tricks Called On / Tricks Landed</li>
+            <li><strong><span className='trick-key-li-title trick-key-li-difficulty'>Difficulty:</span></strong> Tricks Called / Letters Given</li>
+            <li><strong><span className='trick-key-li-title trick-key-li-overall'>Overall:</span></strong> Average of Offense & Defense & Difficulty</li>
           </ul>
         </section>
         <section className='rider-container'>

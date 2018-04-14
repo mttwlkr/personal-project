@@ -35,7 +35,7 @@ export class VideoPlayer extends Component {
         <div>
           <section className='video-player-editorial-title'>
             <h2>{theGame.title.replace(/&nbsp;/gi,'')}</h2>
-            <p>{`${theGame.location} on ${theGame.formatted_publish_date}`}</p>
+            <p className='video-player-loc-and-date'>{`${theGame.location} on ${theGame.formatted_publish_date}`}</p>
           </section>
           <div className="video-container-style-div">
             <div className="video-container">

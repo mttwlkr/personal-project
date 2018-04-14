@@ -3,6 +3,7 @@
   height: 500px;
   background: #fff;
   margin: 2em 1em 0em 1em;
+  color: #2c3e50;
 }
 
 .rider-card-thumbnail {
@@ -16,9 +17,28 @@ p {
 
 .rider-card-info {
   text-align: left;
-  padding: .5em 1.5em;
+  padding: 1em 1.5em 0em;
 }
 
-.rider-card-stat-title {
+.rider-card-stat-title,
+.rider-card-sponsor-title {
   font-weight: 800;
+}
+
+/*.rider-card-sponsor {
+  text-align: center;
+}*/
+
+.rider-card-stat,
+.rider-card-games-played-title {
+  padding: .1em 0;
+}
+
+.rider-card-games-played-value {
+  font-weight: 400;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
 }

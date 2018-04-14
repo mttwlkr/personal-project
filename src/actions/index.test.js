@@ -28,4 +28,18 @@ describe('actions', () => {
     const actioned = actions.addStatsToStore(mockStats)
     expect(actioned).toEqual(expected)
   })
+
+  it('should return a type and a payload of an id', () => {
+    const mockID = 15
+    const expected = {"type": "ADD_VIDEO_TO_PLAYER", id: 15}
+    const actioned = actions.addVideoToPlayer(mockID)
+    expect(actioned).toEqual(expected)
+  })
+
+  it('should return a type and payload of the current game', () => {
+    const mockCurrentGame = {gameID: 666}
+    const expected = { type: 'ADD_SINGLE_GAME_TO_STORE', currentGame: { gameID: 666 } }
+    const actioned = actions.addSingleGameToStore(mockCurrentGame)
+    expect(actioned).toEqual(expected)
+  })
 })

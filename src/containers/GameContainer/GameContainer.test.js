@@ -9,12 +9,18 @@ jest.mock('../../fetches/get-games')
 describe('GameContainer', () => {
 
   const mockAddGamesToStore = jest.fn();
+  const mockAddVideoToPlayer = jest.fn();
+  const mockHistory = { 
+    location: "/games/",
+    pathname: "/games/870" }
   let wrapper;
 
   beforeEach(() => {
     wrapper = shallow(<GameContainer 
       addGamesToStore={mockAddGamesToStore}
       games={mockAPIGamesData}
+      addVideoToPlayer={mockAddVideoToPlayer}
+      history={mockHistory}
     />) 
   })
 
@@ -27,6 +33,15 @@ describe('GameContainer', () => {
     expect(getGames).toHaveBeenCalled()
   })
 
+  it('should handle route', () => {
+
+    // expect(addVideoToPlayer).toHaveBeenCalled()
+  })
+
+  it('should handle page click', () => {
+    
+  })
+
   it('should map the correct state', () => {
     const mockState = {games: 'henrik vs quinn'}
     const mapped = mapStateToProps(mockState)
@@ -36,7 +51,9 @@ describe('GameContainer', () => {
   it('should dispatch the correct props', () => {
     const mockDispatch = jest.fn();
     const mapped = mapDispatchToProps(mockDispatch)
-    expect(mockAddGamesToStore).toHaveBeenCalled()
+    mapped.addGamesToStore()
+    mapped.addVideoToPlayer()
+    expect(mockDispatch).toHaveBeenCalled()
   })
 
 })

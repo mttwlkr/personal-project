@@ -34,16 +34,17 @@
   background: #fff;
   display: flex;
   justify-content: center;
-  width: 70%;
-  margin: 1em auto;
+  margin: 1em 7em;
   color: #efefef;
   background-color: #233D51;
 }
 
 .video-player-editorial-title {
   flex-direction: column;
-  font-family: 'Proxima Nova', lucida, helvetica, sans-serif;
+}
 
+.video-player-loc-and-date {
+  margin-bottom: 1em;
 }
 
 .video-player-editorial-title {
@@ -52,12 +53,28 @@
 
 .video-player-editorial-body {
   padding: 2em 2em;
+  line-height: 160%;
 }
 
 @media (max-width: 700px) {
   .video-container-style-div {
-    padding-left: 3em;
-    padding-right: 3em;
+/*    padding: 0 1em;*/
+    padding-left: 1em;
+    padding-right: 1em;
   }
+  
+  .video-player-editorial-title,
+  .video-player-editorial-body {
+    margin: 1em 1em;
+  }
+
 }
+
+/* 
+
+add line height to editorial body
+see if title/body/iframe can stay the same width
+play with fonts
+
+*/
 

@@ -1,0 +1,691 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameCard should add styling based on game_postclass 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <GameCard
+    game={
+        Object {
+            "created_at": "2018-04-05T15:16:50.775Z",
+            "description": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
+            "formatted_publish_date": "04.05.2018",
+            "href": "/films/869",
+            "id": 869,
+            "location": "Grandvalira, Andorra",
+            "post_class": "film",
+            "poster_img": "http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405",
+            "publish_date": "1 day",
+            "tags": Array [
+              Object {
+                "name": "Joss Christensen",
+              },
+              Object {
+                "name": "Alex Bellemare",
+              },
+              Object {
+                "name": "Steve Stepp",
+              },
+              Object {
+                "name": "Johan Berg",
+              },
+              Object {
+                "name": "charlie lasser",
+              },
+              Object {
+                "name": "slvsh cup",
+              },
+              Object {
+                "name": "alex hall",
+              },
+              Object {
+                "name": "jake carney",
+              },
+              Object {
+                "name": "Andrew Napier",
+              },
+              Object {
+                "name": "emil granbom",
+              },
+              Object {
+                "name": "hugo burvall",
+              },
+              Object {
+                "name": "edit",
+              },
+              Object {
+                "name": "slvsh cup grandvalira",
+              },
+              Object {
+                "name": "Quinn Wolferman",
+              },
+              Object {
+                "name": "henrik harlaut",
+              },
+              Object {
+                "name": "Ferdinand Dahl",
+              },
+              Object {
+                "name": "Simone Canal",
+              },
+              Object {
+                "name": "Hunter Hess",
+              },
+              Object {
+                "name": "Ethan Swadburg",
+              },
+              Object {
+                "name": "Tom Ritsch",
+              },
+              Object {
+                "name": "James Woods",
+              },
+              Object {
+                "name": "elias syrja",
+              },
+              Object {
+                "name": "Aleksi Patja",
+              },
+            ],
+            "tags_string": "Joss Christensen, Alex Bellemare, Steve Stepp, Johan Berg, charlie lasser, slvsh cup, alex hall, jake carney, Andrew Napier, emil granbom, hugo burvall, edit, slvsh cup grandvalira, Quinn Wolferman, henrik harlaut, Ferdinand Dahl, Simone Canal, Hunter Hess, Ethan Swadburg, Tom Ritsch, James Woods, elias syrja, Aleksi Patja",
+            "title": "Recap Edit || Slvsh Cup&nbsp;Grandvalira",
+            "type": "Film",
+            "updated_at": "2018-04-05T15:16:50.775Z",
+            "video_host": "youtube",
+            "video_url": "https://www.youtube.com/embed/dJQmXDZW1ig",
+            "vimeo_id": "dJQmXDZW1ig",
+          }
+    }
+    handleRoute={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="slvsh-video-thumbnail"
+          className="game-card-image"
+          src="http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405"
+/>,
+        <div
+          className="game-card-info"
+>
+          <p
+                    className="game-card-type film-style"
+          >
+                    THEATER
+          </p>
+          <h3
+                    className="game-card-title"
+          >
+                    Recap Edit || Slvsh Cup Grandvalira
+          </h3>
+          <p
+                    className="game-card-loc-date"
+          >
+                    Grandvalira, Andorra, 1 day ago
+          </p>
+</div>,
+      ],
+      "className": "game-container-card",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "slvsh-video-thumbnail",
+          "className": "game-card-image",
+          "src": "http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="game-card-type film-style"
+>
+              THEATER
+</p>,
+            <h3
+              className="game-card-title"
+>
+              Recap Edit || Slvsh Cup Grandvalira
+</h3>,
+            <p
+              className="game-card-loc-date"
+>
+              Grandvalira, Andorra, 1 day ago
+</p>,
+          ],
+          "className": "game-card-info",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "THEATER",
+              "className": "game-card-type film-style",
+            },
+            "ref": null,
+            "rendered": "THEATER",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Recap Edit || Slvsh Cup Grandvalira",
+              "className": "game-card-title",
+            },
+            "ref": null,
+            "rendered": "Recap Edit || Slvsh Cup Grandvalira",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Grandvalira, Andorra, 1 day ago",
+              "className": "game-card-loc-date",
+            },
+            "ref": null,
+            "rendered": "Grandvalira, Andorra, 1 day ago",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="slvsh-video-thumbnail"
+            className="game-card-image"
+            src="http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405"
+/>,
+          <div
+            className="game-card-info"
+>
+            <p
+                        className="game-card-type film-style"
+            >
+                        THEATER
+            </p>
+            <h3
+                        className="game-card-title"
+            >
+                        Recap Edit || Slvsh Cup Grandvalira
+            </h3>
+            <p
+                        className="game-card-loc-date"
+            >
+                        Grandvalira, Andorra, 1 day ago
+            </p>
+</div>,
+        ],
+        "className": "game-container-card",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "slvsh-video-thumbnail",
+            "className": "game-card-image",
+            "src": "http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="game-card-type film-style"
+>
+                THEATER
+</p>,
+              <h3
+                className="game-card-title"
+>
+                Recap Edit || Slvsh Cup Grandvalira
+</h3>,
+              <p
+                className="game-card-loc-date"
+>
+                Grandvalira, Andorra, 1 day ago
+</p>,
+            ],
+            "className": "game-card-info",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "THEATER",
+                "className": "game-card-type film-style",
+              },
+              "ref": null,
+              "rendered": "THEATER",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Recap Edit || Slvsh Cup Grandvalira",
+                "className": "game-card-title",
+              },
+              "ref": null,
+              "rendered": "Recap Edit || Slvsh Cup Grandvalira",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Grandvalira, Andorra, 1 day ago",
+                "className": "game-card-loc-date",
+              },
+              "ref": null,
+              "rendered": "Grandvalira, Andorra, 1 day ago",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`GameCard should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <GameCard
+    game={
+        Object {
+            "created_at": "2018-04-03T13:05:25.506Z",
+            "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
+            "formatted_publish_date": "04.03.2018",
+            "game_type": "S.L.V.S.H.",
+            "href": "/games/836",
+            "id": 836,
+            "location": "Grandvalira, AD",
+            "loser": Object {
+              "avatar_content_type": "image/jpeg",
+              "avatar_file_name": "QuinnWolferman.jpg",
+              "avatar_file_size": 51763,
+              "avatar_updated_at": "2016-08-02T07:30:32.264Z",
+              "birthdate": "1992-10-06",
+              "country": "us",
+              "created_at": "2016-08-02T07:30:32.665Z",
+              "id": 110,
+              "name": "Quinn Wolferman",
+              "slvsh_avg": 500,
+              "sponsor": "Tall Tee",
+              "updated_at": "2016-08-02T07:32:11.888Z",
+            },
+            "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
+            "loser_id": 110,
+            "loser_score": 5,
+            "post_class": "slvsh",
+            "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710",
+            "publish_date": "3 days",
+            "sorted_riders": Array [
+              Object {
+                "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
+                "name": "Henrik Harlaut",
+              },
+              Object {
+                "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
+                "name": "Quinn Wolferman",
+              },
+            ],
+            "tags": Array [
+              Object {
+                "name": "slvsh cup",
+              },
+              Object {
+                "name": "game",
+              },
+              Object {
+                "name": "Quinn Wolferman",
+              },
+              Object {
+                "name": "henrik harlaut",
+              },
+            ],
+            "tags_string": "slvsh cup, game, Quinn Wolferman, henrik harlaut",
+            "title": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup&nbsp;Grandvalira",
+            "type": "Game",
+            "updated_at": "2018-04-03T13:05:25.506Z",
+            "video_host": "youtube",
+            "video_url": "https://www.youtube.com/embed/b_9xjpVljtM",
+            "vimeo_id": "b_9xjpVljtM",
+            "winner": Object {
+              "avatar_content_type": "image/jpeg",
+              "avatar_file_name": "henrik600.jpg",
+              "avatar_file_size": 203220,
+              "avatar_updated_at": "2017-10-10T12:48:53.810Z",
+              "birthdate": "1995-01-01",
+              "country": "se",
+              "created_at": "2017-10-10T12:48:54.345Z",
+              "id": 150,
+              "name": "Henrik Harlaut",
+              "slvsh_avg": 500,
+              "sponsor": "Monster Energy",
+              "updated_at": "2018-03-15T13:23:05.198Z",
+            },
+            "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
+            "winner_id": 150,
+            "winner_score": 5,
+          }
+    }
+    handleRoute={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="slvsh-video-thumbnail"
+          className="game-card-image"
+          src="http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710"
+/>,
+        <div
+          className="game-card-info"
+>
+          <p
+                    className="game-card-type slvsh-style"
+          >
+                    S.L.V.S.H.
+          </p>
+          <h3
+                    className="game-card-title"
+          >
+                    Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup Grandvalira
+          </h3>
+          <p
+                    className="game-card-loc-date"
+          >
+                    Grandvalira, AD, 3 days ago
+          </p>
+</div>,
+      ],
+      "className": "game-container-card",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "slvsh-video-thumbnail",
+          "className": "game-card-image",
+          "src": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="game-card-type slvsh-style"
+>
+              S.L.V.S.H.
+</p>,
+            <h3
+              className="game-card-title"
+>
+              Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup Grandvalira
+</h3>,
+            <p
+              className="game-card-loc-date"
+>
+              Grandvalira, AD, 3 days ago
+</p>,
+          ],
+          "className": "game-card-info",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "S.L.V.S.H.",
+              "className": "game-card-type slvsh-style",
+            },
+            "ref": null,
+            "rendered": "S.L.V.S.H.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup Grandvalira",
+              "className": "game-card-title",
+            },
+            "ref": null,
+            "rendered": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup Grandvalira",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Grandvalira, AD, 3 days ago",
+              "className": "game-card-loc-date",
+            },
+            "ref": null,
+            "rendered": "Grandvalira, AD, 3 days ago",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="slvsh-video-thumbnail"
+            className="game-card-image"
+            src="http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710"
+/>,
+          <div
+            className="game-card-info"
+>
+            <p
+                        className="game-card-type slvsh-style"
+            >
+                        S.L.V.S.H.
+            </p>
+            <h3
+                        className="game-card-title"
+            >
+                        Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup Grandvalira
+            </h3>
+            <p
+                        className="game-card-loc-date"
+            >
+                        Grandvalira, AD, 3 days ago
+            </p>
+</div>,
+        ],
+        "className": "game-container-card",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "slvsh-video-thumbnail",
+            "className": "game-card-image",
+            "src": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="game-card-type slvsh-style"
+>
+                S.L.V.S.H.
+</p>,
+              <h3
+                className="game-card-title"
+>
+                Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup Grandvalira
+</h3>,
+              <p
+                className="game-card-loc-date"
+>
+                Grandvalira, AD, 3 days ago
+</p>,
+            ],
+            "className": "game-card-info",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "S.L.V.S.H.",
+                "className": "game-card-type slvsh-style",
+              },
+              "ref": null,
+              "rendered": "S.L.V.S.H.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup Grandvalira",
+                "className": "game-card-title",
+              },
+              "ref": null,
+              "rendered": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup Grandvalira",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Grandvalira, AD, 3 days ago",
+                "className": "game-card-loc-date",
+              },
+              "ref": null,
+              "rendered": "Grandvalira, AD, 3 days ago",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
