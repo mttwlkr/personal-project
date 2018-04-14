@@ -302,33 +302,42 @@ ShallowWrapper {
         false,
         <div>
           <section
-                    className="video-player-div"
+                    className="video-player-editorial-title"
           >
-                    <iframe
-                              allow="autoplay; encrypted-media"
-                              allowFullScreen={true}
-                              className="iFrame"
-                              frameBorder="0"
-                              height="360"
-                              src="https://www.youtube.com/embed/b_9xjpVljtM"
-                              title="video-player"
-                              width="640"
-                    />
                     <h2>
                               Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh CupGrandvalira
                     </h2>
-                    <p>
-                              Grandvalira, AD about 3 days ago
+                    <p
+                              className="video-player-loc-and-date"
+                    >
+                              Grandvalira, AD on 04.03.2018
                     </p>
           </section>
+          <div
+                    className="video-container-style-div"
+          >
+                    <div
+                              className="video-container"
+                    >
+                              <iframe
+                                        allow="autoplay; encrypted-media"
+                                        allowFullScreen={true}
+                                        frameBorder="0"
+                                        height="360"
+                                        src="https://www.youtube.com/embed/b_9xjpVljtM"
+                                        title="video-player"
+                                        width="640"
+                              />
+                    </div>
+          </div>
           <section
-                    className="video-player-editorial"
+                    className="video-player-editorial-body"
           >
                     Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!
           </section>
 </div>,
       ],
-      "className": "video-container",
+      "className": "main-video-player-div",
     },
     "ref": null,
     "rendered": Array [
@@ -340,27 +349,36 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <section
-              className="video-player-div"
+              className="video-player-editorial-title"
 >
-              <iframe
-                            allow="autoplay; encrypted-media"
-                            allowFullScreen={true}
-                            className="iFrame"
-                            frameBorder="0"
-                            height="360"
-                            src="https://www.youtube.com/embed/b_9xjpVljtM"
-                            title="video-player"
-                            width="640"
-              />
               <h2>
                             Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh CupGrandvalira
               </h2>
-              <p>
-                            Grandvalira, AD about 3 days ago
+              <p
+                            className="video-player-loc-and-date"
+              >
+                            Grandvalira, AD on 04.03.2018
               </p>
 </section>,
+            <div
+              className="video-container-style-div"
+>
+              <div
+                            className="video-container"
+              >
+                            <iframe
+                                          allow="autoplay; encrypted-media"
+                                          allowFullScreen={true}
+                                          frameBorder="0"
+                                          height="360"
+                                          src="https://www.youtube.com/embed/b_9xjpVljtM"
+                                          title="video-player"
+                                          width="640"
+                            />
+              </div>
+</div>,
             <section
-              className="video-player-editorial"
+              className="video-player-editorial-body"
 >
               Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!
 </section>,
@@ -374,45 +392,19 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <iframe
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen={true}
-                  className="iFrame"
-                  frameBorder="0"
-                  height="360"
-                  src="https://www.youtube.com/embed/b_9xjpVljtM"
-                  title="video-player"
-                  width="640"
-/>,
                 <h2>
                   Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh CupGrandvalira
 </h2>,
-                <p>
-                  Grandvalira, AD about 3 days ago
+                <p
+                  className="video-player-loc-and-date"
+>
+                  Grandvalira, AD on 04.03.2018
 </p>,
               ],
-              "className": "video-player-div",
+              "className": "video-player-editorial-title",
             },
             "ref": null,
             "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "allow": "autoplay; encrypted-media",
-                  "allowFullScreen": true,
-                  "className": "iFrame",
-                  "frameBorder": "0",
-                  "height": "360",
-                  "src": "https://www.youtube.com/embed/b_9xjpVljtM",
-                  "title": "video-player",
-                  "width": "640",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "iframe",
-              },
               Object {
                 "instance": null,
                 "key": undefined,
@@ -429,10 +421,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Grandvalira, AD about 3 days ago",
+                  "children": "Grandvalira, AD on 04.03.2018",
+                  "className": "video-player-loc-and-date",
                 },
                 "ref": null,
-                "rendered": "Grandvalira, AD about 3 days ago",
+                "rendered": "Grandvalira, AD on 04.03.2018",
                 "type": "p",
               },
             ],
@@ -443,11 +436,76 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
-              "className": "video-player-editorial",
+              "children": <div
+                className="video-container"
+>
+                <iframe
+                                allow="autoplay; encrypted-media"
+                                allowFullScreen={true}
+                                frameBorder="0"
+                                height="360"
+                                src="https://www.youtube.com/embed/b_9xjpVljtM"
+                                title="video-player"
+                                width="640"
+                />
+</div>,
+              "className": "video-container-style-div",
             },
             "ref": null,
-            "rendered": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <iframe
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen={true}
+                  frameBorder="0"
+                  height="360"
+                  src="https://www.youtube.com/embed/b_9xjpVljtM"
+                  title="video-player"
+                  width="640"
+/>,
+                "className": "video-container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "allow": "autoplay; encrypted-media",
+                  "allowFullScreen": true,
+                  "frameBorder": "0",
+                  "height": "360",
+                  "src": "https://www.youtube.com/embed/b_9xjpVljtM",
+                  "title": "video-player",
+                  "width": "640",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "iframe",
+              },
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
+              ],
+              "className": "video-player-editorial-body",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
+            ],
             "type": "section",
           },
         ],
@@ -466,33 +524,42 @@ ShallowWrapper {
           false,
           <div>
             <section
-                        className="video-player-div"
+                        className="video-player-editorial-title"
             >
-                        <iframe
-                                    allow="autoplay; encrypted-media"
-                                    allowFullScreen={true}
-                                    className="iFrame"
-                                    frameBorder="0"
-                                    height="360"
-                                    src="https://www.youtube.com/embed/b_9xjpVljtM"
-                                    title="video-player"
-                                    width="640"
-                        />
                         <h2>
                                     Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh CupGrandvalira
                         </h2>
-                        <p>
-                                    Grandvalira, AD about 3 days ago
+                        <p
+                                    className="video-player-loc-and-date"
+                        >
+                                    Grandvalira, AD on 04.03.2018
                         </p>
             </section>
+            <div
+                        className="video-container-style-div"
+            >
+                        <div
+                                    className="video-container"
+                        >
+                                    <iframe
+                                                allow="autoplay; encrypted-media"
+                                                allowFullScreen={true}
+                                                frameBorder="0"
+                                                height="360"
+                                                src="https://www.youtube.com/embed/b_9xjpVljtM"
+                                                title="video-player"
+                                                width="640"
+                                    />
+                        </div>
+            </div>
             <section
-                        className="video-player-editorial"
+                        className="video-player-editorial-body"
             >
                         Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!
             </section>
 </div>,
         ],
-        "className": "video-container",
+        "className": "main-video-player-div",
       },
       "ref": null,
       "rendered": Array [
@@ -504,27 +571,36 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <section
-                className="video-player-div"
+                className="video-player-editorial-title"
 >
-                <iframe
-                                allow="autoplay; encrypted-media"
-                                allowFullScreen={true}
-                                className="iFrame"
-                                frameBorder="0"
-                                height="360"
-                                src="https://www.youtube.com/embed/b_9xjpVljtM"
-                                title="video-player"
-                                width="640"
-                />
                 <h2>
                                 Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh CupGrandvalira
                 </h2>
-                <p>
-                                Grandvalira, AD about 3 days ago
+                <p
+                                className="video-player-loc-and-date"
+                >
+                                Grandvalira, AD on 04.03.2018
                 </p>
 </section>,
+              <div
+                className="video-container-style-div"
+>
+                <div
+                                className="video-container"
+                >
+                                <iframe
+                                                allow="autoplay; encrypted-media"
+                                                allowFullScreen={true}
+                                                frameBorder="0"
+                                                height="360"
+                                                src="https://www.youtube.com/embed/b_9xjpVljtM"
+                                                title="video-player"
+                                                width="640"
+                                />
+                </div>
+</div>,
               <section
-                className="video-player-editorial"
+                className="video-player-editorial-body"
 >
                 Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!
 </section>,
@@ -538,45 +614,19 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <iframe
-                    allow="autoplay; encrypted-media"
-                    allowFullScreen={true}
-                    className="iFrame"
-                    frameBorder="0"
-                    height="360"
-                    src="https://www.youtube.com/embed/b_9xjpVljtM"
-                    title="video-player"
-                    width="640"
-/>,
                   <h2>
                     Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh CupGrandvalira
 </h2>,
-                  <p>
-                    Grandvalira, AD about 3 days ago
+                  <p
+                    className="video-player-loc-and-date"
+>
+                    Grandvalira, AD on 04.03.2018
 </p>,
                 ],
-                "className": "video-player-div",
+                "className": "video-player-editorial-title",
               },
               "ref": null,
               "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "allow": "autoplay; encrypted-media",
-                    "allowFullScreen": true,
-                    "className": "iFrame",
-                    "frameBorder": "0",
-                    "height": "360",
-                    "src": "https://www.youtube.com/embed/b_9xjpVljtM",
-                    "title": "video-player",
-                    "width": "640",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": "iframe",
-                },
                 Object {
                   "instance": null,
                   "key": undefined,
@@ -593,10 +643,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Grandvalira, AD about 3 days ago",
+                    "children": "Grandvalira, AD on 04.03.2018",
+                    "className": "video-player-loc-and-date",
                   },
                   "ref": null,
-                  "rendered": "Grandvalira, AD about 3 days ago",
+                  "rendered": "Grandvalira, AD on 04.03.2018",
                   "type": "p",
                 },
               ],
@@ -607,11 +658,76 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
-                "className": "video-player-editorial",
+                "children": <div
+                  className="video-container"
+>
+                  <iframe
+                                    allow="autoplay; encrypted-media"
+                                    allowFullScreen={true}
+                                    frameBorder="0"
+                                    height="360"
+                                    src="https://www.youtube.com/embed/b_9xjpVljtM"
+                                    title="video-player"
+                                    width="640"
+                  />
+</div>,
+                "className": "video-container-style-div",
               },
               "ref": null,
-              "rendered": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <iframe
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen={true}
+                    frameBorder="0"
+                    height="360"
+                    src="https://www.youtube.com/embed/b_9xjpVljtM"
+                    title="video-player"
+                    width="640"
+/>,
+                  "className": "video-container",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "allow": "autoplay; encrypted-media",
+                    "allowFullScreen": true,
+                    "frameBorder": "0",
+                    "height": "360",
+                    "src": "https://www.youtube.com/embed/b_9xjpVljtM",
+                    "title": "video-player",
+                    "width": "640",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "iframe",
+                },
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
+                ],
+                "className": "video-player-editorial-body",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
+              ],
               "type": "section",
             },
           ],
@@ -761,33 +877,42 @@ ShallowWrapper {
         false,
         <div>
           <section
-                    className="video-player-div"
+                    className="video-player-editorial-title"
           >
-                    <iframe
-                              allow="autoplay; encrypted-media"
-                              allowFullScreen={true}
-                              className="iFrame"
-                              frameBorder="0"
-                              height="360"
-                              src="https://www.youtube.com/embed/dJQmXDZW1ig"
-                              title="video-player"
-                              width="640"
-                    />
                     <h2>
                               Recap Edit || Slvsh CupGrandvalira
                     </h2>
-                    <p>
-                              Grandvalira, Andorra about 1 day ago
+                    <p
+                              className="video-player-loc-and-date"
+                    >
+                              Grandvalira, Andorra on 04.05.2018
                     </p>
           </section>
+          <div
+                    className="video-container-style-div"
+          >
+                    <div
+                              className="video-container"
+                    >
+                              <iframe
+                                        allow="autoplay; encrypted-media"
+                                        allowFullScreen={true}
+                                        frameBorder="0"
+                                        height="360"
+                                        src="https://www.youtube.com/embed/dJQmXDZW1ig"
+                                        title="video-player"
+                                        width="640"
+                              />
+                    </div>
+          </div>
           <section
-                    className="video-player-editorial"
+                    className="video-player-editorial-body"
           >
                     Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack
           </section>
 </div>,
       ],
-      "className": "video-container",
+      "className": "main-video-player-div",
     },
     "ref": null,
     "rendered": Array [
@@ -799,27 +924,36 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <section
-              className="video-player-div"
+              className="video-player-editorial-title"
 >
-              <iframe
-                            allow="autoplay; encrypted-media"
-                            allowFullScreen={true}
-                            className="iFrame"
-                            frameBorder="0"
-                            height="360"
-                            src="https://www.youtube.com/embed/dJQmXDZW1ig"
-                            title="video-player"
-                            width="640"
-              />
               <h2>
                             Recap Edit || Slvsh CupGrandvalira
               </h2>
-              <p>
-                            Grandvalira, Andorra about 1 day ago
+              <p
+                            className="video-player-loc-and-date"
+              >
+                            Grandvalira, Andorra on 04.05.2018
               </p>
 </section>,
+            <div
+              className="video-container-style-div"
+>
+              <div
+                            className="video-container"
+              >
+                            <iframe
+                                          allow="autoplay; encrypted-media"
+                                          allowFullScreen={true}
+                                          frameBorder="0"
+                                          height="360"
+                                          src="https://www.youtube.com/embed/dJQmXDZW1ig"
+                                          title="video-player"
+                                          width="640"
+                            />
+              </div>
+</div>,
             <section
-              className="video-player-editorial"
+              className="video-player-editorial-body"
 >
               Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack
 </section>,
@@ -833,45 +967,19 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <iframe
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen={true}
-                  className="iFrame"
-                  frameBorder="0"
-                  height="360"
-                  src="https://www.youtube.com/embed/dJQmXDZW1ig"
-                  title="video-player"
-                  width="640"
-/>,
                 <h2>
                   Recap Edit || Slvsh CupGrandvalira
 </h2>,
-                <p>
-                  Grandvalira, Andorra about 1 day ago
+                <p
+                  className="video-player-loc-and-date"
+>
+                  Grandvalira, Andorra on 04.05.2018
 </p>,
               ],
-              "className": "video-player-div",
+              "className": "video-player-editorial-title",
             },
             "ref": null,
             "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "allow": "autoplay; encrypted-media",
-                  "allowFullScreen": true,
-                  "className": "iFrame",
-                  "frameBorder": "0",
-                  "height": "360",
-                  "src": "https://www.youtube.com/embed/dJQmXDZW1ig",
-                  "title": "video-player",
-                  "width": "640",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "iframe",
-              },
               Object {
                 "instance": null,
                 "key": undefined,
@@ -888,10 +996,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Grandvalira, Andorra about 1 day ago",
+                  "children": "Grandvalira, Andorra on 04.05.2018",
+                  "className": "video-player-loc-and-date",
                 },
                 "ref": null,
-                "rendered": "Grandvalira, Andorra about 1 day ago",
+                "rendered": "Grandvalira, Andorra on 04.05.2018",
                 "type": "p",
               },
             ],
@@ -902,11 +1011,76 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
-              "className": "video-player-editorial",
+              "children": <div
+                className="video-container"
+>
+                <iframe
+                                allow="autoplay; encrypted-media"
+                                allowFullScreen={true}
+                                frameBorder="0"
+                                height="360"
+                                src="https://www.youtube.com/embed/dJQmXDZW1ig"
+                                title="video-player"
+                                width="640"
+                />
+</div>,
+              "className": "video-container-style-div",
             },
             "ref": null,
-            "rendered": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <iframe
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen={true}
+                  frameBorder="0"
+                  height="360"
+                  src="https://www.youtube.com/embed/dJQmXDZW1ig"
+                  title="video-player"
+                  width="640"
+/>,
+                "className": "video-container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "allow": "autoplay; encrypted-media",
+                  "allowFullScreen": true,
+                  "frameBorder": "0",
+                  "height": "360",
+                  "src": "https://www.youtube.com/embed/dJQmXDZW1ig",
+                  "title": "video-player",
+                  "width": "640",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "iframe",
+              },
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
+              ],
+              "className": "video-player-editorial-body",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
+            ],
             "type": "section",
           },
         ],
@@ -925,33 +1099,42 @@ ShallowWrapper {
           false,
           <div>
             <section
-                        className="video-player-div"
+                        className="video-player-editorial-title"
             >
-                        <iframe
-                                    allow="autoplay; encrypted-media"
-                                    allowFullScreen={true}
-                                    className="iFrame"
-                                    frameBorder="0"
-                                    height="360"
-                                    src="https://www.youtube.com/embed/dJQmXDZW1ig"
-                                    title="video-player"
-                                    width="640"
-                        />
                         <h2>
                                     Recap Edit || Slvsh CupGrandvalira
                         </h2>
-                        <p>
-                                    Grandvalira, Andorra about 1 day ago
+                        <p
+                                    className="video-player-loc-and-date"
+                        >
+                                    Grandvalira, Andorra on 04.05.2018
                         </p>
             </section>
+            <div
+                        className="video-container-style-div"
+            >
+                        <div
+                                    className="video-container"
+                        >
+                                    <iframe
+                                                allow="autoplay; encrypted-media"
+                                                allowFullScreen={true}
+                                                frameBorder="0"
+                                                height="360"
+                                                src="https://www.youtube.com/embed/dJQmXDZW1ig"
+                                                title="video-player"
+                                                width="640"
+                                    />
+                        </div>
+            </div>
             <section
-                        className="video-player-editorial"
+                        className="video-player-editorial-body"
             >
                         Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack
             </section>
 </div>,
         ],
-        "className": "video-container",
+        "className": "main-video-player-div",
       },
       "ref": null,
       "rendered": Array [
@@ -963,27 +1146,36 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <section
-                className="video-player-div"
+                className="video-player-editorial-title"
 >
-                <iframe
-                                allow="autoplay; encrypted-media"
-                                allowFullScreen={true}
-                                className="iFrame"
-                                frameBorder="0"
-                                height="360"
-                                src="https://www.youtube.com/embed/dJQmXDZW1ig"
-                                title="video-player"
-                                width="640"
-                />
                 <h2>
                                 Recap Edit || Slvsh CupGrandvalira
                 </h2>
-                <p>
-                                Grandvalira, Andorra about 1 day ago
+                <p
+                                className="video-player-loc-and-date"
+                >
+                                Grandvalira, Andorra on 04.05.2018
                 </p>
 </section>,
+              <div
+                className="video-container-style-div"
+>
+                <div
+                                className="video-container"
+                >
+                                <iframe
+                                                allow="autoplay; encrypted-media"
+                                                allowFullScreen={true}
+                                                frameBorder="0"
+                                                height="360"
+                                                src="https://www.youtube.com/embed/dJQmXDZW1ig"
+                                                title="video-player"
+                                                width="640"
+                                />
+                </div>
+</div>,
               <section
-                className="video-player-editorial"
+                className="video-player-editorial-body"
 >
                 Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack
 </section>,
@@ -997,45 +1189,19 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <iframe
-                    allow="autoplay; encrypted-media"
-                    allowFullScreen={true}
-                    className="iFrame"
-                    frameBorder="0"
-                    height="360"
-                    src="https://www.youtube.com/embed/dJQmXDZW1ig"
-                    title="video-player"
-                    width="640"
-/>,
                   <h2>
                     Recap Edit || Slvsh CupGrandvalira
 </h2>,
-                  <p>
-                    Grandvalira, Andorra about 1 day ago
+                  <p
+                    className="video-player-loc-and-date"
+>
+                    Grandvalira, Andorra on 04.05.2018
 </p>,
                 ],
-                "className": "video-player-div",
+                "className": "video-player-editorial-title",
               },
               "ref": null,
               "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "allow": "autoplay; encrypted-media",
-                    "allowFullScreen": true,
-                    "className": "iFrame",
-                    "frameBorder": "0",
-                    "height": "360",
-                    "src": "https://www.youtube.com/embed/dJQmXDZW1ig",
-                    "title": "video-player",
-                    "width": "640",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": "iframe",
-                },
                 Object {
                   "instance": null,
                   "key": undefined,
@@ -1052,10 +1218,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Grandvalira, Andorra about 1 day ago",
+                    "children": "Grandvalira, Andorra on 04.05.2018",
+                    "className": "video-player-loc-and-date",
                   },
                   "ref": null,
-                  "rendered": "Grandvalira, Andorra about 1 day ago",
+                  "rendered": "Grandvalira, Andorra on 04.05.2018",
                   "type": "p",
                 },
               ],
@@ -1066,11 +1233,76 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
-                "className": "video-player-editorial",
+                "children": <div
+                  className="video-container"
+>
+                  <iframe
+                                    allow="autoplay; encrypted-media"
+                                    allowFullScreen={true}
+                                    frameBorder="0"
+                                    height="360"
+                                    src="https://www.youtube.com/embed/dJQmXDZW1ig"
+                                    title="video-player"
+                                    width="640"
+                  />
+</div>,
+                "className": "video-container-style-div",
               },
               "ref": null,
-              "rendered": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <iframe
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen={true}
+                    frameBorder="0"
+                    height="360"
+                    src="https://www.youtube.com/embed/dJQmXDZW1ig"
+                    title="video-player"
+                    width="640"
+/>,
+                  "className": "video-container",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "allow": "autoplay; encrypted-media",
+                    "allowFullScreen": true,
+                    "frameBorder": "0",
+                    "height": "360",
+                    "src": "https://www.youtube.com/embed/dJQmXDZW1ig",
+                    "title": "video-player",
+                    "width": "640",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "iframe",
+                },
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
+                ],
+                "className": "video-player-editorial-body",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
+              ],
               "type": "section",
             },
           ],

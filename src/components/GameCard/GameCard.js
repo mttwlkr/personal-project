@@ -19,7 +19,7 @@ const GameCard = ({game, handleRoute}) => {
       gameType = 'INSTABANGER';
       break;
     default:
-      gameStyling = ''
+      gameStyling = 'slvsh-style'
       gameType = 'SLVSH';
   }
 

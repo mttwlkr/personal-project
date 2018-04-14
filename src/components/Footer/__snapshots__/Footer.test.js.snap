@@ -21,30 +21,41 @@ ShallowWrapper {
         <p>
           © 2018 Slvsh LLC | All rights reserved
 </p>,
-        <section>
-          <p>
-                    Follow SLVSH
-          </p>
-          <a
-                    href="https://www.facebook.com/theslvsh"
-                    rel="noopener noreferrer"
-                    target="_blank"
-          >
-                    Facebook
-          </a>
+        <section
+          className="social-media-div"
+>
           <a
                     href="https://www.instagram.com/theslvsh"
                     rel="noopener noreferrer"
                     target="_blank"
           >
-                    Instagram
+                    <img
+                              alt="instagram"
+                              className="social-media-logos sml-ig"
+                              src="instagram.svg"
+                    />
           </a>
           <a
-                    href="https://twitter.com/theslvsh"
+                    href="https://youtube.com/theslvsh"
                     rel="noopener noreferrer"
                     target="_blank"
           >
-                    Twitter
+                    <img
+                              alt="you-tube"
+                              className="social-media-logos sml-yt"
+                              src="youtube.svg"
+                    />
+          </a>
+          <a
+                    href="https://www.facebook.com/theslvsh"
+                    rel="noopener noreferrer"
+                    target="_blank"
+          >
+                    <img
+                              alt="facebook"
+                              className="social-media-logos sml-fb"
+                              src="facebook.svg"
+                    />
           </a>
 </section>,
       ],
@@ -69,31 +80,41 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <p>
-              Follow SLVSH
-</p>,
-            <a
-              href="https://www.facebook.com/theslvsh"
-              rel="noopener noreferrer"
-              target="_blank"
->
-              Facebook
-</a>,
             <a
               href="https://www.instagram.com/theslvsh"
               rel="noopener noreferrer"
               target="_blank"
 >
-              Instagram
+              <img
+                            alt="instagram"
+                            className="social-media-logos sml-ig"
+                            src="instagram.svg"
+              />
 </a>,
             <a
-              href="https://twitter.com/theslvsh"
+              href="https://youtube.com/theslvsh"
               rel="noopener noreferrer"
               target="_blank"
 >
-              Twitter
+              <img
+                            alt="you-tube"
+                            className="social-media-logos sml-yt"
+                            src="youtube.svg"
+              />
+</a>,
+            <a
+              href="https://www.facebook.com/theslvsh"
+              rel="noopener noreferrer"
+              target="_blank"
+>
+              <img
+                            alt="facebook"
+                            className="social-media-logos sml-fb"
+                            src="facebook.svg"
+              />
 </a>,
           ],
+          "className": "social-media-div",
         },
         "ref": null,
         "rendered": Array [
@@ -102,38 +123,29 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Follow SLVSH",
-            },
-            "ref": null,
-            "rendered": "Follow SLVSH",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Facebook",
-              "href": "https://www.facebook.com/theslvsh",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
-            },
-            "ref": null,
-            "rendered": "Facebook",
-            "type": "a",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Instagram",
+              "children": <img
+                alt="instagram"
+                className="social-media-logos sml-ig"
+                src="instagram.svg"
+/>,
               "href": "https://www.instagram.com/theslvsh",
               "rel": "noopener noreferrer",
               "target": "_blank",
             },
             "ref": null,
-            "rendered": "Instagram",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "instagram",
+                "className": "social-media-logos sml-ig",
+                "src": "instagram.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
             "type": "a",
           },
           Object {
@@ -141,13 +153,59 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Twitter",
-              "href": "https://twitter.com/theslvsh",
+              "children": <img
+                alt="you-tube"
+                className="social-media-logos sml-yt"
+                src="youtube.svg"
+/>,
+              "href": "https://youtube.com/theslvsh",
               "rel": "noopener noreferrer",
               "target": "_blank",
             },
             "ref": null,
-            "rendered": "Twitter",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "you-tube",
+                "className": "social-media-logos sml-yt",
+                "src": "youtube.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="facebook"
+                className="social-media-logos sml-fb"
+                src="facebook.svg"
+/>,
+              "href": "https://www.facebook.com/theslvsh",
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "facebook",
+                "className": "social-media-logos sml-fb",
+                "src": "facebook.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
             "type": "a",
           },
         ],
@@ -166,30 +224,41 @@ ShallowWrapper {
           <p>
             © 2018 Slvsh LLC | All rights reserved
 </p>,
-          <section>
-            <p>
-                        Follow SLVSH
-            </p>
-            <a
-                        href="https://www.facebook.com/theslvsh"
-                        rel="noopener noreferrer"
-                        target="_blank"
-            >
-                        Facebook
-            </a>
+          <section
+            className="social-media-div"
+>
             <a
                         href="https://www.instagram.com/theslvsh"
                         rel="noopener noreferrer"
                         target="_blank"
             >
-                        Instagram
+                        <img
+                                    alt="instagram"
+                                    className="social-media-logos sml-ig"
+                                    src="instagram.svg"
+                        />
             </a>
             <a
-                        href="https://twitter.com/theslvsh"
+                        href="https://youtube.com/theslvsh"
                         rel="noopener noreferrer"
                         target="_blank"
             >
-                        Twitter
+                        <img
+                                    alt="you-tube"
+                                    className="social-media-logos sml-yt"
+                                    src="youtube.svg"
+                        />
+            </a>
+            <a
+                        href="https://www.facebook.com/theslvsh"
+                        rel="noopener noreferrer"
+                        target="_blank"
+            >
+                        <img
+                                    alt="facebook"
+                                    className="social-media-logos sml-fb"
+                                    src="facebook.svg"
+                        />
             </a>
 </section>,
         ],
@@ -214,31 +283,41 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <p>
-                Follow SLVSH
-</p>,
-              <a
-                href="https://www.facebook.com/theslvsh"
-                rel="noopener noreferrer"
-                target="_blank"
->
-                Facebook
-</a>,
               <a
                 href="https://www.instagram.com/theslvsh"
                 rel="noopener noreferrer"
                 target="_blank"
 >
-                Instagram
+                <img
+                                alt="instagram"
+                                className="social-media-logos sml-ig"
+                                src="instagram.svg"
+                />
 </a>,
               <a
-                href="https://twitter.com/theslvsh"
+                href="https://youtube.com/theslvsh"
                 rel="noopener noreferrer"
                 target="_blank"
 >
-                Twitter
+                <img
+                                alt="you-tube"
+                                className="social-media-logos sml-yt"
+                                src="youtube.svg"
+                />
+</a>,
+              <a
+                href="https://www.facebook.com/theslvsh"
+                rel="noopener noreferrer"
+                target="_blank"
+>
+                <img
+                                alt="facebook"
+                                className="social-media-logos sml-fb"
+                                src="facebook.svg"
+                />
 </a>,
             ],
+            "className": "social-media-div",
           },
           "ref": null,
           "rendered": Array [
@@ -247,38 +326,29 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Follow SLVSH",
-              },
-              "ref": null,
-              "rendered": "Follow SLVSH",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Facebook",
-                "href": "https://www.facebook.com/theslvsh",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
-              },
-              "ref": null,
-              "rendered": "Facebook",
-              "type": "a",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Instagram",
+                "children": <img
+                  alt="instagram"
+                  className="social-media-logos sml-ig"
+                  src="instagram.svg"
+/>,
                 "href": "https://www.instagram.com/theslvsh",
                 "rel": "noopener noreferrer",
                 "target": "_blank",
               },
               "ref": null,
-              "rendered": "Instagram",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "instagram",
+                  "className": "social-media-logos sml-ig",
+                  "src": "instagram.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
               "type": "a",
             },
             Object {
@@ -286,13 +356,59 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Twitter",
-                "href": "https://twitter.com/theslvsh",
+                "children": <img
+                  alt="you-tube"
+                  className="social-media-logos sml-yt"
+                  src="youtube.svg"
+/>,
+                "href": "https://youtube.com/theslvsh",
                 "rel": "noopener noreferrer",
                 "target": "_blank",
               },
               "ref": null,
-              "rendered": "Twitter",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "you-tube",
+                  "className": "social-media-logos sml-yt",
+                  "src": "youtube.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="facebook"
+                  className="social-media-logos sml-fb"
+                  src="facebook.svg"
+/>,
+                "href": "https://www.facebook.com/theslvsh",
+                "rel": "noopener noreferrer",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "facebook",
+                  "className": "social-media-logos sml-fb",
+                  "src": "facebook.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
               "type": "a",
             },
           ],
