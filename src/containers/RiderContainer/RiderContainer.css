@@ -58,6 +58,11 @@
   box-shadow: 0px 0px 20px 0px grey;
 }
 
+.loading-gif {
+  height: 40px;
+  width: 40px;
+}
+
 @media (max-width: 700px) {
   .trick-key {
     width: 80%;
