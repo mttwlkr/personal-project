@@ -27,8 +27,9 @@ export class GameContainer extends Component {
   }
 
   render() {
+
     const { games } = this.props;
-    let displayGames = 'loading';
+    let displayGames;
 
     if (games.posts) {
       displayGames = games.posts.map( game => {
@@ -39,7 +40,10 @@ export class GameContainer extends Component {
     return (
       <div>
         <section className='game-container'>
-          {displayGames}
+          {
+            games.posts ? displayGames 
+            : <img src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'/>
+          }
         </section>
         <div className='page-navigation-button-div'>
           { games.current_page > 1 &&

@@ -19,7 +19,7 @@ export class RiderContainer extends Component {
 
   render() {
     const { riders } = this.props;
-    let displayRiders = 'Riders loading...';
+    let displayRiders;
     let statsForTable;
 
     if (riders.length) {
@@ -55,7 +55,10 @@ export class RiderContainer extends Component {
           </ul>
         </section>
         <section className='rider-container'>
-          {displayRiders}
+          { 
+            riders.length > 0 ? displayRiders 
+            : <img src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'/>
+          }
         </section>
       </div>
     )
