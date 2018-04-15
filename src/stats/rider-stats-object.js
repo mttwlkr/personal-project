@@ -226,7 +226,7 @@ export const riderStatsObject = {
     "Defense": 0.45,
     "Lines": 0,
     "Difficulty": 0.346,
-    "Overall": 0.36225,
+    "Overall": 0.483,
     "games_played": 2
   },
   "32": {
