@@ -1,18 +1,27 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './SingleRider.css';
 import { connect } from 'react-redux';
 import FlagIcon from '../FlagIconFactory/FlagIconFactory';
+import { withRouter } from 'react-router';
 
-export const SingleRider = (props) => {
-  const { match, riders } = props
+export class SingleRider extends Component {
 
-  let displayRider;
-
-  if (riders.length > 0) {
-    displayRider = riders.find( rider => {
-      return rider.id === parseInt(match.params.rider, 10)
-    })
+  async componentDidMount() {
+    const { match } = this.props
+    const currentLocation = match.params.rider
+    
   }
+
+  render() {
+    const { match, riders } = this.props
+  
+    let displayRider;
+  
+    if (riders.length > 0) {
+      displayRider = riders.find( rider => {
+        return rider.id === parseInt(match.params.rider, 10)
+      })
+    }
 
   return (
     <div>
@@ -82,9 +91,10 @@ export const SingleRider = (props) => {
 
           <h2>{`${displayRider.name}'s Games`}</h2>
         </div>
-      }
+        }
     </div>
-  )
+    )    
+  }
 }
 
 export const mapStateToProps = ({riders}) => ({
@@ -95,7 +105,7 @@ export const mapStateToProps = ({riders}) => ({
 
 // })
 
-export default connect(mapStateToProps)(SingleRider)
+export default withRouter(connect(mapStateToProps)(SingleRider))
 
 // age
 // avatar

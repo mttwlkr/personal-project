@@ -1,10 +1,10 @@
 import React from 'react';
 import { VideoPlayer, mapStateToProps, mapDispatchToProps } from './VideoPlayer';
 import { shallow } from 'enzyme';
-import { getSingle } from '../../fetches/get-single';
+import { getSingleVideo } from '../../fetches/get-single-video';
 import { mockAPIGamesData } from '../../mock-data/mockData';
 
-jest.mock('../../fetches/get-single');
+jest.mock('../../fetches/get-single-video');
 
 describe('VideoPlayer', () => {
 
@@ -12,7 +12,7 @@ describe('VideoPlayer', () => {
   const mockAddSingleGameToStore = jest.fn();
   const mockHistory = {location: {pathname: '/games/836'}}
   const mockLocation = {location: {pathname: '/games/836'}}
-  const mockPlayer = [836] // [1] of 
+  const mockPlayer = [836] 
   const mockCurrentGame = {currentGame: mockAPIGamesData.posts[0]}
 
   beforeEach(() => {
@@ -21,7 +21,7 @@ describe('VideoPlayer', () => {
       games={mockAPIGamesData}
       history={mockHistory}
       location={mockLocation}
-      player={mockPlayer}
+      gameForPlayer={mockPlayer}
     />)
   })
 
@@ -40,9 +40,9 @@ describe('VideoPlayer', () => {
   })
 
   it('should mapStateToProps', () => {
-    const mockState = { player: [50], games: {posts: []} }
+    const mockState = { gameForPlayer: [50], games: {posts: []} }
     const mapped = mapStateToProps(mockState)
-    expect(mapped.player).toEqual(mockState.player)
+    expect(mapped.gameForPlayer).toEqual(mockState.gameForPlayer)
     expect(mapped.games).toEqual(mockState.games)
   })
 

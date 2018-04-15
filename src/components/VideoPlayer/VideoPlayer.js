@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router';
 import './VideoPlayer.css';
-import { getSingle } from '../../fetches/get-single.js';
+import { getSingleVideo } from '../../fetches/get-single-video.js';
 import { addSingleGameToStore } from '../../actions/index.js'
 
 export class VideoPlayer extends Component {
@@ -10,13 +10,13 @@ export class VideoPlayer extends Component {
   async componentDidMount() {
     const { location, addSingleGameToStore } = this.props
     const currentLocation = location.pathname
-    const currentGame = await getSingle(currentLocation)
+    const currentGame = await getSingleVideo(currentLocation)
     addSingleGameToStore(currentGame)
   }
 
   render() {
     
-    const { player, games } = this.props;
+    const { gameForPlayer, games } = this.props;
     
     let theGame;
 
@@ -25,7 +25,7 @@ export class VideoPlayer extends Component {
     }
 
     if (games.posts) {
-      theGame = games.posts.find( game => game.id === player[0])
+      theGame = games.posts.find( game => game.id === gameForPlayer[0])
     }
 
   return (
@@ -60,8 +60,8 @@ export class VideoPlayer extends Component {
   )}
 }      
 
-export const mapStateToProps = ({player, games}) => ({
-  player,
+export const mapStateToProps = ({gameForPlayer, games}) => ({
+  gameForPlayer,
   games
 })
 

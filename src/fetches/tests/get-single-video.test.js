@@ -1,7 +1,7 @@
-import { getSingle } from '../get-single.js';
+import { getSingleVideo } from '../get-single-video.js';
 import { mockAPIGamesData } from '../../mock-data/mockData.js'
 
-describe('getSingle', () => {
+describe('getSingleVideo', () => {
 
   const mockGame = mockAPIGamesData.posts[0]
   const mockURL = '/games/500'
@@ -13,7 +13,7 @@ describe('getSingle', () => {
       json: () => Promise.resolve( mockGame )
     }))
 
-    const answer = await getSingle(mockURL)
+    const answer = await getSingleVideo(mockURL)
     expect(answer).toEqual(mockGame)
   })
 
@@ -24,6 +24,6 @@ describe('getSingle', () => {
     }))
 
     const expected = {status: 500}
-    expect(getSingle()).rejects.toEqual(expected)
+    expect(getSingleVideo()).rejects.toEqual(expected)
   })
 })

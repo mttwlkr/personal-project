@@ -1,4 +1,4 @@
-const playerReducer = (state = [], action) => {
+const gameForPlayerReducer = (state = [], action) => {
   switch (action.type) {
     case 'ADD_VIDEO_TO_PLAYER':
       return [action.id, ...state]
@@ -7,4 +7,4 @@ const playerReducer = (state = [], action) => {
   }
 }
 
-export default playerReducer;
+export default gameForPlayerReducer;
