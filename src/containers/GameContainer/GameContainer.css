@@ -10,6 +10,10 @@ button {
   color: #2c3e50; 
 }
 
+.current-page-button {
+  color: #ff0049;
+}
+
 button:hover {
   color: #ff0049;
 }

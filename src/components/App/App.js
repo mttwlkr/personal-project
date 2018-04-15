@@ -5,6 +5,7 @@ import RiderContainer from '../../containers/RiderContainer/RiderContainer';
 import VideoPlayer from '../VideoPlayer/VideoPlayer.js';
 import Header from '../../containers/Header/Header';
 import Footer from '../../components/Footer/Footer';
+import SingleRider from '../../components/SingleRider/SingleRider'
 import { Route } from 'react-router-dom';
 import { withRouter } from 'react-router';
 
@@ -16,8 +17,10 @@ export class App extends Component {
         <Header />
         <Route exact path='/' component={GameContainer}></Route>
         <Route exact path='/games' component={GameContainer}></Route>    
-        <Route exact path='/riders' component={RiderContainer}></Route>
         <Route exact path='/games/:game' component={VideoPlayer}></Route>
+        <Route exact path='/games/page/:page' component={GameContainer}></Route>
+        <Route exact path='/riders' component={RiderContainer}></Route>
+        <Route exact path='/riders/:rider' component={SingleRider}></Route>
         <Footer />
       </div>
     );
