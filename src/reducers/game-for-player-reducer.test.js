@@ -1,9 +1,9 @@
-import playerReducer from './player-reducer.js';
+import gameForPlayer from './game-for-player-reducer.js';
 
-describe('playerReducer', () => {
+describe('gameForPlayer', () => {
 
   it('should return an array if state is undefined', () => {
-    const answer = playerReducer(undefined, '')
+    const answer = gameForPlayer(undefined, '')
     expect(answer).toEqual([])
   })
 
@@ -11,7 +11,7 @@ describe('playerReducer', () => {
     const mockState = [40];
     const expected = [50, 40];
     const mockAction = { type: 'ADD_VIDEO_TO_PLAYER', id: 50}
-    const answer = playerReducer(mockState, mockAction)
+    const answer = gameForPlayer(mockState, mockAction)
     expect(answer).toEqual(expected)
   })
 })

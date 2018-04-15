@@ -22,3 +22,13 @@ export const addSingleGameToStore = (currentGame) => ({
   type: 'ADD_SINGLE_GAME_TO_STORE',
   currentGame
 })
+
+export const addSingleRiderToStore = (currentRider) => ({
+  type: 'ADD_SINGLE_RIDER_TO_STORE',
+  currentRider
+})
+
+export const addStatsToSingleRider = (riderStatsObject) => ({
+  type: 'ADD_STATS_TO_SINGLE_RIDER',
+  riderStatsObject
+})
