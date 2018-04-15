@@ -1,12 +1,14 @@
 import { combineReducers } from 'redux';
 import games from './games-reducer';
 import riders from './riders-reducer';
-import player from './player-reducer';
+import gameForPlayer from './game-for-player-reducer';
+import singleRider from './single-rider-reducer';
 
 const rootReducer = combineReducers({
   games,
   riders,
-  player
+  gameForPlayer,
+  singleRider
 })
 
 export default rootReducer;

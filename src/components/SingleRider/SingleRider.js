@@ -1,23 +1,49 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './SingleRider.css';
 import { connect } from 'react-redux';
 import FlagIcon from '../FlagIconFactory/FlagIconFactory';
+import { withRouter } from 'react-router';
+import { getSingleRider } from '../../fetches/get-single-rider';
+import { addSingleRiderToStore, addStatsToSingleRider } from '../../actions/index.js';
+import { riderStatsObject } from '../../stats/rider-stats-object.js'
 
-export const SingleRider = (props) => {
-  const { match, riders } = props
+export class SingleRider extends Component {
 
-  let displayRider;
-
-  if (riders.length > 0) {
-    displayRider = riders.find( rider => {
-      return rider.id === parseInt(match.params.rider, 10)
-    })
+  async componentDidMount() {
+    const { match, addSingleRiderToStore, addStatsToSingleRider } = this.props
+    const currentRider = match.params.rider
+    const riderObj = await getSingleRider(currentRider)
+    addSingleRiderToStore(riderObj)
+    addStatsToSingleRider(riderStatsObject)
   }
+
+  render() {
+    const { match, riders, singleRider } = this.props
+
+    let displayRider = {};
+
+    if (singleRider.id) {
+      displayRider = singleRider
+    }
+
+    if (riders.length > 0) {
+      displayRider = riders.find( rider => {
+        return rider.id === parseInt(match.params.rider, 10)
+      })
+    }
 
   return (
     <div>
       { 
-        displayRider.id && 
+        !displayRider.Offense && 
+        <div className='single-rider-div'>
+          <img 
+            src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif' 
+            alt='loading-GIF' 
+          />
+        </div>
+      }
+      { displayRider.Offense && 
         <div className='single-rider-div'>
           <img 
             src={displayRider.avatar} 
@@ -28,7 +54,7 @@ export const SingleRider = (props) => {
             code={displayRider.country}
             size={'2x'}
           />
-          <p>{`Age: ${displayRider.age}`}</p>
+          <p>{`Birthday: ${displayRider.birthdate}`}</p>
           <p>{`Sponsor: ${displayRider.sponsor}`}</p>
           <h2>{`${displayRider.name}'s Stats`}</h2>
           <p>{`Games Played: ${displayRider.games_played}`}</p>
@@ -79,23 +105,26 @@ export const SingleRider = (props) => {
               </g>
             </svg>                        
           </div>
-
+          
           <h2>{`${displayRider.name}'s Games`}</h2>
         </div>
       }
     </div>
-  )
+    )    
+  }
 }
 
-export const mapStateToProps = ({riders}) => ({
-  riders
+export const mapStateToProps = ({riders, singleRider}) => ({
+  riders,
+  singleRider
 })
 
-// export const mapDispatchToProps = (dispatch) => ({
+export const mapDispatchToProps = (dispatch) => ({
+  addSingleRiderToStore: (currentRider) => dispatch(addSingleRiderToStore(currentRider)),
+  addStatsToSingleRider: (riderStatsObject) => dispatch(addStatsToSingleRider(riderStatsObject))
+})
 
-// })
-
-export default connect(mapStateToProps)(SingleRider)
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(SingleRider))
 
 // age
 // avatar

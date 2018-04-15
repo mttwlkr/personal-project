@@ -1,4 +1,4 @@
-export const getSingle = async (gameID) => {
+export const getSingleVideo = async (gameID) => {
   try {
     const proxyurl = "https://cors-anywhere.herokuapp.com/"; 
     const response = await fetch(`${proxyurl}slvsh.com/${gameID}.json`)
