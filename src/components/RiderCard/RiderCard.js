@@ -2,7 +2,7 @@ import React from 'react';
 import './RiderCard.css';
 import FlagIcon from '../FlagIconFactory/FlagIconFactory';
 
-const RiderCard = ({rider}) => {
+const RiderCard = ({rider, handleRider}) => {
   const statKeys = Object.keys(rider).filter( key => {
     return key === "Offense" || key === "Defense" || key === "Difficulty" || key === "Overall"
   })
@@ -14,7 +14,10 @@ const RiderCard = ({rider}) => {
   })
 
   return (
-    <div className='rider-container-card'>
+    <div 
+      className='rider-container-card'
+      onClick={() => handleRider(rider.id)}
+    >
       <img 
         className='rider-card-thumbnail' 
         src={rider.avatar}

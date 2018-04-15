@@ -39,6 +39,11 @@ export class RiderContainer extends Component {
     }
   }
 
+  handleRider = (slvshID) => {
+    this.props.history.push(`/riders/${slvshID}`)
+    
+  }
+
   render() {
     const { riders } = this.props;
     let displayRiders;
@@ -46,7 +51,7 @@ export class RiderContainer extends Component {
 
     if (riders.length) {
       displayRiders = riders.map((rider, idx) => {
-        return <RiderCard rider={rider} key={rider.id} />
+        return <RiderCard rider={rider} key={rider.id} handleRider={this.handleRider} />
       })
 
       statsForTable = riders.filter(rider => {
@@ -74,7 +79,11 @@ export class RiderContainer extends Component {
             <ReactTable
               getProps={(state, rowInfo, column, instance) => {
                 return {
-                  onClick: (e) => this.handleOriginal(e)
+                  onClick: (e) => {
+                    if(e.target.className === 'rt-th slvsh-stats-header') {
+                      this.handleOriginal(e)
+                    }
+                  }
                 }
               }}
               data={statsForTable}
@@ -87,7 +96,10 @@ export class RiderContainer extends Component {
         <section className='rider-container'>
           { 
             riders.length > 0 ? displayRiders 
-            : <img src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'/>
+            : <img 
+                src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'
+                alt='loading-GIF'
+              />
           }
         </section>
       </div>

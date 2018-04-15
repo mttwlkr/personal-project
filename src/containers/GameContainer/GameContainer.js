@@ -22,6 +22,7 @@ export class GameContainer extends Component {
 
   handlePageClick = async (e) => {
     const pageNumber = e.target.value
+    this.props.history.push(`/games/page/${pageNumber}`)
     const games = await getGames(pageNumber);
     this.props.addGamesToStore(games)
   }
@@ -42,25 +43,32 @@ export class GameContainer extends Component {
         <section className='game-container'>
           {
             games.posts ? displayGames 
-            : <img src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'/>
+            : <img 
+                src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'
+                alt='loading-GIF'
+              />
           }
         </section>
+
         <div className='page-navigation-button-div'>
           { games.current_page > 1 &&
             <button
               value={games.current_page - 1}
               onClick={this.handlePageClick}
-            >{`${games.current_page - 1}`}</button>         
+            >{`< ${games.current_page - 1}`}</button>         
           }
+
           <button
             value={games.current_page}
+            className='current-page-button'
             onClick={this.handlePageClick}
-          >{`${games.current_page}`}</button>
+          >{`${games.current_page || 'Loading...'}`}</button>
+
           { games.current_page < games.total_pages - 2 &&
             <button
               value={games.current_page + 1}
               onClick={this.handlePageClick}
-            >{`${games.current_page + 1}`}</button>
+            >{`${games.current_page + 1} >`}</button>
           }
           { games.current_page < games.total_pages - 1 &&
             <button

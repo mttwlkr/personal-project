@@ -1,0 +1,17 @@
+.single-rider-div {
+  margin-top: 70px;
+}
+
+.stats-div {
+  display: flex;
+  height: 200px;
+}
+
+.circle-copy {
+  font-size: 12px;
+}
+
+.single-rider-div img {
+  margin-top: 2em;
+  border-radius: 50%;
+}
