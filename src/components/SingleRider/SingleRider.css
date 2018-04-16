@@ -1,17 +1,65 @@
-.single-rider-div {
+.loading-gif {
+  padding-top: 3em;
+  margin: 3em 8em;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-rider-background-div {
   margin-top: 70px;
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+}
+
+.single-rider-card {
+  padding: 3em 0em;
+  margin: 3em 8em;
+  box-shadow: 0px 0px 15px 2px #9E9E9E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-rider-card h1, 
+.single-rider-card p {
+  margin: 0;
+  padding: 0;
+}
+
+.single-rider-card-info-div {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 12em;
+  justify-content: space-evenly;
 }
 
 .stats-div {
   display: flex;
+  flex-direction: column;
+}
+
+.stats-div-upper,
+.stats-div-lower {
+  display: flex;
   height: 200px;
 }
 
-.circle-copy {
-  font-size: 12px;
+.circle-label {
+  font-weight: 400;
 }
 
-.single-rider-div img {
-  margin-top: 2em;
-  border-radius: 50%;
+.single-rider-card-title {
+  font-weight: 800;
+  margin: 1em 0em;
+}
+
+.single-rider-card-value {
+  font-weight: 400;
 }
