@@ -8,10 +8,13 @@ import { addSingleGameToStore } from '../../actions/index.js'
 export class VideoPlayer extends Component {
 
   async componentDidMount() {
-    const { location, addSingleGameToStore } = this.props
-    const currentLocation = location.pathname
-    const currentGame = await getSingleVideo(currentLocation)
-    addSingleGameToStore(currentGame)
+    if (!this.props.games.posts) {
+      const { location, addSingleGameToStore } = this.props
+      const currentLocation = location.pathname
+      const currentGame = await getSingleVideo(currentLocation)
+      addSingleGameToStore(currentGame)      
+    }
+    window.scrollTo(0, 0)
   }
 
   render() {

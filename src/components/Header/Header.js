@@ -22,7 +22,7 @@ class Header extends Component {
             src="http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png"/>
         </NavLink>
         <NavLink 
-          to='/games' 
+          to='/games/page/1'
           className='nav-btn nav-games' 
           style={{ textDecoration: 'none' }}
           activeStyle={{color: '#ff0049'}}

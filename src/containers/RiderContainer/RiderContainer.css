@@ -33,6 +33,16 @@
   font-weight: 800;
 }
 
+.-sort-asc {
+  font-weight: 800;
+  background: linear-gradient(#2c3e50, #efefef);
+}
+
+.-sort-desc {
+  font-weight: 800;
+  background: linear-gradient(#efefef, #2c3e50);
+}
+
 .slvsh-stats-header:hover {
   color: #ff0049;
 }

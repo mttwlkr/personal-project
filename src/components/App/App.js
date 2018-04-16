@@ -16,7 +16,7 @@ export class App extends Component {
       <div className="App">
         <Header />
         <Route exact path='/' component={GameContainer}></Route>
-        <Route exact path='/games' component={GameContainer}></Route>    
+        <Route exact path='/games/page/' component={GameContainer}></Route>    
         <Route exact path='/games/:game' component={VideoPlayer}></Route>
         <Route exact path='/games/page/:page' component={GameContainer}></Route>
         <Route exact path='/riders' component={RiderContainer}></Route>

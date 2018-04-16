@@ -9,10 +9,21 @@ import { withRouter } from 'react-router';
 import { addVideoToPlayer } from '../../actions';
 
 export class GameContainer extends Component {
+  constructor() {
+    super()
+    this.state = {
+      loading: true
+    }
+  }
 
   async componentDidMount() {
-    const games = await getGames(1);
-    this.props.addGamesToStore(games);
+    const { match } = this.props
+    if (this.props.games.current_page !== parseInt(match.params.page, 10) && !this.props.games.posts) {
+      const pageNumber = match.params.page || 1
+      const games = await getGames(pageNumber)
+      this.props.addGamesToStore(games)
+    } 
+    this.setState({loading: false})
   }
 
   handleRoute = (gameID) => {
@@ -21,10 +32,12 @@ export class GameContainer extends Component {
   }
 
   handlePageClick = async (e) => {
+    this.setState({loading: true})
     const pageNumber = e.target.value
     this.props.history.push(`/games/page/${pageNumber}`)
-    const games = await getGames(pageNumber);
+    const games = await getGames(pageNumber)
     this.props.addGamesToStore(games)
+    this.setState({loading: false})
   }
 
   render() {
@@ -41,12 +54,16 @@ export class GameContainer extends Component {
     return (
       <div>
         <section className='game-container'>
-          {
-            games.posts ? displayGames 
-            : <img 
-                src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'
-                alt='loading-GIF'
-              />
+          { 
+            this.state.loading && 
+            <img 
+              src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'
+              alt='loading-GIF'
+            />
+          }
+          { 
+            !this.state.loading &&
+            displayGames
           }
         </section>
 
