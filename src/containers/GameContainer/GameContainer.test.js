@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { GameContainer, mapStateToProps, mapDispatchToProps } from './GameContainer.js';
-import { mockAPIGamesData } from '../../mock-data/mockData';
+import { mockAPIGamesData, mockHistory } from '../../mock-data/mockData';
 import { getGames } from '../../fetches/get-games.js'
 
 jest.mock('../../fetches/get-games')
@@ -10,9 +10,6 @@ describe('GameContainer', () => {
 
   const mockAddGamesToStore = jest.fn();
   const mockAddVideoToPlayer = jest.fn();
-  const mockHistory = { 
-    location: "/games/",
-    pathname: "/games/870" }
   let wrapper;
 
   beforeEach(() => {
@@ -24,7 +21,7 @@ describe('GameContainer', () => {
     />) 
   })
 
-  it.skip('should match the snapshot', () => {
+  it('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
@@ -34,12 +31,16 @@ describe('GameContainer', () => {
   })
 
   it('should handle route', () => {
-
-    // expect(addVideoToPlayer).toHaveBeenCalled()
+    wrapper.instance().handleRoute()
+    expect(mockAddVideoToPlayer).toHaveBeenCalled()
+    expect(wrapper).toMatchSnapshot()
   })
 
   it('should handle page click', () => {
-    
+    const mockEvent = {target: {value: 66}}
+    wrapper.instance().handlePageClick(mockEvent)
+    expect(getGames).toHaveBeenCalled()
+    expect(mockAddGamesToStore).toHaveBeenCalled()
   })
 
   it('should map the correct state', () => {

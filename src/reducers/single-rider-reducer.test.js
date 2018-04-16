@@ -21,4 +21,11 @@ describe('singleRiderReducer', () => {
     const answer = singleRiderReducer(mockStateRider, mockAction)
     expect(answer).toEqual(mockAction.currentRider)
   })
+
+  it('should add the riders stats to the riders profile', () => {
+    const mockStateRider = {id: 60, name: 'Jonny Moeseley'}
+    const mockAction = {type: "ADD_STATS_TO_SINGLE_RIDER", riderStatsObject: {"60": {slvsh_id: 60, Offense: .75}}}
+    const answer = singleRiderReducer(mockStateRider, mockAction)
+    expect(answer.Offense).toEqual(mockAction.riderStatsObject["60"].Offense)
+  })
 })

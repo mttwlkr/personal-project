@@ -6,8 +6,8 @@ const RiderCard = ({rider, handleRider}) => {
   const statKeys = Object.keys(rider).filter( key => {
     return key === "Offense" || key === "Defense" || key === "Difficulty" || key === "Overall"
   })
-  const displayStats = statKeys.map( stat => {
-    return <div className='rider-card-stat'>
+  const displayStats = statKeys.map((stat, index) => {
+    return <div className='rider-card-stat' key={index}>
         <span className='rider-card-stat-title'>{`${stat}`}</span>
         {`: ${(rider[stat]).toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 3 })}`}
       </div>

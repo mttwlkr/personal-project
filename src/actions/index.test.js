@@ -1,4 +1,5 @@
 import * as actions from './index';
+import { riderStatsObject } from '../mock-data/mockData.js'
 
 describe('actions', () => {
 
@@ -40,6 +41,19 @@ describe('actions', () => {
     const mockCurrentGame = {gameID: 666}
     const expected = { type: 'ADD_SINGLE_GAME_TO_STORE', currentGame: { gameID: 666 } }
     const actioned = actions.addSingleGameToStore(mockCurrentGame)
+    expect(actioned).toEqual(expected)
+  })
+
+  it('should return a type and payload of the current rider', () => {
+    const mockCurrentRider = {id: 66, name: "Johnny Moesley"}
+    const expected = { type: 'ADD_SINGLE_RIDER_TO_STORE', currentRider: {id: 66, name: "Johnny Moesley"}}
+    const actioned = actions.addSingleRiderToStore(mockCurrentRider)
+    expect(actioned).toEqual(expected)
+  })
+
+  it('should return a type and payload of the rider stats object', () => {
+    const expected = { type: 'ADD_STATS_TO_SINGLE_RIDER', riderStatsObject}
+    const actioned = actions.addStatsToSingleRider(riderStatsObject)
     expect(actioned).toEqual(expected)
   })
 })

@@ -1,7 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import GameCard from './GameCard.js';
-import { mockAPIGamesData } from '../../mock-data/mockData';
+import { mockAPIGamesData, 
+  mockInstabanger,
+  mockBadGameForGameCard } from '../../mock-data/mockData';
 
 describe('GameCard', () => {
 
@@ -24,6 +26,23 @@ describe('GameCard', () => {
     let mockGame = mockAPIGamesData.posts[0] // game_postclass is a film
     wrapper = shallow(<GameCard 
       game={mockGame}
+      handleRoute={mockHandleRoute}
+    />)
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('should add instabanger styling based on game_postclass', () => {
+    wrapper = shallow(<GameCard 
+      game={mockInstabanger}          // game_postclass is an instabanger
+      handleRoute={mockHandleRoute}
+    />)
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('should render slvsh-styling based on no game_postclass', () => {
+    const mockGame = {"post_class": "in-on-out"}
+    wrapper = shallow(<GameCard 
+      game={mockBadGameForGameCard}   // game_postclass is wrong
       handleRoute={mockHandleRoute}
     />)
     expect(wrapper).toMatchSnapshot()
