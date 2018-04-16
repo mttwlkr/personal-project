@@ -6,6 +6,11 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <VideoPlayer
     addSingleGameToStore={[Function]}
+    gameForPlayer={
+        Array [
+            836,
+          ]
+    }
     games={
         Object {
             "current_page": 1,
@@ -279,11 +284,6 @@ ShallowWrapper {
               "pathname": "/games/836",
             },
           }
-    }
-    player={
-        Array [
-            836,
-          ]
     }
 />,
   Symbol(enzyme.__renderer__): Object {
