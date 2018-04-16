@@ -45,17 +45,6 @@ const RiderCard = ({rider, handleRider}) => {
 
 export default RiderCard;
 
-// age
-// avatar
-// birthdate
-// country
-// id
-// name
-// slvsh_avg
-// sponsor
-// url
-
-
 // const getStats = () => {
 
 //     const topOffense = () => props.riders.filter(rider => rider.games_played > 1).sort((a, b) => b.Offense - a.Offense).slice(0, 10) 

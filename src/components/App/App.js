@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import GameContainer from '../../containers/GameContainer/GameContainer.js';
 import RiderContainer from '../../containers/RiderContainer/RiderContainer';
-import VideoPlayer from '../VideoPlayer/VideoPlayer.js';
-import Header from '../../containers/Header/Header';
-import Footer from '../../components/Footer/Footer';
-import SingleRider from '../../components/SingleRider/SingleRider'
+import VideoPlayer from '../../containers/VideoPlayer/VideoPlayer.js';
+import Header from '../Header/Header.js';
+import Footer from '../../components/Footer/Footer.js';
+import SingleRider from '../../containers/SingleRider/SingleRider.js'
 import { Route } from 'react-router-dom';
 import { withRouter } from 'react-router';
 
