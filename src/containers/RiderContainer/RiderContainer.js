@@ -41,7 +41,6 @@ export class RiderContainer extends Component {
 
   handleRider = (slvshID) => {
     this.props.history.push(`/riders/${slvshID}`)
-    
   }
 
   render() {

@@ -275,6 +275,106 @@ export const mockRiderReducerExpected = {
   "games_played": 3 
 }
 
+export const mockInstabanger = {
+  "id": 810,
+  "created_at": "2018-02-20T01:51:40.705Z",
+  "updated_at": "2018-02-20T01:51:40.705Z",
+  "video_host": "youtube",
+  "vimeo_id": "TyRSD_tTpUk",
+  "type": "Game",
+  "location": "Windells Camp, OR",
+  "video_url": "https://www.youtube.com/embed/TyRSD_tTpUk",
+  "title": "Alex Hall Instabanger || Windells&nbsp;Camp",
+  "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/810/medium/AHall2.jpg?1519091497",
+  "post_class": "instabanger",
+  "publish_date": "about 2 months",
+  "href": "/games/810",
+  "winner": {
+    "id": 80,
+    "name": "Alex Hall",
+    "created_at": "2015-12-08T14:30:14.125Z",
+    "updated_at": "2016-08-09T08:52:12.365Z",
+    "sponsor": "Shred",
+    "avatar_file_name": "Alexhall.jpg",
+    "avatar_content_type": "image/jpeg",
+    "avatar_file_size": 89077,
+    "avatar_updated_at": "2015-12-08T14:30:12.918Z",
+    "country": "us",
+    "birthdate": "1998-10-21",
+    "slvsh_avg": 500
+  },
+  "loser": null,
+  "game_type": "Instabanger",
+  "description": "US freeskiing Olympian Alex Hall takes your trick callouts and shout-outs at Windells Camp.",
+  "formatted_publish_date": "02.20.2018",
+  "tags": [
+    {"name": "alex hall"},
+    {"name": "Instabanger"},
+    {"name": "windells"},
+    {"name": "slvsh"}
+  ],
+  "tags_string": "alex hall, Instabanger, windells, slvsh"
+}
 
+export const mockBadGameForGameCard = {
+  "id": 810,
+  "created_at": "2018-02-20T01:51:40.705Z",
+  "updated_at": "2018-02-20T01:51:40.705Z",
+  "video_host": "youtube",
+  "vimeo_id": "TyRSD_tTpUk",
+  "type": "Game",
+  "location": "Windells Camp, OR",
+  "video_url": "https://www.youtube.com/embed/TyRSD_tTpUk",
+  "title": "Alex Hall Instabanger || Windells&nbsp;Camp",
+  "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/810/medium/AHall2.jpg?1519091497",
+  "post_class": "in-on-out",
+  "publish_date": "about 2 months",
+  "href": "/games/810",
+  "winner": {
+    "id": 80,
+    "name": "Alex Hall",
+    "created_at": "2015-12-08T14:30:14.125Z",
+    "updated_at": "2016-08-09T08:52:12.365Z",
+    "sponsor": "Shred",
+    "avatar_file_name": "Alexhall.jpg",
+    "avatar_content_type": "image/jpeg",
+    "avatar_file_size": 89077,
+    "avatar_updated_at": "2015-12-08T14:30:12.918Z",
+    "country": "us",
+    "birthdate": "1998-10-21",
+    "slvsh_avg": 500
+  },
+  "loser": null,
+  "game_type": "Instabanger",
+  "description": "US freeskiing Olympian Alex Hall takes your trick callouts and shout-outs at Windells Camp.",
+  "formatted_publish_date": "02.20.2018",
+  "tags": [
+    {"name": "alex hall"},
+    {"name": "Instabanger"},
+    {"name": "windells"},
+    {"name": "slvsh"}
+  ],
+  "tags_string": "alex hall, Instabanger, windells, slvsh"
+}
 
+export const mockMatch = {
+  isExact: true,
+  params: {rider: "23"},
+  path: "/riders/:rider",
+  url: "/riders/23",
+}
+
+export const mockHistory = { 
+  action: "PUSH",
+  block: jest.fn(),
+  createHref: jest.fn(location),
+  go: jest.fn(),
+  goBack: jest.fn(),
+  goForward: jest.fn(),
+  length: 5,
+  listen: jest.fn(),
+  location: {pathname: "/games/836", search: "", hash: "", state: undefined, key: "qjurdm"},
+  push: jest.fn(),
+  replace: jest.fn(),
+}
 

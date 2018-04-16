@@ -20,7 +20,7 @@ const GameCard = ({game, handleRoute}) => {
       break;
     default:
       gameStyling = 'slvsh-style'
-      gameType = 'SLVSH';
+      gameType = 'S.L.V.S.H.'
   }
 
   return (
