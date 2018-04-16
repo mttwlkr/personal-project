@@ -1,18 +1,18 @@
+.single-rider-background-div {
+  margin-top: 70px;
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+}
+
 .loading-gif {
-  padding-top: 3em;
+  padding: 3em 0em;
   margin: 3em 8em;
   height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.single-rider-background-div {
-  margin-top: 70px;
-  background-color: #efefef;
-  display: flex;
-  justify-content: center;
 }
 
 .single-rider-card {

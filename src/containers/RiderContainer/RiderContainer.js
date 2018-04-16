@@ -18,10 +18,11 @@ export class RiderContainer extends Component {
   }
 
   async componentDidMount() {
-    // check to see if there are riders length before fetching. 
-    const riders = await getRiders();
-    this.props.addRidersToStore(riders);
-    this.props.addStatsToStore(riderStatsObject);
+    if (!this.props.riders.length) {
+      const riders = await getRiders();
+      this.props.addRidersToStore(riders);
+      this.props.addStatsToStore(riderStatsObject); 
+    }
   }
 
   handleOriginal = (e) => {

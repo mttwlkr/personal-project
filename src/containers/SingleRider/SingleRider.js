@@ -10,11 +10,13 @@ import { riderStatsObject } from '../../stats/rider-stats-object.js'
 export class SingleRider extends Component {
 
   async componentDidMount() {
-    const { match, addSingleRiderToStore, addStatsToSingleRider } = this.props
-    const currentRider = match.params.rider
-    const riderObj = await getSingleRider(currentRider)
-    addSingleRiderToStore(riderObj)
-    addStatsToSingleRider(riderStatsObject)
+    const { match, addSingleRiderToStore, addStatsToSingleRider, riders } = this.props
+    if (!riders.length) {
+      const currentRider = match.params.rider
+      const riderObj = await getSingleRider(currentRider)
+      addSingleRiderToStore(riderObj)
+      addStatsToSingleRider(riderStatsObject)      
+    }
   }
 
   render() {
@@ -34,8 +36,7 @@ export class SingleRider extends Component {
 
   return (
     <div className='single-rider-background-div'>
-      { 
-        !displayRider.Offense && 
+      { !displayRider.id &&        
         <div className='loading-gif'>
           <img 
             src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif' 
@@ -43,8 +44,10 @@ export class SingleRider extends Component {
           />
         </div>
       }
-      { displayRider.Offense && 
-        <div className='single-rider-card'>
+
+    <div className='single-rider-card' style={{display: !displayRider.id ? 'none' : 'flex'}}>
+      { displayRider.id && 
+        <div>
           <img 
             src={displayRider.avatar} 
             alt={displayRider.name}
@@ -61,7 +64,7 @@ export class SingleRider extends Component {
             </p>
   
             <p className='single-rider-card-title srct-games-played'>{`Games Played: `}
-              <span className='single-rider-card-value srcv-games-played'>{`${displayRider.games_played}`}</span>
+              <span className='single-rider-card-value srcv-games-played'>{`${displayRider.games_played || 0}`}</span>
             </p>
   
             <FlagIcon 
@@ -69,61 +72,62 @@ export class SingleRider extends Component {
               size={'2x'}
             />
           </div>
-          <div>
-
-          </div>
-          <div className='stats-div'>
-            <div className='stats-div-upper'>
-              <svg width="100%" height="100%" viewBox="0 0 42 42" className="circle">
-                <circle className="circle-inner" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
-                <circle className="circle-whole" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"  strokeWidth="3"></circle>
-                <circle className="circle-colored" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#2c3e50"  strokeWidth="3" 
-                  strokeDasharray={`${Math.floor(displayRider.Offense * 100)}, ${(100 - Math.floor(displayRider.Offense * 100))}`}
-                  strokeDashoffset="75"></circle>
-                <g className="circle-copy">
-                  <text x="32%" y="52%" fontSize='8px' className="circle-number">{`${displayRider.Offense.toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 2 })}`}</text>
-                  <text x="33%" y="65%" fontSize='4px' className="circle-label">Offense</text>
-                </g>
-              </svg>
-              <svg width="100%" height="100%" viewBox="0 0 42 42" className="circle">
-                <circle className="circle-inner" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
-                <circle className="circle-whole" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"  strokeWidth="3"></circle>
-                <circle className="circle-colored" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#2c3e50"  strokeWidth="3" 
-                  strokeDasharray={`${Math.floor(displayRider.Defense * 100)}, ${(100 - Math.floor(displayRider.Defense * 100))}`}
-                  strokeDashoffset="75"></circle>
-                <g className="circle-copy">
-                  <text x="32%" y="52%" fontSize='8px' className="circle-number">{`${displayRider.Defense.toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 2 })}`}</text>
-                  <text x="33%" y="65%" fontSize='4px' className="circle-label">Defense</text>
-                </g>
-              </svg>
-            </div>
-            <div className='stats-div-lower'>
-              <svg width="100%" height="100%" viewBox="0 0 42 42" className="circle">
-                <circle className="circle-inner" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
-                <circle className="circle-whole" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"  strokeWidth="3"></circle>
-                <circle className="circle-colored" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#2c3e50"  strokeWidth="3" 
-                  strokeDasharray={`${Math.floor(displayRider.Difficulty * 100)}, ${(100 - Math.floor(displayRider.Difficulty * 100))}`}
-                  strokeDashoffset="75"></circle>
-                <g className="circle-copy">
-                  <text x="32%" y="52%" fontSize='8px' className="circle-number">{`${displayRider.Difficulty.toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 2 })}`}</text>
-                  <text x="33%" y="65%" fontSize='4px' className="circle-label">Difficulty</text>
-                </g>
-              </svg>
-              <svg width="100%" height="100%" viewBox="0 0 42 42" className="circle">
-                <circle className="circle-inner" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
-                <circle className="circle-whole" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"  strokeWidth="3"></circle>
-                <circle className="circle-colored" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#2c3e50"  strokeWidth="3" 
-                  strokeDasharray={`${Math.floor(displayRider.Overall * 100)}, ${(100 - Math.floor(displayRider.Overall * 100))}`}
-                  strokeDashoffset="75"></circle>
-                <g className="circle-copy">
-                  <text x="32%" y="52%" fontSize='8px' className="circle-number">{`${displayRider.Overall.toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 2 })}`}</text>
-                  <text x="33%" y="65%" fontSize='4px' className="circle-label">Overall</text>
-                </g>
-              </svg> 
-            </div>                       
-          </div>
         </div>
       }
+
+      { displayRider.Offense &&
+        <div className='stats-div'>
+          <div className='stats-div-upper'>
+            <svg width="100%" height="100%" viewBox="0 0 42 42" className="circle">
+              <circle className="circle-inner" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+              <circle className="circle-whole" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"  strokeWidth="3"></circle>
+              <circle className="circle-colored" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#2c3e50"  strokeWidth="3" 
+                strokeDasharray={`${Math.floor(displayRider.Offense * 100)}, ${(100 - Math.floor(displayRider.Offense * 100))}`}
+                strokeDashoffset="75"></circle>
+              <g className="circle-copy">
+                <text x="32%" y="52%" fontSize='8px' className="circle-number">{`${displayRider.Offense.toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 2 })}`}</text>
+                <text x="33%" y="65%" fontSize='4px' className="circle-label">Offense</text>
+              </g>
+            </svg>
+            <svg width="100%" height="100%" viewBox="0 0 42 42" className="circle">
+              <circle className="circle-inner" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+              <circle className="circle-whole" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"  strokeWidth="3"></circle>
+              <circle className="circle-colored" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#2c3e50"  strokeWidth="3" 
+                strokeDasharray={`${Math.floor(displayRider.Defense * 100)}, ${(100 - Math.floor(displayRider.Defense * 100))}`}
+                strokeDashoffset="75"></circle>
+              <g className="circle-copy">
+                <text x="32%" y="52%" fontSize='8px' className="circle-number">{`${displayRider.Defense.toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 2 })}`}</text>
+                <text x="33%" y="65%" fontSize='4px' className="circle-label">Defense</text>
+              </g>
+            </svg>
+          </div>
+          <div className='stats-div-lower'>
+            <svg width="100%" height="100%" viewBox="0 0 42 42" className="circle">
+              <circle className="circle-inner" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+              <circle className="circle-whole" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"  strokeWidth="3"></circle>
+              <circle className="circle-colored" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#2c3e50"  strokeWidth="3" 
+                strokeDasharray={`${Math.floor(displayRider.Difficulty * 100)}, ${(100 - Math.floor(displayRider.Difficulty * 100))}`}
+                strokeDashoffset="75"></circle>
+              <g className="circle-copy">
+                <text x="32%" y="52%" fontSize='8px' className="circle-number">{`${displayRider.Difficulty.toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 2 })}`}</text>
+                <text x="33%" y="65%" fontSize='4px' className="circle-label">Difficulty</text>
+              </g>
+            </svg>
+            <svg width="100%" height="100%" viewBox="0 0 42 42" className="circle">
+              <circle className="circle-inner" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+              <circle className="circle-whole" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"  strokeWidth="3"></circle>
+              <circle className="circle-colored" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#2c3e50"  strokeWidth="3" 
+                strokeDasharray={`${Math.floor(displayRider.Overall * 100)}, ${(100 - Math.floor(displayRider.Overall * 100))}`}
+                strokeDashoffset="75"></circle>
+              <g className="circle-copy">
+                <text x="32%" y="52%" fontSize='8px' className="circle-number">{`${displayRider.Overall.toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 2 })}`}</text>
+                <text x="33%" y="65%" fontSize='4px' className="circle-label">Overall</text>
+              </g>
+            </svg> 
+          </div>                       
+        </div>
+      }
+    </div>
     </div>
     )    
   }
