@@ -1,5 +1,5 @@
 import React from 'react';
-import { VideoPlayer, mapStateToProps, mapDispatchToProps } from './VideoPlayer';
+import { VideoPlayer, mapStateToProps, mapDispatchToProps } from './VideoPlayer.js';
 import { shallow } from 'enzyme';
 import { getSingleVideo } from '../../fetches/get-single-video';
 import { mockAPIGamesData } from '../../mock-data/mockData';

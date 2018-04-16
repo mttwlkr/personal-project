@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './SingleRider.css';
 import { connect } from 'react-redux';
-import FlagIcon from '../FlagIconFactory/FlagIconFactory';
+import FlagIcon from '../../components/FlagIconFactory/FlagIconFactory';
 import { withRouter } from 'react-router';
 import { getSingleRider } from '../../fetches/get-single-rider';
 import { addSingleRiderToStore, addStatsToSingleRider } from '../../actions/index.js';
@@ -68,6 +68,9 @@ export class SingleRider extends Component {
               code={displayRider.country}
               size={'2x'}
             />
+          </div>
+          <div>
+
           </div>
           <div className='stats-div'>
             <div className='stats-div-upper'>
@@ -137,19 +140,3 @@ export const mapDispatchToProps = (dispatch) => ({
 })
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(SingleRider))
-
-// age
-// avatar
-// birthdate
-// country
-// id
-// name
-// slvsh_avg
-// sponsor
-// url
-
-
-          // <p>{`Offense: ${displayRider.Offense.toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 3 })}`}</p>
-          // <p>{`Defense: ${displayRider.Defense.toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 3 })}`}</p>
-          // <p>{`Difficulty: ${displayRider.Difficulty.toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 3 })}`}</p>
-          // <p>{`Overall: ${displayRider.Overall.toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 3 })}`}</p>

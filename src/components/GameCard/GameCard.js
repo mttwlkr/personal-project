@@ -43,21 +43,3 @@ const GameCard = ({game, handleRoute}) => {
 
 
 export default GameCard;
-
-// { id
-//       created_at
-//       updated_at
-//       video_host
-//       vimeo_id
-//       type
-//       location
-//       video_url
-//       title
-//       poster_img
-//       post_class
-//       publish_date
-//       href
-//       description
-//       formatted_publish_date
-//       tags
-//       tags_string }
