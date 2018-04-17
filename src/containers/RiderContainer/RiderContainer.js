@@ -124,10 +124,12 @@ export class RiderContainer extends Component {
         <section className='rider-container'>
           { 
             riders.length > 0 ? displayRiders 
-              : <img
-                src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'
-                alt='loading-GIF'
-              />
+              : <div className='loading-gif-div'>
+                <img
+                  src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'
+                  alt='loading-GIF'
+                />
+              </div>
           }
         </section>
       </div>

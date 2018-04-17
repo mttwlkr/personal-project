@@ -3,10 +3,6 @@
   background: #efefef;
 }
 
-header {
-  
-}
-
 .game-container,
 .rider-container {
   display: flex;

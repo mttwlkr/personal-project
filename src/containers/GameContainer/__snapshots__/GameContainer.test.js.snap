@@ -56,10 +56,14 @@ ShallowWrapper {
         <section
           className="game-container"
 >
-          <img
-                    alt="loading-GIF"
-                    src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
-          />
+          <div
+                    className="loading-gif-div"
+          >
+                    <img
+                              alt="loading-GIF"
+                              src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
+                    />
+          </div>
 </section>,
         <div
           className="page-navigation-button-div"
@@ -82,10 +86,14 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <img
-              alt="loading-GIF"
-              src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
-/>,
+            <div
+              className="loading-gif-div"
+>
+              <img
+                            alt="loading-GIF"
+                            src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
+              />
+</div>,
             false,
           ],
           "className": "game-container",
@@ -97,12 +105,26 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "alt": "loading-GIF",
-              "src": "http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif",
+              "children": <img
+                alt="loading-GIF"
+                src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
+/>,
+              "className": "loading-gif-div",
             },
             "ref": null,
-            "rendered": null,
-            "type": "img",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "loading-GIF",
+                "src": "http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
           },
           false,
         ],
@@ -162,10 +184,14 @@ ShallowWrapper {
           <section
             className="game-container"
 >
-            <img
-                        alt="loading-GIF"
-                        src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
-            />
+            <div
+                        className="loading-gif-div"
+            >
+                        <img
+                                    alt="loading-GIF"
+                                    src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
+                        />
+            </div>
 </section>,
           <div
             className="page-navigation-button-div"
@@ -188,10 +214,14 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <img
-                alt="loading-GIF"
-                src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
-/>,
+              <div
+                className="loading-gif-div"
+>
+                <img
+                                alt="loading-GIF"
+                                src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
+                />
+</div>,
               false,
             ],
             "className": "game-container",
@@ -203,12 +233,26 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "alt": "loading-GIF",
-                "src": "http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif",
+                "children": <img
+                  alt="loading-GIF"
+                  src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
+/>,
+                "className": "loading-gif-div",
               },
               "ref": null,
-              "rendered": null,
-              "type": "img",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "loading-GIF",
+                  "src": "http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
             },
             false,
           ],

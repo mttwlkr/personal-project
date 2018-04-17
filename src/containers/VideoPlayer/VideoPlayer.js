@@ -34,7 +34,14 @@ export class VideoPlayer extends Component {
 
     return (
       <div className='main-video-player-div'>
-        { !theGame && <h1>Loading</h1> }
+        { !theGame && 
+          <div className='loading-GIF-video-player'>
+            <img
+              src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'
+              alt='loading-GIF'
+            />
+          </div>
+        }
         { theGame && 
           <div>
             <section className='video-player-editorial-title'>
@@ -56,7 +63,8 @@ export class VideoPlayer extends Component {
               </div>
             </div> 
             <section className='video-player-editorial-body'>
-              {theGame.editorial ? theGame.editorial : theGame.description}
+              {theGame.editorial !== undefined && theGame.editorial}
+              {theGame.description !== undefined && theGame.description}
             </section>
           </div>
         }
