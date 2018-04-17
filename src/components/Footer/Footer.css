@@ -1,5 +1,6 @@
 .footer {
   margin-top: 2em;
+  border-top: 1px solid #c7c7c7;
   padding: 1em 0em;
   background: #fff;
   display: flex;
