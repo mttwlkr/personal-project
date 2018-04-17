@@ -288,6 +288,16 @@ ShallowWrapper {
             "replace": [Function],
           }
     }
+    match={
+        Object {
+            "isExact": true,
+            "params": Object {
+              "page": "1",
+            },
+            "path": "/games/page/:page",
+            "url": "/games/page/1",
+          }
+    }
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -606,278 +616,282 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <GameCard
-              game={
-                            Object {
-                                          "created_at": "2018-04-05T15:16:50.775Z",
-                                          "description": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
-                                          "formatted_publish_date": "04.05.2018",
-                                          "href": "/films/869",
-                                          "id": 869,
-                                          "location": "Grandvalira, Andorra",
-                                          "post_class": "film",
-                                          "poster_img": "http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405",
-                                          "publish_date": "1 day",
-                                          "tags": Array [
-                                            Object {
-                                              "name": "Joss Christensen",
-                                            },
-                                            Object {
-                                              "name": "Alex Bellemare",
-                                            },
-                                            Object {
-                                              "name": "Steve Stepp",
-                                            },
-                                            Object {
-                                              "name": "Johan Berg",
-                                            },
-                                            Object {
-                                              "name": "charlie lasser",
-                                            },
-                                            Object {
-                                              "name": "slvsh cup",
-                                            },
-                                            Object {
-                                              "name": "alex hall",
-                                            },
-                                            Object {
-                                              "name": "jake carney",
-                                            },
-                                            Object {
-                                              "name": "Andrew Napier",
-                                            },
-                                            Object {
-                                              "name": "emil granbom",
-                                            },
-                                            Object {
-                                              "name": "hugo burvall",
-                                            },
-                                            Object {
-                                              "name": "edit",
-                                            },
-                                            Object {
-                                              "name": "slvsh cup grandvalira",
-                                            },
-                                            Object {
-                                              "name": "Quinn Wolferman",
-                                            },
-                                            Object {
-                                              "name": "henrik harlaut",
-                                            },
-                                            Object {
-                                              "name": "Ferdinand Dahl",
-                                            },
-                                            Object {
-                                              "name": "Simone Canal",
-                                            },
-                                            Object {
-                                              "name": "Hunter Hess",
-                                            },
-                                            Object {
-                                              "name": "Ethan Swadburg",
-                                            },
-                                            Object {
-                                              "name": "Tom Ritsch",
-                                            },
-                                            Object {
-                                              "name": "James Woods",
-                                            },
-                                            Object {
-                                              "name": "elias syrja",
-                                            },
-                                            Object {
-                                              "name": "Aleksi Patja",
-                                            },
-                                          ],
-                                          "tags_string": "Joss Christensen, Alex Bellemare, Steve Stepp, Johan Berg, charlie lasser, slvsh cup, alex hall, jake carney, Andrew Napier, emil granbom, hugo burvall, edit, slvsh cup grandvalira, Quinn Wolferman, henrik harlaut, Ferdinand Dahl, Simone Canal, Hunter Hess, Ethan Swadburg, Tom Ritsch, James Woods, elias syrja, Aleksi Patja",
-                                          "title": "Recap Edit || Slvsh Cup&nbsp;Grandvalira",
-                                          "type": "Film",
-                                          "updated_at": "2018-04-05T15:16:50.775Z",
-                                          "video_host": "youtube",
-                                          "video_url": "https://www.youtube.com/embed/dJQmXDZW1ig",
-                                          "vimeo_id": "dJQmXDZW1ig",
-                                        }
-              }
-              handleRoute={[Function]}
+            false,
+            Array [
+              <GameCard
+                game={
+                                Object {
+                                                "created_at": "2018-04-05T15:16:50.775Z",
+                                                "description": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
+                                                "formatted_publish_date": "04.05.2018",
+                                                "href": "/films/869",
+                                                "id": 869,
+                                                "location": "Grandvalira, Andorra",
+                                                "post_class": "film",
+                                                "poster_img": "http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405",
+                                                "publish_date": "1 day",
+                                                "tags": Array [
+                                                  Object {
+                                                    "name": "Joss Christensen",
+                                                  },
+                                                  Object {
+                                                    "name": "Alex Bellemare",
+                                                  },
+                                                  Object {
+                                                    "name": "Steve Stepp",
+                                                  },
+                                                  Object {
+                                                    "name": "Johan Berg",
+                                                  },
+                                                  Object {
+                                                    "name": "charlie lasser",
+                                                  },
+                                                  Object {
+                                                    "name": "slvsh cup",
+                                                  },
+                                                  Object {
+                                                    "name": "alex hall",
+                                                  },
+                                                  Object {
+                                                    "name": "jake carney",
+                                                  },
+                                                  Object {
+                                                    "name": "Andrew Napier",
+                                                  },
+                                                  Object {
+                                                    "name": "emil granbom",
+                                                  },
+                                                  Object {
+                                                    "name": "hugo burvall",
+                                                  },
+                                                  Object {
+                                                    "name": "edit",
+                                                  },
+                                                  Object {
+                                                    "name": "slvsh cup grandvalira",
+                                                  },
+                                                  Object {
+                                                    "name": "Quinn Wolferman",
+                                                  },
+                                                  Object {
+                                                    "name": "henrik harlaut",
+                                                  },
+                                                  Object {
+                                                    "name": "Ferdinand Dahl",
+                                                  },
+                                                  Object {
+                                                    "name": "Simone Canal",
+                                                  },
+                                                  Object {
+                                                    "name": "Hunter Hess",
+                                                  },
+                                                  Object {
+                                                    "name": "Ethan Swadburg",
+                                                  },
+                                                  Object {
+                                                    "name": "Tom Ritsch",
+                                                  },
+                                                  Object {
+                                                    "name": "James Woods",
+                                                  },
+                                                  Object {
+                                                    "name": "elias syrja",
+                                                  },
+                                                  Object {
+                                                    "name": "Aleksi Patja",
+                                                  },
+                                                ],
+                                                "tags_string": "Joss Christensen, Alex Bellemare, Steve Stepp, Johan Berg, charlie lasser, slvsh cup, alex hall, jake carney, Andrew Napier, emil granbom, hugo burvall, edit, slvsh cup grandvalira, Quinn Wolferman, henrik harlaut, Ferdinand Dahl, Simone Canal, Hunter Hess, Ethan Swadburg, Tom Ritsch, James Woods, elias syrja, Aleksi Patja",
+                                                "title": "Recap Edit || Slvsh Cup&nbsp;Grandvalira",
+                                                "type": "Film",
+                                                "updated_at": "2018-04-05T15:16:50.775Z",
+                                                "video_host": "youtube",
+                                                "video_url": "https://www.youtube.com/embed/dJQmXDZW1ig",
+                                                "vimeo_id": "dJQmXDZW1ig",
+                                              }
+                }
+                handleRoute={[Function]}
 />,
-            <GameCard
-              game={
-                            Object {
-                                          "created_at": "2018-04-03T13:05:25.506Z",
-                                          "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
-                                          "formatted_publish_date": "04.03.2018",
-                                          "game_type": "S.L.V.S.H.",
-                                          "href": "/games/836",
-                                          "id": 836,
-                                          "location": "Grandvalira, AD",
-                                          "loser": Object {
-                                            "avatar_content_type": "image/jpeg",
-                                            "avatar_file_name": "QuinnWolferman.jpg",
-                                            "avatar_file_size": 51763,
-                                            "avatar_updated_at": "2016-08-02T07:30:32.264Z",
-                                            "birthdate": "1992-10-06",
-                                            "country": "us",
-                                            "created_at": "2016-08-02T07:30:32.665Z",
-                                            "id": 110,
-                                            "name": "Quinn Wolferman",
-                                            "slvsh_avg": 500,
-                                            "sponsor": "Tall Tee",
-                                            "updated_at": "2016-08-02T07:32:11.888Z",
-                                          },
-                                          "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
-                                          "loser_id": 110,
-                                          "loser_score": 5,
-                                          "post_class": "slvsh",
-                                          "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710",
-                                          "publish_date": "3 days",
-                                          "sorted_riders": Array [
-                                            Object {
-                                              "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
-                                              "name": "Henrik Harlaut",
-                                            },
-                                            Object {
-                                              "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
-                                              "name": "Quinn Wolferman",
-                                            },
-                                          ],
-                                          "tags": Array [
-                                            Object {
-                                              "name": "slvsh cup",
-                                            },
-                                            Object {
-                                              "name": "game",
-                                            },
-                                            Object {
-                                              "name": "Quinn Wolferman",
-                                            },
-                                            Object {
-                                              "name": "henrik harlaut",
-                                            },
-                                          ],
-                                          "tags_string": "slvsh cup, game, Quinn Wolferman, henrik harlaut",
-                                          "title": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup&nbsp;Grandvalira",
-                                          "type": "Game",
-                                          "updated_at": "2018-04-03T13:05:25.506Z",
-                                          "video_host": "youtube",
-                                          "video_url": "https://www.youtube.com/embed/b_9xjpVljtM",
-                                          "vimeo_id": "b_9xjpVljtM",
-                                          "winner": Object {
-                                            "avatar_content_type": "image/jpeg",
-                                            "avatar_file_name": "henrik600.jpg",
-                                            "avatar_file_size": 203220,
-                                            "avatar_updated_at": "2017-10-10T12:48:53.810Z",
-                                            "birthdate": "1995-01-01",
-                                            "country": "se",
-                                            "created_at": "2017-10-10T12:48:54.345Z",
-                                            "id": 150,
-                                            "name": "Henrik Harlaut",
-                                            "slvsh_avg": 500,
-                                            "sponsor": "Monster Energy",
-                                            "updated_at": "2018-03-15T13:23:05.198Z",
-                                          },
-                                          "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
-                                          "winner_id": 150,
-                                          "winner_score": 5,
-                                        }
-              }
-              handleRoute={[Function]}
+              <GameCard
+                game={
+                                Object {
+                                                "created_at": "2018-04-03T13:05:25.506Z",
+                                                "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
+                                                "formatted_publish_date": "04.03.2018",
+                                                "game_type": "S.L.V.S.H.",
+                                                "href": "/games/836",
+                                                "id": 836,
+                                                "location": "Grandvalira, AD",
+                                                "loser": Object {
+                                                  "avatar_content_type": "image/jpeg",
+                                                  "avatar_file_name": "QuinnWolferman.jpg",
+                                                  "avatar_file_size": 51763,
+                                                  "avatar_updated_at": "2016-08-02T07:30:32.264Z",
+                                                  "birthdate": "1992-10-06",
+                                                  "country": "us",
+                                                  "created_at": "2016-08-02T07:30:32.665Z",
+                                                  "id": 110,
+                                                  "name": "Quinn Wolferman",
+                                                  "slvsh_avg": 500,
+                                                  "sponsor": "Tall Tee",
+                                                  "updated_at": "2016-08-02T07:32:11.888Z",
+                                                },
+                                                "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
+                                                "loser_id": 110,
+                                                "loser_score": 5,
+                                                "post_class": "slvsh",
+                                                "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710",
+                                                "publish_date": "3 days",
+                                                "sorted_riders": Array [
+                                                  Object {
+                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
+                                                    "name": "Henrik Harlaut",
+                                                  },
+                                                  Object {
+                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
+                                                    "name": "Quinn Wolferman",
+                                                  },
+                                                ],
+                                                "tags": Array [
+                                                  Object {
+                                                    "name": "slvsh cup",
+                                                  },
+                                                  Object {
+                                                    "name": "game",
+                                                  },
+                                                  Object {
+                                                    "name": "Quinn Wolferman",
+                                                  },
+                                                  Object {
+                                                    "name": "henrik harlaut",
+                                                  },
+                                                ],
+                                                "tags_string": "slvsh cup, game, Quinn Wolferman, henrik harlaut",
+                                                "title": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup&nbsp;Grandvalira",
+                                                "type": "Game",
+                                                "updated_at": "2018-04-03T13:05:25.506Z",
+                                                "video_host": "youtube",
+                                                "video_url": "https://www.youtube.com/embed/b_9xjpVljtM",
+                                                "vimeo_id": "b_9xjpVljtM",
+                                                "winner": Object {
+                                                  "avatar_content_type": "image/jpeg",
+                                                  "avatar_file_name": "henrik600.jpg",
+                                                  "avatar_file_size": 203220,
+                                                  "avatar_updated_at": "2017-10-10T12:48:53.810Z",
+                                                  "birthdate": "1995-01-01",
+                                                  "country": "se",
+                                                  "created_at": "2017-10-10T12:48:54.345Z",
+                                                  "id": 150,
+                                                  "name": "Henrik Harlaut",
+                                                  "slvsh_avg": 500,
+                                                  "sponsor": "Monster Energy",
+                                                  "updated_at": "2018-03-15T13:23:05.198Z",
+                                                },
+                                                "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
+                                                "winner_id": 150,
+                                                "winner_score": 5,
+                                              }
+                }
+                handleRoute={[Function]}
 />,
-            <GameCard
-              game={
-                            Object {
-                                          "created_at": "2018-04-02T14:10:08.000Z",
-                                          "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! Alex Hall and Hunter Hess battle it out for the 3rd place title in the consolation round. Watch to see who walks away with 3rd place and $2,500.00",
-                                          "formatted_publish_date": "04.02.2018",
-                                          "game_type": "S.L.V.S.H.",
-                                          "href": "/games/835",
-                                          "id": 835,
-                                          "location": "Grandvalira, AD",
-                                          "loser": Object {
-                                            "avatar_content_type": "image/jpeg",
-                                            "avatar_file_name": "482179_614260521934935_889184546_n.jpg",
-                                            "avatar_file_size": 266086,
-                                            "avatar_updated_at": "2017-11-14T13:14:44.512Z",
-                                            "birthdate": "1997-10-01",
-                                            "country": "us",
-                                            "created_at": "2017-11-14T13:14:45.116Z",
-                                            "id": 153,
-                                            "name": "Hunter Hess",
-                                            "slvsh_avg": 500,
-                                            "sponsor": "Volkl",
-                                            "updated_at": "2017-11-14T13:20:26.628Z",
-                                          },
-                                          "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
-                                          "loser_id": 153,
-                                          "loser_score": 5,
-                                          "post_class": "slvsh",
-                                          "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/835/medium/AlexVHunterCover16x9.jpg?1522678205",
-                                          "publish_date": "4 days",
-                                          "sorted_riders": Array [
-                                            Object {
-                                              "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
-                                              "name": "Alex Hall",
-                                            },
-                                            Object {
-                                              "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
-                                              "name": "Hunter Hess",
-                                            },
-                                          ],
-                                          "tags": Array [
-                                            Object {
-                                              "name": "slvsh cup",
-                                            },
-                                            Object {
-                                              "name": "alex hall",
-                                            },
-                                            Object {
-                                              "name": "monster energy",
-                                            },
-                                            Object {
-                                              "name": "sunset park",
-                                            },
-                                            Object {
-                                              "name": "game",
-                                            },
-                                            Object {
-                                              "name": "grandvalira",
-                                            },
-                                            Object {
-                                              "name": "Hunter Hess",
-                                            },
-                                          ],
-                                          "tags_string": "slvsh cup, alex hall, monster energy, sunset park, game, grandvalira, Hunter Hess",
-                                          "title": "Consolation || Alex Hall vs. Hunter Hess || Slvsh Cup&nbsp;Grandvalira",
-                                          "type": "Game",
-                                          "updated_at": "2018-04-02T14:10:08.000Z",
-                                          "video_host": "youtube",
-                                          "video_url": "https://www.youtube.com/embed/_ygdXqvSstg",
-                                          "vimeo_id": "_ygdXqvSstg",
-                                          "winner": Object {
-                                            "avatar_content_type": "image/jpeg",
-                                            "avatar_file_name": "Alexhall.jpg",
-                                            "avatar_file_size": 89077,
-                                            "avatar_updated_at": "2015-12-08T14:30:12.918Z",
-                                            "birthdate": "1998-10-21",
-                                            "country": "us",
-                                            "created_at": "2015-12-08T14:30:14.125Z",
-                                            "id": 80,
-                                            "name": "Alex Hall",
-                                            "slvsh_avg": 500,
-                                            "sponsor": "Shred",
-                                            "updated_at": "2016-08-09T08:52:12.365Z",
-                                          },
-                                          "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
-                                          "winner_id": 80,
-                                          "winner_score": 5,
-                                        }
-              }
-              handleRoute={[Function]}
+              <GameCard
+                game={
+                                Object {
+                                                "created_at": "2018-04-02T14:10:08.000Z",
+                                                "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! Alex Hall and Hunter Hess battle it out for the 3rd place title in the consolation round. Watch to see who walks away with 3rd place and $2,500.00",
+                                                "formatted_publish_date": "04.02.2018",
+                                                "game_type": "S.L.V.S.H.",
+                                                "href": "/games/835",
+                                                "id": 835,
+                                                "location": "Grandvalira, AD",
+                                                "loser": Object {
+                                                  "avatar_content_type": "image/jpeg",
+                                                  "avatar_file_name": "482179_614260521934935_889184546_n.jpg",
+                                                  "avatar_file_size": 266086,
+                                                  "avatar_updated_at": "2017-11-14T13:14:44.512Z",
+                                                  "birthdate": "1997-10-01",
+                                                  "country": "us",
+                                                  "created_at": "2017-11-14T13:14:45.116Z",
+                                                  "id": 153,
+                                                  "name": "Hunter Hess",
+                                                  "slvsh_avg": 500,
+                                                  "sponsor": "Volkl",
+                                                  "updated_at": "2017-11-14T13:20:26.628Z",
+                                                },
+                                                "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
+                                                "loser_id": 153,
+                                                "loser_score": 5,
+                                                "post_class": "slvsh",
+                                                "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/835/medium/AlexVHunterCover16x9.jpg?1522678205",
+                                                "publish_date": "4 days",
+                                                "sorted_riders": Array [
+                                                  Object {
+                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
+                                                    "name": "Alex Hall",
+                                                  },
+                                                  Object {
+                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
+                                                    "name": "Hunter Hess",
+                                                  },
+                                                ],
+                                                "tags": Array [
+                                                  Object {
+                                                    "name": "slvsh cup",
+                                                  },
+                                                  Object {
+                                                    "name": "alex hall",
+                                                  },
+                                                  Object {
+                                                    "name": "monster energy",
+                                                  },
+                                                  Object {
+                                                    "name": "sunset park",
+                                                  },
+                                                  Object {
+                                                    "name": "game",
+                                                  },
+                                                  Object {
+                                                    "name": "grandvalira",
+                                                  },
+                                                  Object {
+                                                    "name": "Hunter Hess",
+                                                  },
+                                                ],
+                                                "tags_string": "slvsh cup, alex hall, monster energy, sunset park, game, grandvalira, Hunter Hess",
+                                                "title": "Consolation || Alex Hall vs. Hunter Hess || Slvsh Cup&nbsp;Grandvalira",
+                                                "type": "Game",
+                                                "updated_at": "2018-04-02T14:10:08.000Z",
+                                                "video_host": "youtube",
+                                                "video_url": "https://www.youtube.com/embed/_ygdXqvSstg",
+                                                "vimeo_id": "_ygdXqvSstg",
+                                                "winner": Object {
+                                                  "avatar_content_type": "image/jpeg",
+                                                  "avatar_file_name": "Alexhall.jpg",
+                                                  "avatar_file_size": 89077,
+                                                  "avatar_updated_at": "2015-12-08T14:30:12.918Z",
+                                                  "birthdate": "1998-10-21",
+                                                  "country": "us",
+                                                  "created_at": "2015-12-08T14:30:14.125Z",
+                                                  "id": 80,
+                                                  "name": "Alex Hall",
+                                                  "slvsh_avg": 500,
+                                                  "sponsor": "Shred",
+                                                  "updated_at": "2016-08-09T08:52:12.365Z",
+                                                },
+                                                "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
+                                                "winner_id": 80,
+                                                "winner_score": 5,
+                                              }
+                }
+                handleRoute={[Function]}
 />,
+            ],
           ],
           "className": "game-container",
         },
         "ref": null,
         "rendered": Array [
+          false,
           Object {
             "instance": null,
             "key": "869",
@@ -1555,278 +1569,282 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <GameCard
-                game={
-                                Object {
-                                                "created_at": "2018-04-05T15:16:50.775Z",
-                                                "description": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
-                                                "formatted_publish_date": "04.05.2018",
-                                                "href": "/films/869",
-                                                "id": 869,
-                                                "location": "Grandvalira, Andorra",
-                                                "post_class": "film",
-                                                "poster_img": "http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405",
-                                                "publish_date": "1 day",
-                                                "tags": Array [
-                                                  Object {
-                                                    "name": "Joss Christensen",
-                                                  },
-                                                  Object {
-                                                    "name": "Alex Bellemare",
-                                                  },
-                                                  Object {
-                                                    "name": "Steve Stepp",
-                                                  },
-                                                  Object {
-                                                    "name": "Johan Berg",
-                                                  },
-                                                  Object {
-                                                    "name": "charlie lasser",
-                                                  },
-                                                  Object {
-                                                    "name": "slvsh cup",
-                                                  },
-                                                  Object {
-                                                    "name": "alex hall",
-                                                  },
-                                                  Object {
-                                                    "name": "jake carney",
-                                                  },
-                                                  Object {
-                                                    "name": "Andrew Napier",
-                                                  },
-                                                  Object {
-                                                    "name": "emil granbom",
-                                                  },
-                                                  Object {
-                                                    "name": "hugo burvall",
-                                                  },
-                                                  Object {
-                                                    "name": "edit",
-                                                  },
-                                                  Object {
-                                                    "name": "slvsh cup grandvalira",
-                                                  },
-                                                  Object {
-                                                    "name": "Quinn Wolferman",
-                                                  },
-                                                  Object {
-                                                    "name": "henrik harlaut",
-                                                  },
-                                                  Object {
-                                                    "name": "Ferdinand Dahl",
-                                                  },
-                                                  Object {
-                                                    "name": "Simone Canal",
-                                                  },
-                                                  Object {
-                                                    "name": "Hunter Hess",
-                                                  },
-                                                  Object {
-                                                    "name": "Ethan Swadburg",
-                                                  },
-                                                  Object {
-                                                    "name": "Tom Ritsch",
-                                                  },
-                                                  Object {
-                                                    "name": "James Woods",
-                                                  },
-                                                  Object {
-                                                    "name": "elias syrja",
-                                                  },
-                                                  Object {
-                                                    "name": "Aleksi Patja",
-                                                  },
-                                                ],
-                                                "tags_string": "Joss Christensen, Alex Bellemare, Steve Stepp, Johan Berg, charlie lasser, slvsh cup, alex hall, jake carney, Andrew Napier, emil granbom, hugo burvall, edit, slvsh cup grandvalira, Quinn Wolferman, henrik harlaut, Ferdinand Dahl, Simone Canal, Hunter Hess, Ethan Swadburg, Tom Ritsch, James Woods, elias syrja, Aleksi Patja",
-                                                "title": "Recap Edit || Slvsh Cup&nbsp;Grandvalira",
-                                                "type": "Film",
-                                                "updated_at": "2018-04-05T15:16:50.775Z",
-                                                "video_host": "youtube",
-                                                "video_url": "https://www.youtube.com/embed/dJQmXDZW1ig",
-                                                "vimeo_id": "dJQmXDZW1ig",
-                                              }
-                }
-                handleRoute={[Function]}
+              false,
+              Array [
+                <GameCard
+                  game={
+                                    Object {
+                                                      "created_at": "2018-04-05T15:16:50.775Z",
+                                                      "description": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
+                                                      "formatted_publish_date": "04.05.2018",
+                                                      "href": "/films/869",
+                                                      "id": 869,
+                                                      "location": "Grandvalira, Andorra",
+                                                      "post_class": "film",
+                                                      "poster_img": "http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405",
+                                                      "publish_date": "1 day",
+                                                      "tags": Array [
+                                                        Object {
+                                                          "name": "Joss Christensen",
+                                                        },
+                                                        Object {
+                                                          "name": "Alex Bellemare",
+                                                        },
+                                                        Object {
+                                                          "name": "Steve Stepp",
+                                                        },
+                                                        Object {
+                                                          "name": "Johan Berg",
+                                                        },
+                                                        Object {
+                                                          "name": "charlie lasser",
+                                                        },
+                                                        Object {
+                                                          "name": "slvsh cup",
+                                                        },
+                                                        Object {
+                                                          "name": "alex hall",
+                                                        },
+                                                        Object {
+                                                          "name": "jake carney",
+                                                        },
+                                                        Object {
+                                                          "name": "Andrew Napier",
+                                                        },
+                                                        Object {
+                                                          "name": "emil granbom",
+                                                        },
+                                                        Object {
+                                                          "name": "hugo burvall",
+                                                        },
+                                                        Object {
+                                                          "name": "edit",
+                                                        },
+                                                        Object {
+                                                          "name": "slvsh cup grandvalira",
+                                                        },
+                                                        Object {
+                                                          "name": "Quinn Wolferman",
+                                                        },
+                                                        Object {
+                                                          "name": "henrik harlaut",
+                                                        },
+                                                        Object {
+                                                          "name": "Ferdinand Dahl",
+                                                        },
+                                                        Object {
+                                                          "name": "Simone Canal",
+                                                        },
+                                                        Object {
+                                                          "name": "Hunter Hess",
+                                                        },
+                                                        Object {
+                                                          "name": "Ethan Swadburg",
+                                                        },
+                                                        Object {
+                                                          "name": "Tom Ritsch",
+                                                        },
+                                                        Object {
+                                                          "name": "James Woods",
+                                                        },
+                                                        Object {
+                                                          "name": "elias syrja",
+                                                        },
+                                                        Object {
+                                                          "name": "Aleksi Patja",
+                                                        },
+                                                      ],
+                                                      "tags_string": "Joss Christensen, Alex Bellemare, Steve Stepp, Johan Berg, charlie lasser, slvsh cup, alex hall, jake carney, Andrew Napier, emil granbom, hugo burvall, edit, slvsh cup grandvalira, Quinn Wolferman, henrik harlaut, Ferdinand Dahl, Simone Canal, Hunter Hess, Ethan Swadburg, Tom Ritsch, James Woods, elias syrja, Aleksi Patja",
+                                                      "title": "Recap Edit || Slvsh Cup&nbsp;Grandvalira",
+                                                      "type": "Film",
+                                                      "updated_at": "2018-04-05T15:16:50.775Z",
+                                                      "video_host": "youtube",
+                                                      "video_url": "https://www.youtube.com/embed/dJQmXDZW1ig",
+                                                      "vimeo_id": "dJQmXDZW1ig",
+                                                    }
+                  }
+                  handleRoute={[Function]}
 />,
-              <GameCard
-                game={
-                                Object {
-                                                "created_at": "2018-04-03T13:05:25.506Z",
-                                                "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
-                                                "formatted_publish_date": "04.03.2018",
-                                                "game_type": "S.L.V.S.H.",
-                                                "href": "/games/836",
-                                                "id": 836,
-                                                "location": "Grandvalira, AD",
-                                                "loser": Object {
-                                                  "avatar_content_type": "image/jpeg",
-                                                  "avatar_file_name": "QuinnWolferman.jpg",
-                                                  "avatar_file_size": 51763,
-                                                  "avatar_updated_at": "2016-08-02T07:30:32.264Z",
-                                                  "birthdate": "1992-10-06",
-                                                  "country": "us",
-                                                  "created_at": "2016-08-02T07:30:32.665Z",
-                                                  "id": 110,
-                                                  "name": "Quinn Wolferman",
-                                                  "slvsh_avg": 500,
-                                                  "sponsor": "Tall Tee",
-                                                  "updated_at": "2016-08-02T07:32:11.888Z",
-                                                },
-                                                "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
-                                                "loser_id": 110,
-                                                "loser_score": 5,
-                                                "post_class": "slvsh",
-                                                "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710",
-                                                "publish_date": "3 days",
-                                                "sorted_riders": Array [
-                                                  Object {
-                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
-                                                    "name": "Henrik Harlaut",
-                                                  },
-                                                  Object {
-                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
-                                                    "name": "Quinn Wolferman",
-                                                  },
-                                                ],
-                                                "tags": Array [
-                                                  Object {
-                                                    "name": "slvsh cup",
-                                                  },
-                                                  Object {
-                                                    "name": "game",
-                                                  },
-                                                  Object {
-                                                    "name": "Quinn Wolferman",
-                                                  },
-                                                  Object {
-                                                    "name": "henrik harlaut",
-                                                  },
-                                                ],
-                                                "tags_string": "slvsh cup, game, Quinn Wolferman, henrik harlaut",
-                                                "title": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup&nbsp;Grandvalira",
-                                                "type": "Game",
-                                                "updated_at": "2018-04-03T13:05:25.506Z",
-                                                "video_host": "youtube",
-                                                "video_url": "https://www.youtube.com/embed/b_9xjpVljtM",
-                                                "vimeo_id": "b_9xjpVljtM",
-                                                "winner": Object {
-                                                  "avatar_content_type": "image/jpeg",
-                                                  "avatar_file_name": "henrik600.jpg",
-                                                  "avatar_file_size": 203220,
-                                                  "avatar_updated_at": "2017-10-10T12:48:53.810Z",
-                                                  "birthdate": "1995-01-01",
-                                                  "country": "se",
-                                                  "created_at": "2017-10-10T12:48:54.345Z",
-                                                  "id": 150,
-                                                  "name": "Henrik Harlaut",
-                                                  "slvsh_avg": 500,
-                                                  "sponsor": "Monster Energy",
-                                                  "updated_at": "2018-03-15T13:23:05.198Z",
-                                                },
-                                                "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
-                                                "winner_id": 150,
-                                                "winner_score": 5,
-                                              }
-                }
-                handleRoute={[Function]}
+                <GameCard
+                  game={
+                                    Object {
+                                                      "created_at": "2018-04-03T13:05:25.506Z",
+                                                      "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
+                                                      "formatted_publish_date": "04.03.2018",
+                                                      "game_type": "S.L.V.S.H.",
+                                                      "href": "/games/836",
+                                                      "id": 836,
+                                                      "location": "Grandvalira, AD",
+                                                      "loser": Object {
+                                                        "avatar_content_type": "image/jpeg",
+                                                        "avatar_file_name": "QuinnWolferman.jpg",
+                                                        "avatar_file_size": 51763,
+                                                        "avatar_updated_at": "2016-08-02T07:30:32.264Z",
+                                                        "birthdate": "1992-10-06",
+                                                        "country": "us",
+                                                        "created_at": "2016-08-02T07:30:32.665Z",
+                                                        "id": 110,
+                                                        "name": "Quinn Wolferman",
+                                                        "slvsh_avg": 500,
+                                                        "sponsor": "Tall Tee",
+                                                        "updated_at": "2016-08-02T07:32:11.888Z",
+                                                      },
+                                                      "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
+                                                      "loser_id": 110,
+                                                      "loser_score": 5,
+                                                      "post_class": "slvsh",
+                                                      "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710",
+                                                      "publish_date": "3 days",
+                                                      "sorted_riders": Array [
+                                                        Object {
+                                                          "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
+                                                          "name": "Henrik Harlaut",
+                                                        },
+                                                        Object {
+                                                          "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
+                                                          "name": "Quinn Wolferman",
+                                                        },
+                                                      ],
+                                                      "tags": Array [
+                                                        Object {
+                                                          "name": "slvsh cup",
+                                                        },
+                                                        Object {
+                                                          "name": "game",
+                                                        },
+                                                        Object {
+                                                          "name": "Quinn Wolferman",
+                                                        },
+                                                        Object {
+                                                          "name": "henrik harlaut",
+                                                        },
+                                                      ],
+                                                      "tags_string": "slvsh cup, game, Quinn Wolferman, henrik harlaut",
+                                                      "title": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup&nbsp;Grandvalira",
+                                                      "type": "Game",
+                                                      "updated_at": "2018-04-03T13:05:25.506Z",
+                                                      "video_host": "youtube",
+                                                      "video_url": "https://www.youtube.com/embed/b_9xjpVljtM",
+                                                      "vimeo_id": "b_9xjpVljtM",
+                                                      "winner": Object {
+                                                        "avatar_content_type": "image/jpeg",
+                                                        "avatar_file_name": "henrik600.jpg",
+                                                        "avatar_file_size": 203220,
+                                                        "avatar_updated_at": "2017-10-10T12:48:53.810Z",
+                                                        "birthdate": "1995-01-01",
+                                                        "country": "se",
+                                                        "created_at": "2017-10-10T12:48:54.345Z",
+                                                        "id": 150,
+                                                        "name": "Henrik Harlaut",
+                                                        "slvsh_avg": 500,
+                                                        "sponsor": "Monster Energy",
+                                                        "updated_at": "2018-03-15T13:23:05.198Z",
+                                                      },
+                                                      "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
+                                                      "winner_id": 150,
+                                                      "winner_score": 5,
+                                                    }
+                  }
+                  handleRoute={[Function]}
 />,
-              <GameCard
-                game={
-                                Object {
-                                                "created_at": "2018-04-02T14:10:08.000Z",
-                                                "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! Alex Hall and Hunter Hess battle it out for the 3rd place title in the consolation round. Watch to see who walks away with 3rd place and $2,500.00",
-                                                "formatted_publish_date": "04.02.2018",
-                                                "game_type": "S.L.V.S.H.",
-                                                "href": "/games/835",
-                                                "id": 835,
-                                                "location": "Grandvalira, AD",
-                                                "loser": Object {
-                                                  "avatar_content_type": "image/jpeg",
-                                                  "avatar_file_name": "482179_614260521934935_889184546_n.jpg",
-                                                  "avatar_file_size": 266086,
-                                                  "avatar_updated_at": "2017-11-14T13:14:44.512Z",
-                                                  "birthdate": "1997-10-01",
-                                                  "country": "us",
-                                                  "created_at": "2017-11-14T13:14:45.116Z",
-                                                  "id": 153,
-                                                  "name": "Hunter Hess",
-                                                  "slvsh_avg": 500,
-                                                  "sponsor": "Volkl",
-                                                  "updated_at": "2017-11-14T13:20:26.628Z",
-                                                },
-                                                "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
-                                                "loser_id": 153,
-                                                "loser_score": 5,
-                                                "post_class": "slvsh",
-                                                "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/835/medium/AlexVHunterCover16x9.jpg?1522678205",
-                                                "publish_date": "4 days",
-                                                "sorted_riders": Array [
-                                                  Object {
-                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
-                                                    "name": "Alex Hall",
-                                                  },
-                                                  Object {
-                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
-                                                    "name": "Hunter Hess",
-                                                  },
-                                                ],
-                                                "tags": Array [
-                                                  Object {
-                                                    "name": "slvsh cup",
-                                                  },
-                                                  Object {
-                                                    "name": "alex hall",
-                                                  },
-                                                  Object {
-                                                    "name": "monster energy",
-                                                  },
-                                                  Object {
-                                                    "name": "sunset park",
-                                                  },
-                                                  Object {
-                                                    "name": "game",
-                                                  },
-                                                  Object {
-                                                    "name": "grandvalira",
-                                                  },
-                                                  Object {
-                                                    "name": "Hunter Hess",
-                                                  },
-                                                ],
-                                                "tags_string": "slvsh cup, alex hall, monster energy, sunset park, game, grandvalira, Hunter Hess",
-                                                "title": "Consolation || Alex Hall vs. Hunter Hess || Slvsh Cup&nbsp;Grandvalira",
-                                                "type": "Game",
-                                                "updated_at": "2018-04-02T14:10:08.000Z",
-                                                "video_host": "youtube",
-                                                "video_url": "https://www.youtube.com/embed/_ygdXqvSstg",
-                                                "vimeo_id": "_ygdXqvSstg",
-                                                "winner": Object {
-                                                  "avatar_content_type": "image/jpeg",
-                                                  "avatar_file_name": "Alexhall.jpg",
-                                                  "avatar_file_size": 89077,
-                                                  "avatar_updated_at": "2015-12-08T14:30:12.918Z",
-                                                  "birthdate": "1998-10-21",
-                                                  "country": "us",
-                                                  "created_at": "2015-12-08T14:30:14.125Z",
-                                                  "id": 80,
-                                                  "name": "Alex Hall",
-                                                  "slvsh_avg": 500,
-                                                  "sponsor": "Shred",
-                                                  "updated_at": "2016-08-09T08:52:12.365Z",
-                                                },
-                                                "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
-                                                "winner_id": 80,
-                                                "winner_score": 5,
-                                              }
-                }
-                handleRoute={[Function]}
+                <GameCard
+                  game={
+                                    Object {
+                                                      "created_at": "2018-04-02T14:10:08.000Z",
+                                                      "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! Alex Hall and Hunter Hess battle it out for the 3rd place title in the consolation round. Watch to see who walks away with 3rd place and $2,500.00",
+                                                      "formatted_publish_date": "04.02.2018",
+                                                      "game_type": "S.L.V.S.H.",
+                                                      "href": "/games/835",
+                                                      "id": 835,
+                                                      "location": "Grandvalira, AD",
+                                                      "loser": Object {
+                                                        "avatar_content_type": "image/jpeg",
+                                                        "avatar_file_name": "482179_614260521934935_889184546_n.jpg",
+                                                        "avatar_file_size": 266086,
+                                                        "avatar_updated_at": "2017-11-14T13:14:44.512Z",
+                                                        "birthdate": "1997-10-01",
+                                                        "country": "us",
+                                                        "created_at": "2017-11-14T13:14:45.116Z",
+                                                        "id": 153,
+                                                        "name": "Hunter Hess",
+                                                        "slvsh_avg": 500,
+                                                        "sponsor": "Volkl",
+                                                        "updated_at": "2017-11-14T13:20:26.628Z",
+                                                      },
+                                                      "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
+                                                      "loser_id": 153,
+                                                      "loser_score": 5,
+                                                      "post_class": "slvsh",
+                                                      "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/835/medium/AlexVHunterCover16x9.jpg?1522678205",
+                                                      "publish_date": "4 days",
+                                                      "sorted_riders": Array [
+                                                        Object {
+                                                          "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
+                                                          "name": "Alex Hall",
+                                                        },
+                                                        Object {
+                                                          "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
+                                                          "name": "Hunter Hess",
+                                                        },
+                                                      ],
+                                                      "tags": Array [
+                                                        Object {
+                                                          "name": "slvsh cup",
+                                                        },
+                                                        Object {
+                                                          "name": "alex hall",
+                                                        },
+                                                        Object {
+                                                          "name": "monster energy",
+                                                        },
+                                                        Object {
+                                                          "name": "sunset park",
+                                                        },
+                                                        Object {
+                                                          "name": "game",
+                                                        },
+                                                        Object {
+                                                          "name": "grandvalira",
+                                                        },
+                                                        Object {
+                                                          "name": "Hunter Hess",
+                                                        },
+                                                      ],
+                                                      "tags_string": "slvsh cup, alex hall, monster energy, sunset park, game, grandvalira, Hunter Hess",
+                                                      "title": "Consolation || Alex Hall vs. Hunter Hess || Slvsh Cup&nbsp;Grandvalira",
+                                                      "type": "Game",
+                                                      "updated_at": "2018-04-02T14:10:08.000Z",
+                                                      "video_host": "youtube",
+                                                      "video_url": "https://www.youtube.com/embed/_ygdXqvSstg",
+                                                      "vimeo_id": "_ygdXqvSstg",
+                                                      "winner": Object {
+                                                        "avatar_content_type": "image/jpeg",
+                                                        "avatar_file_name": "Alexhall.jpg",
+                                                        "avatar_file_size": 89077,
+                                                        "avatar_updated_at": "2015-12-08T14:30:12.918Z",
+                                                        "birthdate": "1998-10-21",
+                                                        "country": "us",
+                                                        "created_at": "2015-12-08T14:30:14.125Z",
+                                                        "id": 80,
+                                                        "name": "Alex Hall",
+                                                        "slvsh_avg": 500,
+                                                        "sponsor": "Shred",
+                                                        "updated_at": "2016-08-09T08:52:12.365Z",
+                                                      },
+                                                      "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
+                                                      "winner_id": 80,
+                                                      "winner_score": 5,
+                                                    }
+                  }
+                  handleRoute={[Function]}
 />,
+              ],
             ],
             "className": "game-container",
           },
           "ref": null,
           "rendered": Array [
+            false,
             Object {
               "instance": null,
               "key": "869",
@@ -2492,6 +2510,16 @@ ShallowWrapper {
             "replace": [Function],
           }
     }
+    match={
+        Object {
+            "isExact": true,
+            "params": Object {
+              "page": "1",
+            },
+            "path": "/games/page/:page",
+            "url": "/games/page/1",
+          }
+    }
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -2810,278 +2838,282 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <GameCard
-              game={
-                            Object {
-                                          "created_at": "2018-04-05T15:16:50.775Z",
-                                          "description": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
-                                          "formatted_publish_date": "04.05.2018",
-                                          "href": "/films/869",
-                                          "id": 869,
-                                          "location": "Grandvalira, Andorra",
-                                          "post_class": "film",
-                                          "poster_img": "http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405",
-                                          "publish_date": "1 day",
-                                          "tags": Array [
-                                            Object {
-                                              "name": "Joss Christensen",
-                                            },
-                                            Object {
-                                              "name": "Alex Bellemare",
-                                            },
-                                            Object {
-                                              "name": "Steve Stepp",
-                                            },
-                                            Object {
-                                              "name": "Johan Berg",
-                                            },
-                                            Object {
-                                              "name": "charlie lasser",
-                                            },
-                                            Object {
-                                              "name": "slvsh cup",
-                                            },
-                                            Object {
-                                              "name": "alex hall",
-                                            },
-                                            Object {
-                                              "name": "jake carney",
-                                            },
-                                            Object {
-                                              "name": "Andrew Napier",
-                                            },
-                                            Object {
-                                              "name": "emil granbom",
-                                            },
-                                            Object {
-                                              "name": "hugo burvall",
-                                            },
-                                            Object {
-                                              "name": "edit",
-                                            },
-                                            Object {
-                                              "name": "slvsh cup grandvalira",
-                                            },
-                                            Object {
-                                              "name": "Quinn Wolferman",
-                                            },
-                                            Object {
-                                              "name": "henrik harlaut",
-                                            },
-                                            Object {
-                                              "name": "Ferdinand Dahl",
-                                            },
-                                            Object {
-                                              "name": "Simone Canal",
-                                            },
-                                            Object {
-                                              "name": "Hunter Hess",
-                                            },
-                                            Object {
-                                              "name": "Ethan Swadburg",
-                                            },
-                                            Object {
-                                              "name": "Tom Ritsch",
-                                            },
-                                            Object {
-                                              "name": "James Woods",
-                                            },
-                                            Object {
-                                              "name": "elias syrja",
-                                            },
-                                            Object {
-                                              "name": "Aleksi Patja",
-                                            },
-                                          ],
-                                          "tags_string": "Joss Christensen, Alex Bellemare, Steve Stepp, Johan Berg, charlie lasser, slvsh cup, alex hall, jake carney, Andrew Napier, emil granbom, hugo burvall, edit, slvsh cup grandvalira, Quinn Wolferman, henrik harlaut, Ferdinand Dahl, Simone Canal, Hunter Hess, Ethan Swadburg, Tom Ritsch, James Woods, elias syrja, Aleksi Patja",
-                                          "title": "Recap Edit || Slvsh Cup&nbsp;Grandvalira",
-                                          "type": "Film",
-                                          "updated_at": "2018-04-05T15:16:50.775Z",
-                                          "video_host": "youtube",
-                                          "video_url": "https://www.youtube.com/embed/dJQmXDZW1ig",
-                                          "vimeo_id": "dJQmXDZW1ig",
-                                        }
-              }
-              handleRoute={[Function]}
+            false,
+            Array [
+              <GameCard
+                game={
+                                Object {
+                                                "created_at": "2018-04-05T15:16:50.775Z",
+                                                "description": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
+                                                "formatted_publish_date": "04.05.2018",
+                                                "href": "/films/869",
+                                                "id": 869,
+                                                "location": "Grandvalira, Andorra",
+                                                "post_class": "film",
+                                                "poster_img": "http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405",
+                                                "publish_date": "1 day",
+                                                "tags": Array [
+                                                  Object {
+                                                    "name": "Joss Christensen",
+                                                  },
+                                                  Object {
+                                                    "name": "Alex Bellemare",
+                                                  },
+                                                  Object {
+                                                    "name": "Steve Stepp",
+                                                  },
+                                                  Object {
+                                                    "name": "Johan Berg",
+                                                  },
+                                                  Object {
+                                                    "name": "charlie lasser",
+                                                  },
+                                                  Object {
+                                                    "name": "slvsh cup",
+                                                  },
+                                                  Object {
+                                                    "name": "alex hall",
+                                                  },
+                                                  Object {
+                                                    "name": "jake carney",
+                                                  },
+                                                  Object {
+                                                    "name": "Andrew Napier",
+                                                  },
+                                                  Object {
+                                                    "name": "emil granbom",
+                                                  },
+                                                  Object {
+                                                    "name": "hugo burvall",
+                                                  },
+                                                  Object {
+                                                    "name": "edit",
+                                                  },
+                                                  Object {
+                                                    "name": "slvsh cup grandvalira",
+                                                  },
+                                                  Object {
+                                                    "name": "Quinn Wolferman",
+                                                  },
+                                                  Object {
+                                                    "name": "henrik harlaut",
+                                                  },
+                                                  Object {
+                                                    "name": "Ferdinand Dahl",
+                                                  },
+                                                  Object {
+                                                    "name": "Simone Canal",
+                                                  },
+                                                  Object {
+                                                    "name": "Hunter Hess",
+                                                  },
+                                                  Object {
+                                                    "name": "Ethan Swadburg",
+                                                  },
+                                                  Object {
+                                                    "name": "Tom Ritsch",
+                                                  },
+                                                  Object {
+                                                    "name": "James Woods",
+                                                  },
+                                                  Object {
+                                                    "name": "elias syrja",
+                                                  },
+                                                  Object {
+                                                    "name": "Aleksi Patja",
+                                                  },
+                                                ],
+                                                "tags_string": "Joss Christensen, Alex Bellemare, Steve Stepp, Johan Berg, charlie lasser, slvsh cup, alex hall, jake carney, Andrew Napier, emil granbom, hugo burvall, edit, slvsh cup grandvalira, Quinn Wolferman, henrik harlaut, Ferdinand Dahl, Simone Canal, Hunter Hess, Ethan Swadburg, Tom Ritsch, James Woods, elias syrja, Aleksi Patja",
+                                                "title": "Recap Edit || Slvsh Cup&nbsp;Grandvalira",
+                                                "type": "Film",
+                                                "updated_at": "2018-04-05T15:16:50.775Z",
+                                                "video_host": "youtube",
+                                                "video_url": "https://www.youtube.com/embed/dJQmXDZW1ig",
+                                                "vimeo_id": "dJQmXDZW1ig",
+                                              }
+                }
+                handleRoute={[Function]}
 />,
-            <GameCard
-              game={
-                            Object {
-                                          "created_at": "2018-04-03T13:05:25.506Z",
-                                          "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
-                                          "formatted_publish_date": "04.03.2018",
-                                          "game_type": "S.L.V.S.H.",
-                                          "href": "/games/836",
-                                          "id": 836,
-                                          "location": "Grandvalira, AD",
-                                          "loser": Object {
-                                            "avatar_content_type": "image/jpeg",
-                                            "avatar_file_name": "QuinnWolferman.jpg",
-                                            "avatar_file_size": 51763,
-                                            "avatar_updated_at": "2016-08-02T07:30:32.264Z",
-                                            "birthdate": "1992-10-06",
-                                            "country": "us",
-                                            "created_at": "2016-08-02T07:30:32.665Z",
-                                            "id": 110,
-                                            "name": "Quinn Wolferman",
-                                            "slvsh_avg": 500,
-                                            "sponsor": "Tall Tee",
-                                            "updated_at": "2016-08-02T07:32:11.888Z",
-                                          },
-                                          "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
-                                          "loser_id": 110,
-                                          "loser_score": 5,
-                                          "post_class": "slvsh",
-                                          "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710",
-                                          "publish_date": "3 days",
-                                          "sorted_riders": Array [
-                                            Object {
-                                              "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
-                                              "name": "Henrik Harlaut",
-                                            },
-                                            Object {
-                                              "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
-                                              "name": "Quinn Wolferman",
-                                            },
-                                          ],
-                                          "tags": Array [
-                                            Object {
-                                              "name": "slvsh cup",
-                                            },
-                                            Object {
-                                              "name": "game",
-                                            },
-                                            Object {
-                                              "name": "Quinn Wolferman",
-                                            },
-                                            Object {
-                                              "name": "henrik harlaut",
-                                            },
-                                          ],
-                                          "tags_string": "slvsh cup, game, Quinn Wolferman, henrik harlaut",
-                                          "title": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup&nbsp;Grandvalira",
-                                          "type": "Game",
-                                          "updated_at": "2018-04-03T13:05:25.506Z",
-                                          "video_host": "youtube",
-                                          "video_url": "https://www.youtube.com/embed/b_9xjpVljtM",
-                                          "vimeo_id": "b_9xjpVljtM",
-                                          "winner": Object {
-                                            "avatar_content_type": "image/jpeg",
-                                            "avatar_file_name": "henrik600.jpg",
-                                            "avatar_file_size": 203220,
-                                            "avatar_updated_at": "2017-10-10T12:48:53.810Z",
-                                            "birthdate": "1995-01-01",
-                                            "country": "se",
-                                            "created_at": "2017-10-10T12:48:54.345Z",
-                                            "id": 150,
-                                            "name": "Henrik Harlaut",
-                                            "slvsh_avg": 500,
-                                            "sponsor": "Monster Energy",
-                                            "updated_at": "2018-03-15T13:23:05.198Z",
-                                          },
-                                          "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
-                                          "winner_id": 150,
-                                          "winner_score": 5,
-                                        }
-              }
-              handleRoute={[Function]}
+              <GameCard
+                game={
+                                Object {
+                                                "created_at": "2018-04-03T13:05:25.506Z",
+                                                "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
+                                                "formatted_publish_date": "04.03.2018",
+                                                "game_type": "S.L.V.S.H.",
+                                                "href": "/games/836",
+                                                "id": 836,
+                                                "location": "Grandvalira, AD",
+                                                "loser": Object {
+                                                  "avatar_content_type": "image/jpeg",
+                                                  "avatar_file_name": "QuinnWolferman.jpg",
+                                                  "avatar_file_size": 51763,
+                                                  "avatar_updated_at": "2016-08-02T07:30:32.264Z",
+                                                  "birthdate": "1992-10-06",
+                                                  "country": "us",
+                                                  "created_at": "2016-08-02T07:30:32.665Z",
+                                                  "id": 110,
+                                                  "name": "Quinn Wolferman",
+                                                  "slvsh_avg": 500,
+                                                  "sponsor": "Tall Tee",
+                                                  "updated_at": "2016-08-02T07:32:11.888Z",
+                                                },
+                                                "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
+                                                "loser_id": 110,
+                                                "loser_score": 5,
+                                                "post_class": "slvsh",
+                                                "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710",
+                                                "publish_date": "3 days",
+                                                "sorted_riders": Array [
+                                                  Object {
+                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
+                                                    "name": "Henrik Harlaut",
+                                                  },
+                                                  Object {
+                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
+                                                    "name": "Quinn Wolferman",
+                                                  },
+                                                ],
+                                                "tags": Array [
+                                                  Object {
+                                                    "name": "slvsh cup",
+                                                  },
+                                                  Object {
+                                                    "name": "game",
+                                                  },
+                                                  Object {
+                                                    "name": "Quinn Wolferman",
+                                                  },
+                                                  Object {
+                                                    "name": "henrik harlaut",
+                                                  },
+                                                ],
+                                                "tags_string": "slvsh cup, game, Quinn Wolferman, henrik harlaut",
+                                                "title": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup&nbsp;Grandvalira",
+                                                "type": "Game",
+                                                "updated_at": "2018-04-03T13:05:25.506Z",
+                                                "video_host": "youtube",
+                                                "video_url": "https://www.youtube.com/embed/b_9xjpVljtM",
+                                                "vimeo_id": "b_9xjpVljtM",
+                                                "winner": Object {
+                                                  "avatar_content_type": "image/jpeg",
+                                                  "avatar_file_name": "henrik600.jpg",
+                                                  "avatar_file_size": 203220,
+                                                  "avatar_updated_at": "2017-10-10T12:48:53.810Z",
+                                                  "birthdate": "1995-01-01",
+                                                  "country": "se",
+                                                  "created_at": "2017-10-10T12:48:54.345Z",
+                                                  "id": 150,
+                                                  "name": "Henrik Harlaut",
+                                                  "slvsh_avg": 500,
+                                                  "sponsor": "Monster Energy",
+                                                  "updated_at": "2018-03-15T13:23:05.198Z",
+                                                },
+                                                "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
+                                                "winner_id": 150,
+                                                "winner_score": 5,
+                                              }
+                }
+                handleRoute={[Function]}
 />,
-            <GameCard
-              game={
-                            Object {
-                                          "created_at": "2018-04-02T14:10:08.000Z",
-                                          "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! Alex Hall and Hunter Hess battle it out for the 3rd place title in the consolation round. Watch to see who walks away with 3rd place and $2,500.00",
-                                          "formatted_publish_date": "04.02.2018",
-                                          "game_type": "S.L.V.S.H.",
-                                          "href": "/games/835",
-                                          "id": 835,
-                                          "location": "Grandvalira, AD",
-                                          "loser": Object {
-                                            "avatar_content_type": "image/jpeg",
-                                            "avatar_file_name": "482179_614260521934935_889184546_n.jpg",
-                                            "avatar_file_size": 266086,
-                                            "avatar_updated_at": "2017-11-14T13:14:44.512Z",
-                                            "birthdate": "1997-10-01",
-                                            "country": "us",
-                                            "created_at": "2017-11-14T13:14:45.116Z",
-                                            "id": 153,
-                                            "name": "Hunter Hess",
-                                            "slvsh_avg": 500,
-                                            "sponsor": "Volkl",
-                                            "updated_at": "2017-11-14T13:20:26.628Z",
-                                          },
-                                          "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
-                                          "loser_id": 153,
-                                          "loser_score": 5,
-                                          "post_class": "slvsh",
-                                          "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/835/medium/AlexVHunterCover16x9.jpg?1522678205",
-                                          "publish_date": "4 days",
-                                          "sorted_riders": Array [
-                                            Object {
-                                              "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
-                                              "name": "Alex Hall",
-                                            },
-                                            Object {
-                                              "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
-                                              "name": "Hunter Hess",
-                                            },
-                                          ],
-                                          "tags": Array [
-                                            Object {
-                                              "name": "slvsh cup",
-                                            },
-                                            Object {
-                                              "name": "alex hall",
-                                            },
-                                            Object {
-                                              "name": "monster energy",
-                                            },
-                                            Object {
-                                              "name": "sunset park",
-                                            },
-                                            Object {
-                                              "name": "game",
-                                            },
-                                            Object {
-                                              "name": "grandvalira",
-                                            },
-                                            Object {
-                                              "name": "Hunter Hess",
-                                            },
-                                          ],
-                                          "tags_string": "slvsh cup, alex hall, monster energy, sunset park, game, grandvalira, Hunter Hess",
-                                          "title": "Consolation || Alex Hall vs. Hunter Hess || Slvsh Cup&nbsp;Grandvalira",
-                                          "type": "Game",
-                                          "updated_at": "2018-04-02T14:10:08.000Z",
-                                          "video_host": "youtube",
-                                          "video_url": "https://www.youtube.com/embed/_ygdXqvSstg",
-                                          "vimeo_id": "_ygdXqvSstg",
-                                          "winner": Object {
-                                            "avatar_content_type": "image/jpeg",
-                                            "avatar_file_name": "Alexhall.jpg",
-                                            "avatar_file_size": 89077,
-                                            "avatar_updated_at": "2015-12-08T14:30:12.918Z",
-                                            "birthdate": "1998-10-21",
-                                            "country": "us",
-                                            "created_at": "2015-12-08T14:30:14.125Z",
-                                            "id": 80,
-                                            "name": "Alex Hall",
-                                            "slvsh_avg": 500,
-                                            "sponsor": "Shred",
-                                            "updated_at": "2016-08-09T08:52:12.365Z",
-                                          },
-                                          "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
-                                          "winner_id": 80,
-                                          "winner_score": 5,
-                                        }
-              }
-              handleRoute={[Function]}
+              <GameCard
+                game={
+                                Object {
+                                                "created_at": "2018-04-02T14:10:08.000Z",
+                                                "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! Alex Hall and Hunter Hess battle it out for the 3rd place title in the consolation round. Watch to see who walks away with 3rd place and $2,500.00",
+                                                "formatted_publish_date": "04.02.2018",
+                                                "game_type": "S.L.V.S.H.",
+                                                "href": "/games/835",
+                                                "id": 835,
+                                                "location": "Grandvalira, AD",
+                                                "loser": Object {
+                                                  "avatar_content_type": "image/jpeg",
+                                                  "avatar_file_name": "482179_614260521934935_889184546_n.jpg",
+                                                  "avatar_file_size": 266086,
+                                                  "avatar_updated_at": "2017-11-14T13:14:44.512Z",
+                                                  "birthdate": "1997-10-01",
+                                                  "country": "us",
+                                                  "created_at": "2017-11-14T13:14:45.116Z",
+                                                  "id": 153,
+                                                  "name": "Hunter Hess",
+                                                  "slvsh_avg": 500,
+                                                  "sponsor": "Volkl",
+                                                  "updated_at": "2017-11-14T13:20:26.628Z",
+                                                },
+                                                "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
+                                                "loser_id": 153,
+                                                "loser_score": 5,
+                                                "post_class": "slvsh",
+                                                "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/835/medium/AlexVHunterCover16x9.jpg?1522678205",
+                                                "publish_date": "4 days",
+                                                "sorted_riders": Array [
+                                                  Object {
+                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
+                                                    "name": "Alex Hall",
+                                                  },
+                                                  Object {
+                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
+                                                    "name": "Hunter Hess",
+                                                  },
+                                                ],
+                                                "tags": Array [
+                                                  Object {
+                                                    "name": "slvsh cup",
+                                                  },
+                                                  Object {
+                                                    "name": "alex hall",
+                                                  },
+                                                  Object {
+                                                    "name": "monster energy",
+                                                  },
+                                                  Object {
+                                                    "name": "sunset park",
+                                                  },
+                                                  Object {
+                                                    "name": "game",
+                                                  },
+                                                  Object {
+                                                    "name": "grandvalira",
+                                                  },
+                                                  Object {
+                                                    "name": "Hunter Hess",
+                                                  },
+                                                ],
+                                                "tags_string": "slvsh cup, alex hall, monster energy, sunset park, game, grandvalira, Hunter Hess",
+                                                "title": "Consolation || Alex Hall vs. Hunter Hess || Slvsh Cup&nbsp;Grandvalira",
+                                                "type": "Game",
+                                                "updated_at": "2018-04-02T14:10:08.000Z",
+                                                "video_host": "youtube",
+                                                "video_url": "https://www.youtube.com/embed/_ygdXqvSstg",
+                                                "vimeo_id": "_ygdXqvSstg",
+                                                "winner": Object {
+                                                  "avatar_content_type": "image/jpeg",
+                                                  "avatar_file_name": "Alexhall.jpg",
+                                                  "avatar_file_size": 89077,
+                                                  "avatar_updated_at": "2015-12-08T14:30:12.918Z",
+                                                  "birthdate": "1998-10-21",
+                                                  "country": "us",
+                                                  "created_at": "2015-12-08T14:30:14.125Z",
+                                                  "id": 80,
+                                                  "name": "Alex Hall",
+                                                  "slvsh_avg": 500,
+                                                  "sponsor": "Shred",
+                                                  "updated_at": "2016-08-09T08:52:12.365Z",
+                                                },
+                                                "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
+                                                "winner_id": 80,
+                                                "winner_score": 5,
+                                              }
+                }
+                handleRoute={[Function]}
 />,
+            ],
           ],
           "className": "game-container",
         },
         "ref": null,
         "rendered": Array [
+          false,
           Object {
             "instance": null,
             "key": "869",
@@ -3759,278 +3791,282 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <GameCard
-                game={
-                                Object {
-                                                "created_at": "2018-04-05T15:16:50.775Z",
-                                                "description": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
-                                                "formatted_publish_date": "04.05.2018",
-                                                "href": "/films/869",
-                                                "id": 869,
-                                                "location": "Grandvalira, Andorra",
-                                                "post_class": "film",
-                                                "poster_img": "http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405",
-                                                "publish_date": "1 day",
-                                                "tags": Array [
-                                                  Object {
-                                                    "name": "Joss Christensen",
-                                                  },
-                                                  Object {
-                                                    "name": "Alex Bellemare",
-                                                  },
-                                                  Object {
-                                                    "name": "Steve Stepp",
-                                                  },
-                                                  Object {
-                                                    "name": "Johan Berg",
-                                                  },
-                                                  Object {
-                                                    "name": "charlie lasser",
-                                                  },
-                                                  Object {
-                                                    "name": "slvsh cup",
-                                                  },
-                                                  Object {
-                                                    "name": "alex hall",
-                                                  },
-                                                  Object {
-                                                    "name": "jake carney",
-                                                  },
-                                                  Object {
-                                                    "name": "Andrew Napier",
-                                                  },
-                                                  Object {
-                                                    "name": "emil granbom",
-                                                  },
-                                                  Object {
-                                                    "name": "hugo burvall",
-                                                  },
-                                                  Object {
-                                                    "name": "edit",
-                                                  },
-                                                  Object {
-                                                    "name": "slvsh cup grandvalira",
-                                                  },
-                                                  Object {
-                                                    "name": "Quinn Wolferman",
-                                                  },
-                                                  Object {
-                                                    "name": "henrik harlaut",
-                                                  },
-                                                  Object {
-                                                    "name": "Ferdinand Dahl",
-                                                  },
-                                                  Object {
-                                                    "name": "Simone Canal",
-                                                  },
-                                                  Object {
-                                                    "name": "Hunter Hess",
-                                                  },
-                                                  Object {
-                                                    "name": "Ethan Swadburg",
-                                                  },
-                                                  Object {
-                                                    "name": "Tom Ritsch",
-                                                  },
-                                                  Object {
-                                                    "name": "James Woods",
-                                                  },
-                                                  Object {
-                                                    "name": "elias syrja",
-                                                  },
-                                                  Object {
-                                                    "name": "Aleksi Patja",
-                                                  },
-                                                ],
-                                                "tags_string": "Joss Christensen, Alex Bellemare, Steve Stepp, Johan Berg, charlie lasser, slvsh cup, alex hall, jake carney, Andrew Napier, emil granbom, hugo burvall, edit, slvsh cup grandvalira, Quinn Wolferman, henrik harlaut, Ferdinand Dahl, Simone Canal, Hunter Hess, Ethan Swadburg, Tom Ritsch, James Woods, elias syrja, Aleksi Patja",
-                                                "title": "Recap Edit || Slvsh Cup&nbsp;Grandvalira",
-                                                "type": "Film",
-                                                "updated_at": "2018-04-05T15:16:50.775Z",
-                                                "video_host": "youtube",
-                                                "video_url": "https://www.youtube.com/embed/dJQmXDZW1ig",
-                                                "vimeo_id": "dJQmXDZW1ig",
-                                              }
-                }
-                handleRoute={[Function]}
+              false,
+              Array [
+                <GameCard
+                  game={
+                                    Object {
+                                                      "created_at": "2018-04-05T15:16:50.775Z",
+                                                      "description": "Thats it folks!! As the 16th and Final game of the cup has made its way online we have to close out this years Slvsh Cup. We can't thank you, the fans, enough for all the views and comments on this years cup. This has been by far our best event to date and we can only hope to do it bigger and better next time! As a bonus and thank you, we give you the #SlvshCupGrandvalira Recap edit. This has to be one of the funnest weeks for all the athletes no matter how they end up in the contest, and this video should prove that! A huge shout out to Grandvalira, Monster Energy and Volkl Skis for their continued support of Slvsh and making this event happen!! Film/edit by Andrew Napier Music PhantomOnDaTrack",
+                                                      "formatted_publish_date": "04.05.2018",
+                                                      "href": "/films/869",
+                                                      "id": 869,
+                                                      "location": "Grandvalira, Andorra",
+                                                      "post_class": "film",
+                                                      "poster_img": "http://slvsh_prod.s3.amazonaws.com/films/poster_imgs/000/000/869/medium/RecapCover16x9.jpg?1522941405",
+                                                      "publish_date": "1 day",
+                                                      "tags": Array [
+                                                        Object {
+                                                          "name": "Joss Christensen",
+                                                        },
+                                                        Object {
+                                                          "name": "Alex Bellemare",
+                                                        },
+                                                        Object {
+                                                          "name": "Steve Stepp",
+                                                        },
+                                                        Object {
+                                                          "name": "Johan Berg",
+                                                        },
+                                                        Object {
+                                                          "name": "charlie lasser",
+                                                        },
+                                                        Object {
+                                                          "name": "slvsh cup",
+                                                        },
+                                                        Object {
+                                                          "name": "alex hall",
+                                                        },
+                                                        Object {
+                                                          "name": "jake carney",
+                                                        },
+                                                        Object {
+                                                          "name": "Andrew Napier",
+                                                        },
+                                                        Object {
+                                                          "name": "emil granbom",
+                                                        },
+                                                        Object {
+                                                          "name": "hugo burvall",
+                                                        },
+                                                        Object {
+                                                          "name": "edit",
+                                                        },
+                                                        Object {
+                                                          "name": "slvsh cup grandvalira",
+                                                        },
+                                                        Object {
+                                                          "name": "Quinn Wolferman",
+                                                        },
+                                                        Object {
+                                                          "name": "henrik harlaut",
+                                                        },
+                                                        Object {
+                                                          "name": "Ferdinand Dahl",
+                                                        },
+                                                        Object {
+                                                          "name": "Simone Canal",
+                                                        },
+                                                        Object {
+                                                          "name": "Hunter Hess",
+                                                        },
+                                                        Object {
+                                                          "name": "Ethan Swadburg",
+                                                        },
+                                                        Object {
+                                                          "name": "Tom Ritsch",
+                                                        },
+                                                        Object {
+                                                          "name": "James Woods",
+                                                        },
+                                                        Object {
+                                                          "name": "elias syrja",
+                                                        },
+                                                        Object {
+                                                          "name": "Aleksi Patja",
+                                                        },
+                                                      ],
+                                                      "tags_string": "Joss Christensen, Alex Bellemare, Steve Stepp, Johan Berg, charlie lasser, slvsh cup, alex hall, jake carney, Andrew Napier, emil granbom, hugo burvall, edit, slvsh cup grandvalira, Quinn Wolferman, henrik harlaut, Ferdinand Dahl, Simone Canal, Hunter Hess, Ethan Swadburg, Tom Ritsch, James Woods, elias syrja, Aleksi Patja",
+                                                      "title": "Recap Edit || Slvsh Cup&nbsp;Grandvalira",
+                                                      "type": "Film",
+                                                      "updated_at": "2018-04-05T15:16:50.775Z",
+                                                      "video_host": "youtube",
+                                                      "video_url": "https://www.youtube.com/embed/dJQmXDZW1ig",
+                                                      "vimeo_id": "dJQmXDZW1ig",
+                                                    }
+                  }
+                  handleRoute={[Function]}
 />,
-              <GameCard
-                game={
-                                Object {
-                                                "created_at": "2018-04-03T13:05:25.506Z",
-                                                "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
-                                                "formatted_publish_date": "04.03.2018",
-                                                "game_type": "S.L.V.S.H.",
-                                                "href": "/games/836",
-                                                "id": 836,
-                                                "location": "Grandvalira, AD",
-                                                "loser": Object {
-                                                  "avatar_content_type": "image/jpeg",
-                                                  "avatar_file_name": "QuinnWolferman.jpg",
-                                                  "avatar_file_size": 51763,
-                                                  "avatar_updated_at": "2016-08-02T07:30:32.264Z",
-                                                  "birthdate": "1992-10-06",
-                                                  "country": "us",
-                                                  "created_at": "2016-08-02T07:30:32.665Z",
-                                                  "id": 110,
-                                                  "name": "Quinn Wolferman",
-                                                  "slvsh_avg": 500,
-                                                  "sponsor": "Tall Tee",
-                                                  "updated_at": "2016-08-02T07:32:11.888Z",
-                                                },
-                                                "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
-                                                "loser_id": 110,
-                                                "loser_score": 5,
-                                                "post_class": "slvsh",
-                                                "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710",
-                                                "publish_date": "3 days",
-                                                "sorted_riders": Array [
-                                                  Object {
-                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
-                                                    "name": "Henrik Harlaut",
-                                                  },
-                                                  Object {
-                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
-                                                    "name": "Quinn Wolferman",
-                                                  },
-                                                ],
-                                                "tags": Array [
-                                                  Object {
-                                                    "name": "slvsh cup",
-                                                  },
-                                                  Object {
-                                                    "name": "game",
-                                                  },
-                                                  Object {
-                                                    "name": "Quinn Wolferman",
-                                                  },
-                                                  Object {
-                                                    "name": "henrik harlaut",
-                                                  },
-                                                ],
-                                                "tags_string": "slvsh cup, game, Quinn Wolferman, henrik harlaut",
-                                                "title": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup&nbsp;Grandvalira",
-                                                "type": "Game",
-                                                "updated_at": "2018-04-03T13:05:25.506Z",
-                                                "video_host": "youtube",
-                                                "video_url": "https://www.youtube.com/embed/b_9xjpVljtM",
-                                                "vimeo_id": "b_9xjpVljtM",
-                                                "winner": Object {
-                                                  "avatar_content_type": "image/jpeg",
-                                                  "avatar_file_name": "henrik600.jpg",
-                                                  "avatar_file_size": 203220,
-                                                  "avatar_updated_at": "2017-10-10T12:48:53.810Z",
-                                                  "birthdate": "1995-01-01",
-                                                  "country": "se",
-                                                  "created_at": "2017-10-10T12:48:54.345Z",
-                                                  "id": 150,
-                                                  "name": "Henrik Harlaut",
-                                                  "slvsh_avg": 500,
-                                                  "sponsor": "Monster Energy",
-                                                  "updated_at": "2018-03-15T13:23:05.198Z",
-                                                },
-                                                "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
-                                                "winner_id": 150,
-                                                "winner_score": 5,
-                                              }
-                }
-                handleRoute={[Function]}
+                <GameCard
+                  game={
+                                    Object {
+                                                      "created_at": "2018-04-03T13:05:25.506Z",
+                                                      "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! The final match up and the battle for $10,000 comes down to Henrik Harlaut and Quinn Wolferman. Could we ask for a better match up? Don't think so!",
+                                                      "formatted_publish_date": "04.03.2018",
+                                                      "game_type": "S.L.V.S.H.",
+                                                      "href": "/games/836",
+                                                      "id": 836,
+                                                      "location": "Grandvalira, AD",
+                                                      "loser": Object {
+                                                        "avatar_content_type": "image/jpeg",
+                                                        "avatar_file_name": "QuinnWolferman.jpg",
+                                                        "avatar_file_size": 51763,
+                                                        "avatar_updated_at": "2016-08-02T07:30:32.264Z",
+                                                        "birthdate": "1992-10-06",
+                                                        "country": "us",
+                                                        "created_at": "2016-08-02T07:30:32.665Z",
+                                                        "id": 110,
+                                                        "name": "Quinn Wolferman",
+                                                        "slvsh_avg": 500,
+                                                        "sponsor": "Tall Tee",
+                                                        "updated_at": "2016-08-02T07:32:11.888Z",
+                                                      },
+                                                      "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
+                                                      "loser_id": 110,
+                                                      "loser_score": 5,
+                                                      "post_class": "slvsh",
+                                                      "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/836/medium/HenrikvsQuinnCover16x9.jpg?1522760710",
+                                                      "publish_date": "3 days",
+                                                      "sorted_riders": Array [
+                                                        Object {
+                                                          "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
+                                                          "name": "Henrik Harlaut",
+                                                        },
+                                                        Object {
+                                                          "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/110/thumb/QuinnWolferman.jpg?1470123032",
+                                                          "name": "Quinn Wolferman",
+                                                        },
+                                                      ],
+                                                      "tags": Array [
+                                                        Object {
+                                                          "name": "slvsh cup",
+                                                        },
+                                                        Object {
+                                                          "name": "game",
+                                                        },
+                                                        Object {
+                                                          "name": "Quinn Wolferman",
+                                                        },
+                                                        Object {
+                                                          "name": "henrik harlaut",
+                                                        },
+                                                      ],
+                                                      "tags_string": "slvsh cup, game, Quinn Wolferman, henrik harlaut",
+                                                      "title": "Final || Henrik Harlaut vs. Quinn Wolferman || Slvsh Cup&nbsp;Grandvalira",
+                                                      "type": "Game",
+                                                      "updated_at": "2018-04-03T13:05:25.506Z",
+                                                      "video_host": "youtube",
+                                                      "video_url": "https://www.youtube.com/embed/b_9xjpVljtM",
+                                                      "vimeo_id": "b_9xjpVljtM",
+                                                      "winner": Object {
+                                                        "avatar_content_type": "image/jpeg",
+                                                        "avatar_file_name": "henrik600.jpg",
+                                                        "avatar_file_size": 203220,
+                                                        "avatar_updated_at": "2017-10-10T12:48:53.810Z",
+                                                        "birthdate": "1995-01-01",
+                                                        "country": "se",
+                                                        "created_at": "2017-10-10T12:48:54.345Z",
+                                                        "id": 150,
+                                                        "name": "Henrik Harlaut",
+                                                        "slvsh_avg": 500,
+                                                        "sponsor": "Monster Energy",
+                                                        "updated_at": "2018-03-15T13:23:05.198Z",
+                                                      },
+                                                      "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/150/thumb/henrik600.jpg?1507639733",
+                                                      "winner_id": 150,
+                                                      "winner_score": 5,
+                                                    }
+                  }
+                  handleRoute={[Function]}
 />,
-              <GameCard
-                game={
-                                Object {
-                                                "created_at": "2018-04-02T14:10:08.000Z",
-                                                "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! Alex Hall and Hunter Hess battle it out for the 3rd place title in the consolation round. Watch to see who walks away with 3rd place and $2,500.00",
-                                                "formatted_publish_date": "04.02.2018",
-                                                "game_type": "S.L.V.S.H.",
-                                                "href": "/games/835",
-                                                "id": 835,
-                                                "location": "Grandvalira, AD",
-                                                "loser": Object {
-                                                  "avatar_content_type": "image/jpeg",
-                                                  "avatar_file_name": "482179_614260521934935_889184546_n.jpg",
-                                                  "avatar_file_size": 266086,
-                                                  "avatar_updated_at": "2017-11-14T13:14:44.512Z",
-                                                  "birthdate": "1997-10-01",
-                                                  "country": "us",
-                                                  "created_at": "2017-11-14T13:14:45.116Z",
-                                                  "id": 153,
-                                                  "name": "Hunter Hess",
-                                                  "slvsh_avg": 500,
-                                                  "sponsor": "Volkl",
-                                                  "updated_at": "2017-11-14T13:20:26.628Z",
-                                                },
-                                                "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
-                                                "loser_id": 153,
-                                                "loser_score": 5,
-                                                "post_class": "slvsh",
-                                                "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/835/medium/AlexVHunterCover16x9.jpg?1522678205",
-                                                "publish_date": "4 days",
-                                                "sorted_riders": Array [
-                                                  Object {
-                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
-                                                    "name": "Alex Hall",
-                                                  },
-                                                  Object {
-                                                    "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
-                                                    "name": "Hunter Hess",
-                                                  },
-                                                ],
-                                                "tags": Array [
-                                                  Object {
-                                                    "name": "slvsh cup",
-                                                  },
-                                                  Object {
-                                                    "name": "alex hall",
-                                                  },
-                                                  Object {
-                                                    "name": "monster energy",
-                                                  },
-                                                  Object {
-                                                    "name": "sunset park",
-                                                  },
-                                                  Object {
-                                                    "name": "game",
-                                                  },
-                                                  Object {
-                                                    "name": "grandvalira",
-                                                  },
-                                                  Object {
-                                                    "name": "Hunter Hess",
-                                                  },
-                                                ],
-                                                "tags_string": "slvsh cup, alex hall, monster energy, sunset park, game, grandvalira, Hunter Hess",
-                                                "title": "Consolation || Alex Hall vs. Hunter Hess || Slvsh Cup&nbsp;Grandvalira",
-                                                "type": "Game",
-                                                "updated_at": "2018-04-02T14:10:08.000Z",
-                                                "video_host": "youtube",
-                                                "video_url": "https://www.youtube.com/embed/_ygdXqvSstg",
-                                                "vimeo_id": "_ygdXqvSstg",
-                                                "winner": Object {
-                                                  "avatar_content_type": "image/jpeg",
-                                                  "avatar_file_name": "Alexhall.jpg",
-                                                  "avatar_file_size": 89077,
-                                                  "avatar_updated_at": "2015-12-08T14:30:12.918Z",
-                                                  "birthdate": "1998-10-21",
-                                                  "country": "us",
-                                                  "created_at": "2015-12-08T14:30:14.125Z",
-                                                  "id": 80,
-                                                  "name": "Alex Hall",
-                                                  "slvsh_avg": 500,
-                                                  "sponsor": "Shred",
-                                                  "updated_at": "2016-08-09T08:52:12.365Z",
-                                                },
-                                                "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
-                                                "winner_id": 80,
-                                                "winner_score": 5,
-                                              }
-                }
-                handleRoute={[Function]}
+                <GameCard
+                  game={
+                                    Object {
+                                                      "created_at": "2018-04-02T14:10:08.000Z",
+                                                      "description": "Grandvalira, Monster Energy, and Volkl Skis are proud to present Slvsh Cup Grandvalira 2018! Alex Hall and Hunter Hess battle it out for the 3rd place title in the consolation round. Watch to see who walks away with 3rd place and $2,500.00",
+                                                      "formatted_publish_date": "04.02.2018",
+                                                      "game_type": "S.L.V.S.H.",
+                                                      "href": "/games/835",
+                                                      "id": 835,
+                                                      "location": "Grandvalira, AD",
+                                                      "loser": Object {
+                                                        "avatar_content_type": "image/jpeg",
+                                                        "avatar_file_name": "482179_614260521934935_889184546_n.jpg",
+                                                        "avatar_file_size": 266086,
+                                                        "avatar_updated_at": "2017-11-14T13:14:44.512Z",
+                                                        "birthdate": "1997-10-01",
+                                                        "country": "us",
+                                                        "created_at": "2017-11-14T13:14:45.116Z",
+                                                        "id": 153,
+                                                        "name": "Hunter Hess",
+                                                        "slvsh_avg": 500,
+                                                        "sponsor": "Volkl",
+                                                        "updated_at": "2017-11-14T13:20:26.628Z",
+                                                      },
+                                                      "loser_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
+                                                      "loser_id": 153,
+                                                      "loser_score": 5,
+                                                      "post_class": "slvsh",
+                                                      "poster_img": "http://slvsh_prod.s3.amazonaws.com/games/poster_imgs/000/000/835/medium/AlexVHunterCover16x9.jpg?1522678205",
+                                                      "publish_date": "4 days",
+                                                      "sorted_riders": Array [
+                                                        Object {
+                                                          "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
+                                                          "name": "Alex Hall",
+                                                        },
+                                                        Object {
+                                                          "avatar_url": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/153/thumb/482179_614260521934935_889184546_n.jpg?1510665284",
+                                                          "name": "Hunter Hess",
+                                                        },
+                                                      ],
+                                                      "tags": Array [
+                                                        Object {
+                                                          "name": "slvsh cup",
+                                                        },
+                                                        Object {
+                                                          "name": "alex hall",
+                                                        },
+                                                        Object {
+                                                          "name": "monster energy",
+                                                        },
+                                                        Object {
+                                                          "name": "sunset park",
+                                                        },
+                                                        Object {
+                                                          "name": "game",
+                                                        },
+                                                        Object {
+                                                          "name": "grandvalira",
+                                                        },
+                                                        Object {
+                                                          "name": "Hunter Hess",
+                                                        },
+                                                      ],
+                                                      "tags_string": "slvsh cup, alex hall, monster energy, sunset park, game, grandvalira, Hunter Hess",
+                                                      "title": "Consolation || Alex Hall vs. Hunter Hess || Slvsh Cup&nbsp;Grandvalira",
+                                                      "type": "Game",
+                                                      "updated_at": "2018-04-02T14:10:08.000Z",
+                                                      "video_host": "youtube",
+                                                      "video_url": "https://www.youtube.com/embed/_ygdXqvSstg",
+                                                      "vimeo_id": "_ygdXqvSstg",
+                                                      "winner": Object {
+                                                        "avatar_content_type": "image/jpeg",
+                                                        "avatar_file_name": "Alexhall.jpg",
+                                                        "avatar_file_size": 89077,
+                                                        "avatar_updated_at": "2015-12-08T14:30:12.918Z",
+                                                        "birthdate": "1998-10-21",
+                                                        "country": "us",
+                                                        "created_at": "2015-12-08T14:30:14.125Z",
+                                                        "id": 80,
+                                                        "name": "Alex Hall",
+                                                        "slvsh_avg": 500,
+                                                        "sponsor": "Shred",
+                                                        "updated_at": "2016-08-09T08:52:12.365Z",
+                                                      },
+                                                      "winner_avatar=": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/080/thumb/Alexhall.jpg?1449585012",
+                                                      "winner_id": 80,
+                                                      "winner_score": 5,
+                                                    }
+                  }
+                  handleRoute={[Function]}
 />,
+              ],
             ],
             "className": "game-container",
           },
           "ref": null,
           "rendered": Array [
+            false,
             Object {
               "instance": null,
               "key": "869",

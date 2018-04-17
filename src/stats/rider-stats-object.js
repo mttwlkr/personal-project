@@ -1309,4 +1309,4 @@ export const riderStatsObject = {
     "Overall": 0.63725,
     "games_played": 1
   }
-}
+};

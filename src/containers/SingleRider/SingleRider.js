@@ -4,35 +4,41 @@ import { connect } from 'react-redux';
 import FlagIcon from '../../components/FlagIconFactory/FlagIconFactory';
 import { withRouter } from 'react-router';
 import { getSingleRider } from '../../fetches/get-single-rider';
-import { addSingleRiderToStore, addStatsToSingleRider } from '../../actions/index.js';
-import { riderStatsObject } from '../../stats/rider-stats-object.js'
+import { addSingleRiderToStore, 
+  addStatsToSingleRider } from '../../actions/index.js';
+import { riderStatsObject } from '../../stats/rider-stats-object.js';
+import PropTypes from 'prop-types';
 
 export class SingleRider extends Component {
 
   async componentDidMount() {
-    const { match, addSingleRiderToStore, addStatsToSingleRider, riders } = this.props
+    const { match, 
+      addSingleRiderToStore, 
+      addStatsToSingleRider, 
+      riders } = this.props;
+
     if (!riders.length) {
-      const currentRider = match.params.rider
-      const riderObj = await getSingleRider(currentRider)
-      addSingleRiderToStore(riderObj)
-      addStatsToSingleRider(riderStatsObject)      
+      const currentRider = match.params.rider;
+      const riderObj = await getSingleRider(currentRider);
+      addSingleRiderToStore(riderObj);
+      addStatsToSingleRider(riderStatsObject);
     }
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }
 
   render() {
-    const { match, riders, singleRider } = this.props
+    const { match, riders, singleRider } = this.props;
 
     let displayRider = {};
 
     if (singleRider.id) {
-      displayRider = singleRider
+      displayRider = singleRider;
     }
 
     if (riders.length > 0) {
       displayRider = riders.find( rider => {
-        return rider.id === parseInt(match.params.rider, 10)
-      })
+        return rider.id === parseInt(match.params.rider, 10);
+      });
     }
 
   return (
@@ -130,18 +136,26 @@ export class SingleRider extends Component {
       }
     </div>
     </div>
-    )    
+    );  
   }
 }
 
 export const mapStateToProps = ({riders, singleRider}) => ({
   riders,
   singleRider
-})
+});
 
 export const mapDispatchToProps = (dispatch) => ({
-  addSingleRiderToStore: (currentRider) => dispatch(addSingleRiderToStore(currentRider)),
-  addStatsToSingleRider: (riderStatsObject) => dispatch(addStatsToSingleRider(riderStatsObject))
-})
+  addSingleRiderToStore: (currentRider) => 
+    dispatch(addSingleRiderToStore(currentRider)),
+  addStatsToSingleRider: (riderStatsObject) => 
+    dispatch(addStatsToSingleRider(riderStatsObject))
+});
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(SingleRider))
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(SingleRider));
+
+SingleRider.propTypes = {
+  match: PropTypes.object,
+  riders: PropTypes.array,
+  singleRider: PropTypes.object
+};

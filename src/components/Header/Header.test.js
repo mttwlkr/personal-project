@@ -7,10 +7,10 @@ describe('Header', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<Header />)
-  })
+    wrapper = shallow(<Header />);
+  });
 
   it('should match the snapshot', () => {
-    expect(wrapper).toMatchSnapshot()
-  })
-})
+    expect(wrapper).toMatchSnapshot();
+  });
+});

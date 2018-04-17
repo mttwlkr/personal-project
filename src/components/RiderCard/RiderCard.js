@@ -1,17 +1,25 @@
 import React from 'react';
 import './RiderCard.css';
 import FlagIcon from '../FlagIconFactory/FlagIconFactory';
+import PropTypes from 'prop-types';
 
 const RiderCard = ({rider, handleRider}) => {
   const statKeys = Object.keys(rider).filter( key => {
-    return key === "Offense" || key === "Defense" || key === "Difficulty" || key === "Overall"
-  })
+    return key === "Offense" || 
+      key === "Defense" || 
+      key === "Difficulty" || 
+      key === "Overall";
+  });
+
   const displayStats = statKeys.map((stat, index) => {
     return <div className='rider-card-stat' key={index}>
-        <span className='rider-card-stat-title'>{`${stat}`}</span>
-        {`: ${(rider[stat]).toLocaleString('en-IN', { style: 'percent', maximumSignificantDigits: 3 })}`}
-      </div>
-  })
+      <span className='rider-card-stat-title'>{`${stat}`}</span>
+      {`: ${(rider[stat])
+        .toLocaleString('en-IN', 
+          { style: 'percent', maximumSignificantDigits: 3 })}`
+      }
+    </div>;
+  });
 
   return (
     <div 
@@ -32,18 +40,26 @@ const RiderCard = ({rider, handleRider}) => {
 
       <section className='rider-card-info'>
         <h4 className='rider-card-games-played-title'>{`SLVSH Games:`}
-          <span className='rider-card-games-played-value'>{` ${rider.games_played || 0}`}</span>
+          <span className='rider-card-games-played-value'>
+            {` ${rider.games_played || 0}`}
+          </span>
         </h4>
         {displayStats}
         <p className='rider-card-sponsor'>
-          <span className='rider-card-sponsor-title'>{`Sponsor: `}</span>{`${rider.sponsor}`}
+          <span className='rider-card-sponsor-title'>{`Sponsor: `}</span>
+          {`${rider.sponsor}`}
         </p>
       </section>
     </div>
-  )
-}
+  );
+};
 
 export default RiderCard;
+
+RiderCard.propTypes = {
+  rider: PropTypes.object,
+  handleRider: PropTypes.func
+};
 
 // const getStats = () => {
 

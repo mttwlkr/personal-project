@@ -46,7 +46,7 @@ ShallowWrapper {
                                         "textDecoration": "none",
                                       }
                     }
-                    to="/games"
+                    to="/games/page/1"
           >
                     GAMES
           </NavLink>
@@ -144,7 +144,7 @@ ShallowWrapper {
                                           "textDecoration": "none",
                                         }
               }
-              to="/games"
+              to="/games/page/1"
 >
               GAMES
 </NavLink>,
@@ -234,7 +234,7 @@ ShallowWrapper {
               "style": Object {
                 "textDecoration": "none",
               },
-              "to": "/games",
+              "to": "/games/page/1",
             },
             "ref": null,
             "rendered": "GAMES",
@@ -372,7 +372,7 @@ ShallowWrapper {
                                                 "textDecoration": "none",
                                               }
                         }
-                        to="/games"
+                        to="/games/page/1"
             >
                         GAMES
             </NavLink>
@@ -470,7 +470,7 @@ ShallowWrapper {
                                                 "textDecoration": "none",
                                               }
                 }
-                to="/games"
+                to="/games/page/1"
 >
                 GAMES
 </NavLink>,
@@ -560,7 +560,7 @@ ShallowWrapper {
                 "style": Object {
                   "textDecoration": "none",
                 },
-                "to": "/games",
+                "to": "/games/page/1",
               },
               "ref": null,
               "rendered": "GAMES",

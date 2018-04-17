@@ -1,44 +1,45 @@
 import React, { Component } from 'react';
 import './GameContainer.js';
 import { connect } from 'react-redux';
-import { addGamesToStore } from '../../actions';
+import { addGamesToStore, addVideoToPlayer } from '../../actions';
 import { getGames } from '../../fetches/get-games';
 import GameCard from '../../components/GameCard/GameCard.js';
 import './GameContainer.css';
 import { withRouter } from 'react-router';
-import { addVideoToPlayer } from '../../actions';
+import PropTypes from 'prop-types';
 
 export class GameContainer extends Component {
   constructor() {
-    super()
+    super();
     this.state = {
       loading: true
-    }
+    };
   }
 
   async componentDidMount() {
-    const { match } = this.props
-    if (this.props.games.current_page !== parseInt(match.params.page, 10) && !this.props.games.posts) {
-      const pageNumber = match.params.page || 1
-      const games = await getGames(pageNumber)
-      this.props.addGamesToStore(games)
+    const { match } = this.props;
+    if (this.props.games.current_page !== parseInt(match.params.page, 10) &&
+        !this.props.games.posts) {
+      const pageNumber = parseInt(match.params.page, 10) || 1;
+      const games = await getGames(pageNumber);
+      this.props.addGamesToStore(games);
     } 
-    this.setState({loading: false})
+    this.setState({loading: false});
   }
 
   handleRoute = (gameID) => {
-    this.props.history.push(`/games/${gameID}`)
-    this.props.addVideoToPlayer(gameID)
+    this.props.history.push(`/games/${gameID}`);
+    this.props.addVideoToPlayer(gameID);
   }
 
-  handlePageClick = async (e) => {
-    this.setState({loading: true})
-    const pageNumber = e.target.value
-    this.props.history.push(`/games/page/${pageNumber}`)
-    const games = await getGames(pageNumber)
-    this.props.addGamesToStore(games)
-    this.setState({loading: false})
-  }
+  handlePageClick = async (event) => {
+    this.setState({loading: true});
+    const pageNumber = event.target.value;
+    this.props.history.push(`/games/page/${pageNumber}`);
+    const games = await getGames(pageNumber);
+    this.props.addGamesToStore(games);
+    this.setState({loading: false});
+  };
 
   render() {
 
@@ -47,8 +48,12 @@ export class GameContainer extends Component {
 
     if (games.posts) {
       displayGames = games.posts.map( game => {
-        return <GameCard game={game} key={game.id} handleRoute={this.handleRoute}/>
-      })    
+        return <GameCard 
+          game={game} 
+          key={game.id} 
+          handleRoute={this.handleRoute}
+        />;
+      });
     }
 
     return (
@@ -95,19 +100,25 @@ export class GameContainer extends Component {
           }
         </div>
       </div>
-    )
+    );
   }
 }
 
 export const mapStateToProps = ({games}) => ({
   games
-})
+});
 
 export const mapDispatchToProps = (dispatch) => ({
   addGamesToStore: (games) => dispatch(addGamesToStore(games)),
   addVideoToPlayer: (id) => dispatch(addVideoToPlayer(id))
-})
+});
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(GameContainer))
+export default withRouter(connect(mapStateToProps, 
+  mapDispatchToProps)(GameContainer));
 
-
+GameContainer.propTypes = {
+  games: PropTypes.object,
+  addGamesToStore: PropTypes.func,
+  addVideoToPlayer: PropTypes.func,
+  history: PropTypes.object
+};
