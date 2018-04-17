@@ -277,6 +277,18 @@ export const mockRiderReducerExpected = {
   "games_played": 3 
 }
 
+export const mockRiderWithZeroGames = {
+  "id": 5,
+  "name": "Noah Wallace",
+  "sponsor": "Giro",
+  "avatar": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/005/original/Noah_Wallace.jpg?1427290713",
+  "country": "us",
+  "birthdate": "1991-07-02",
+  "slvsh_avg": 489,
+  "url": "http://www.slvsh.com/riders/5.json",
+  "age": 26
+}
+
 
 export const mockSingleRider = {
   "id": 5,

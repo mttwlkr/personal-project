@@ -31,7 +31,21 @@ describe('GameContainer', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('should invoke addGamesToStore and getGames methods on load', async () => {
+  it('if game page is greater than 1, it should render previous page buttons', () => {
+    const mockBlankAPIGames = {};
+
+    wrapper = shallow(<GameContainer 
+      addGamesToStore={mockAddGamesToStore}
+      games={mockBlankAPIGames}
+      addVideoToPlayer={mockAddVideoToPlayer}
+      history={mockHistory}
+      match={mockMatchForPage2}
+    />);
+    expect(wrapper.find('.previous-page-button')).toBeDefined();
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('should invoke getGames methods on load and match snapshot if', async () => {
     const mockBlankAPIGames = {};
 
     wrapper = shallow(<GameContainer 
@@ -42,6 +56,7 @@ describe('GameContainer', () => {
       match={mockMatchForPage2}
     />);
     expect(getGames).toHaveBeenCalledWith(2);
+    expect(mockAddGamesToStore).toHaveBeenCalled();
   });
 
   it('should handle route', () => {
@@ -53,6 +68,15 @@ describe('GameContainer', () => {
   it('should handle page click', () => {
     const mockEvent = {target: {value: 66}};
     wrapper.instance().handlePageClick(mockEvent);
+    expect(getGames).toHaveBeenCalled();
+    expect(mockAddGamesToStore).toHaveBeenCalled();
+  });
+
+  it('should invoke handlePageClick on page number click', () => {
+    expect(wrapper.state('loading')).toEqual(false);
+    let mockEvent = {target: {value: 2}};
+    wrapper.find('.next-page-button').simulate('click', mockEvent);
+    expect(wrapper.state('loading')).toEqual(true);
     expect(getGames).toHaveBeenCalled();
     expect(mockAddGamesToStore).toHaveBeenCalled();
   });

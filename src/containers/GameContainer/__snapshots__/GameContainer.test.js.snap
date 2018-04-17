@@ -1,5 +1,274 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`GameContainer if game page is greater than 1, it should render previous page buttons 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <GameContainer
+    addGamesToStore={[Function]}
+    addVideoToPlayer={[Function]}
+    games={Object {}}
+    history={
+        Object {
+            "action": "PUSH",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "length": 5,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "qjurdm",
+              "pathname": "/games/836",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+    }
+    match={
+        Object {
+            "isExact": true,
+            "params": Object {
+              "page": "2",
+            },
+            "path": "/games/page/:page",
+            "url": "/games/page/2",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <section
+          className="game-container"
+>
+          <img
+                    alt="loading-GIF"
+                    src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
+          />
+</section>,
+        <div
+          className="page-navigation-button-div"
+>
+          <button
+                    className="current-page-button"
+                    onClick={[Function]}
+                    value={undefined}
+          >
+                    Loading...
+          </button>
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="loading-GIF"
+              src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
+/>,
+            false,
+          ],
+          "className": "game-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "loading-GIF",
+              "src": "http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          false,
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            false,
+            <button
+              className="current-page-button"
+              onClick={[Function]}
+              value={undefined}
+>
+              Loading...
+</button>,
+            false,
+            false,
+          ],
+          "className": "page-navigation-button-div",
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Loading...",
+              "className": "current-page-button",
+              "onClick": [Function],
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": "Loading...",
+            "type": "button",
+          },
+          false,
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <section
+            className="game-container"
+>
+            <img
+                        alt="loading-GIF"
+                        src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
+            />
+</section>,
+          <div
+            className="page-navigation-button-div"
+>
+            <button
+                        className="current-page-button"
+                        onClick={[Function]}
+                        value={undefined}
+            >
+                        Loading...
+            </button>
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="loading-GIF"
+                src="http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif"
+/>,
+              false,
+            ],
+            "className": "game-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "loading-GIF",
+                "src": "http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            false,
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              <button
+                className="current-page-button"
+                onClick={[Function]}
+                value={undefined}
+>
+                Loading...
+</button>,
+              false,
+              false,
+            ],
+            "className": "page-navigation-button-div",
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Loading...",
+                "className": "current-page-button",
+                "onClick": [Function],
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": "Loading...",
+              "type": "button",
+            },
+            false,
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
 exports[`GameContainer should handle route 1`] = `
 ShallowWrapper {
   "length": 1,
@@ -594,6 +863,7 @@ ShallowWrapper {
                     1
           </button>
           <button
+                    className="next-page-button"
                     onClick={[Function]}
                     value={2}
           >
@@ -1195,6 +1465,7 @@ ShallowWrapper {
               1
 </button>,
             <button
+              className="next-page-button"
               onClick={[Function]}
               value={2}
 >
@@ -1232,6 +1503,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "2 >",
+              "className": "next-page-button",
               "onClick": [Function],
               "value": 2,
             },
@@ -1547,6 +1819,7 @@ ShallowWrapper {
                         1
             </button>
             <button
+                        className="next-page-button"
                         onClick={[Function]}
                         value={2}
             >
@@ -2148,6 +2421,7 @@ ShallowWrapper {
                 1
 </button>,
               <button
+                className="next-page-button"
                 onClick={[Function]}
                 value={2}
 >
@@ -2185,6 +2459,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "2 >",
+                "className": "next-page-button",
                 "onClick": [Function],
                 "value": 2,
               },
@@ -2816,6 +3091,7 @@ ShallowWrapper {
                     1
           </button>
           <button
+                    className="next-page-button"
                     onClick={[Function]}
                     value={2}
           >
@@ -3417,6 +3693,7 @@ ShallowWrapper {
               1
 </button>,
             <button
+              className="next-page-button"
               onClick={[Function]}
               value={2}
 >
@@ -3454,6 +3731,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "2 >",
+              "className": "next-page-button",
               "onClick": [Function],
               "value": 2,
             },
@@ -3769,6 +4047,7 @@ ShallowWrapper {
                         1
             </button>
             <button
+                        className="next-page-button"
                         onClick={[Function]}
                         value={2}
             >
@@ -4370,6 +4649,7 @@ ShallowWrapper {
                 1
 </button>,
               <button
+                className="next-page-button"
                 onClick={[Function]}
                 value={2}
 >
@@ -4407,6 +4687,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "2 >",
+                "className": "next-page-button",
                 "onClick": [Function],
                 "value": 2,
               },

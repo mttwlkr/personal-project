@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SVGDonut should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    stat={0.75}
+    string="Offense"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <circle
+          className="circle-inner"
+          cx="21"
+          cy="21"
+          fill="#fff"
+          r="15.91549430918954"
+/>,
+        <circle
+          className="circle-whole"
+          cx="21"
+          cy="21"
+          fill="transparent"
+          r="15.91549430918954"
+          stroke="#d2d3d4"
+          strokeWidth="3"
+/>,
+        <circle
+          className="circle-colored"
+          cx="21"
+          cy="21"
+          fill="transparent"
+          r="15.91549430918954"
+          stroke="#2c3e50"
+          strokeDasharray="75, 
+          25"
+          strokeDashoffset="75"
+          strokeWidth="3"
+/>,
+        <g
+          className="circle-copy"
+>
+          <text
+                    className="circle-number"
+                    fontSize="8px"
+                    x="32%"
+                    y="52%"
+          >
+                    75%
+          </text>
+          <text
+                    className="circle-label"
+                    fontSize="4px"
+                    x="33%"
+                    y="65%"
+          >
+                    Offense
+          </text>
+</g>,
+      ],
+      "className": "circle",
+      "height": "100%",
+      "viewBox": "0 0 42 42",
+      "width": "100%",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "circle-inner",
+          "cx": "21",
+          "cy": "21",
+          "fill": "#fff",
+          "r": "15.91549430918954",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "circle",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "circle-whole",
+          "cx": "21",
+          "cy": "21",
+          "fill": "transparent",
+          "r": "15.91549430918954",
+          "stroke": "#d2d3d4",
+          "strokeWidth": "3",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "circle",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "circle-colored",
+          "cx": "21",
+          "cy": "21",
+          "fill": "transparent",
+          "r": "15.91549430918954",
+          "stroke": "#2c3e50",
+          "strokeDasharray": "75, 
+          25",
+          "strokeDashoffset": "75",
+          "strokeWidth": "3",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "circle",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <text
+              className="circle-number"
+              fontSize="8px"
+              x="32%"
+              y="52%"
+>
+              75%
+</text>,
+            <text
+              className="circle-label"
+              fontSize="4px"
+              x="33%"
+              y="65%"
+>
+              Offense
+</text>,
+          ],
+          "className": "circle-copy",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "75%",
+              "className": "circle-number",
+              "fontSize": "8px",
+              "x": "32%",
+              "y": "52%",
+            },
+            "ref": null,
+            "rendered": "75%",
+            "type": "text",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Offense",
+              "className": "circle-label",
+              "fontSize": "4px",
+              "x": "33%",
+              "y": "65%",
+            },
+            "ref": null,
+            "rendered": "Offense",
+            "type": "text",
+          },
+        ],
+        "type": "g",
+      },
+    ],
+    "type": "svg",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <circle
+            className="circle-inner"
+            cx="21"
+            cy="21"
+            fill="#fff"
+            r="15.91549430918954"
+/>,
+          <circle
+            className="circle-whole"
+            cx="21"
+            cy="21"
+            fill="transparent"
+            r="15.91549430918954"
+            stroke="#d2d3d4"
+            strokeWidth="3"
+/>,
+          <circle
+            className="circle-colored"
+            cx="21"
+            cy="21"
+            fill="transparent"
+            r="15.91549430918954"
+            stroke="#2c3e50"
+            strokeDasharray="75, 
+          25"
+            strokeDashoffset="75"
+            strokeWidth="3"
+/>,
+          <g
+            className="circle-copy"
+>
+            <text
+                        className="circle-number"
+                        fontSize="8px"
+                        x="32%"
+                        y="52%"
+            >
+                        75%
+            </text>
+            <text
+                        className="circle-label"
+                        fontSize="4px"
+                        x="33%"
+                        y="65%"
+            >
+                        Offense
+            </text>
+</g>,
+        ],
+        "className": "circle",
+        "height": "100%",
+        "viewBox": "0 0 42 42",
+        "width": "100%",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "circle-inner",
+            "cx": "21",
+            "cy": "21",
+            "fill": "#fff",
+            "r": "15.91549430918954",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "circle",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "circle-whole",
+            "cx": "21",
+            "cy": "21",
+            "fill": "transparent",
+            "r": "15.91549430918954",
+            "stroke": "#d2d3d4",
+            "strokeWidth": "3",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "circle",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "circle-colored",
+            "cx": "21",
+            "cy": "21",
+            "fill": "transparent",
+            "r": "15.91549430918954",
+            "stroke": "#2c3e50",
+            "strokeDasharray": "75, 
+          25",
+            "strokeDashoffset": "75",
+            "strokeWidth": "3",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "circle",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <text
+                className="circle-number"
+                fontSize="8px"
+                x="32%"
+                y="52%"
+>
+                75%
+</text>,
+              <text
+                className="circle-label"
+                fontSize="4px"
+                x="33%"
+                y="65%"
+>
+                Offense
+</text>,
+            ],
+            "className": "circle-copy",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "75%",
+                "className": "circle-number",
+                "fontSize": "8px",
+                "x": "32%",
+                "y": "52%",
+              },
+              "ref": null,
+              "rendered": "75%",
+              "type": "text",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Offense",
+                "className": "circle-label",
+                "fontSize": "4px",
+                "x": "33%",
+                "y": "65%",
+              },
+              "ref": null,
+              "rendered": "Offense",
+              "type": "text",
+            },
+          ],
+          "type": "g",
+        },
+      ],
+      "type": "svg",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

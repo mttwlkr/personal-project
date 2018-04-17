@@ -75,6 +75,7 @@ export class GameContainer extends Component {
         <div className='page-navigation-button-div'>
           { games.current_page > 1 &&
             <button
+              className='previous-page-button'
               value={games.current_page - 1}
               onClick={this.handlePageClick}
             >{`< ${games.current_page - 1}`}</button>         
@@ -88,6 +89,7 @@ export class GameContainer extends Component {
 
           { games.current_page < games.total_pages - 2 &&
             <button
+              className='next-page-button'
               value={games.current_page + 1}
               onClick={this.handlePageClick}
             >{`${games.current_page + 1} >`}</button>

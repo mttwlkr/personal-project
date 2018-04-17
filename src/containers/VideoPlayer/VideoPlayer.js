@@ -56,8 +56,7 @@ export class VideoPlayer extends Component {
               </div>
             </div> 
             <section className='video-player-editorial-body'>
-              {theGame.editorial !== 'undefined' && theGame.editorial}
-              {theGame.description !== 'undefined' && theGame.description}
+              {theGame.editorial ? theGame.editorial : theGame.description}
             </section>
           </div>
         }
