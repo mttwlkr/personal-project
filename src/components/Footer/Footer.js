@@ -5,7 +5,6 @@ import Instagram from '../../assets/instagram.svg';
 import YouTube from '../../assets/youtube.svg';
 
 const Footer = () => {
-
   return (
     <footer className='footer'>
       <p>&copy; 2018 Slvsh LLC | All rights reserved</p>

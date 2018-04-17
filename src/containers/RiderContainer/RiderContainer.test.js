@@ -72,9 +72,11 @@ describe('RiderContainer', () => {
   });
 
   it.skip('should invoke handleOriginal on click', () => {
-    const spy = jest.spyOn(wrapper.instance(), 'handleOriginal');
-    wrapper.find('rt-th slvsh-stats-header').simulate('click');
-    expect(spy).toHaveBeenCalled();
+    const mockEvent = {target: {className: 'rt-th slvsh-stats-header'}};
+    // const spy = jest.spyOn(wrapper.instance(), 'handleOriginal');
+    wrapper.find('ReactTable').simulate('click', mockEvent);
+    expect(wrapper.instance('handleOriginal')).toHaveBeenCalled();
+    // expect(spy).toHaveBeenCalled();
   });
 
   it('should mapStateToProps correctly', () => {

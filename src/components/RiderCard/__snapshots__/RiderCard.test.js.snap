@@ -1,0 +1,416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RiderCard should not render stats if rider has none 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RiderCard
+    handleRider={[Function]}
+    rider={
+        Object {
+            "age": 26,
+            "avatar": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/005/original/Noah_Wallace.jpg?1427290713",
+            "birthdate": "1991-07-02",
+            "country": "us",
+            "id": 5,
+            "name": "Noah Wallace",
+            "slvsh_avg": 489,
+            "sponsor": "Giro",
+            "url": "http://www.slvsh.com/riders/5.json",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="slvsh-rider-thumbnail"
+          className="rider-card-thumbnail"
+          src="http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/005/original/Noah_Wallace.jpg?1427290713"
+/>,
+        <h3>
+          Noah Wallace
+</h3>,
+        <FlagIcon
+          code="us"
+          size="lg"
+/>,
+        <section
+          className="rider-card-info"
+>
+          <h4
+                    className="rider-card-games-played-title"
+          >
+                    SLVSH Games:
+                    <span
+                              className="rider-card-games-played-value"
+                    >
+                               0
+                    </span>
+          </h4>
+          <p
+                    className="rider-card-sponsor"
+          >
+                    <span
+                              className="rider-card-sponsor-title"
+                    >
+                              Sponsor: 
+                    </span>
+                    Giro
+          </p>
+</section>,
+      ],
+      "className": "rider-container-card",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "slvsh-rider-thumbnail",
+          "className": "rider-card-thumbnail",
+          "src": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/005/original/Noah_Wallace.jpg?1427290713",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Noah Wallace",
+        },
+        "ref": null,
+        "rendered": "Noah Wallace",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "code": "us",
+          "size": "lg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4
+              className="rider-card-games-played-title"
+>
+              SLVSH Games:
+              <span
+                            className="rider-card-games-played-value"
+              >
+                             0
+              </span>
+</h4>,
+            Array [],
+            <p
+              className="rider-card-sponsor"
+>
+              <span
+                            className="rider-card-sponsor-title"
+              >
+                            Sponsor: 
+              </span>
+              Giro
+</p>,
+          ],
+          "className": "rider-card-info",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "SLVSH Games:",
+                <span
+                  className="rider-card-games-played-value"
+>
+                   0
+</span>,
+              ],
+              "className": "rider-card-games-played-title",
+            },
+            "ref": null,
+            "rendered": Array [
+              "SLVSH Games:",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " 0",
+                  "className": "rider-card-games-played-value",
+                },
+                "ref": null,
+                "rendered": " 0",
+                "type": "span",
+              },
+            ],
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="rider-card-sponsor-title"
+>
+                  Sponsor: 
+</span>,
+                "Giro",
+              ],
+              "className": "rider-card-sponsor",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sponsor: ",
+                  "className": "rider-card-sponsor-title",
+                },
+                "ref": null,
+                "rendered": "Sponsor: ",
+                "type": "span",
+              },
+              "Giro",
+            ],
+            "type": "p",
+          },
+        ],
+        "type": "section",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="slvsh-rider-thumbnail"
+            className="rider-card-thumbnail"
+            src="http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/005/original/Noah_Wallace.jpg?1427290713"
+/>,
+          <h3>
+            Noah Wallace
+</h3>,
+          <FlagIcon
+            code="us"
+            size="lg"
+/>,
+          <section
+            className="rider-card-info"
+>
+            <h4
+                        className="rider-card-games-played-title"
+            >
+                        SLVSH Games:
+                        <span
+                                    className="rider-card-games-played-value"
+                        >
+                                     0
+                        </span>
+            </h4>
+            <p
+                        className="rider-card-sponsor"
+            >
+                        <span
+                                    className="rider-card-sponsor-title"
+                        >
+                                    Sponsor: 
+                        </span>
+                        Giro
+            </p>
+</section>,
+        ],
+        "className": "rider-container-card",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "slvsh-rider-thumbnail",
+            "className": "rider-card-thumbnail",
+            "src": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/005/original/Noah_Wallace.jpg?1427290713",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Noah Wallace",
+          },
+          "ref": null,
+          "rendered": "Noah Wallace",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "code": "us",
+            "size": "lg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4
+                className="rider-card-games-played-title"
+>
+                SLVSH Games:
+                <span
+                                className="rider-card-games-played-value"
+                >
+                                 0
+                </span>
+</h4>,
+              Array [],
+              <p
+                className="rider-card-sponsor"
+>
+                <span
+                                className="rider-card-sponsor-title"
+                >
+                                Sponsor: 
+                </span>
+                Giro
+</p>,
+            ],
+            "className": "rider-card-info",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "SLVSH Games:",
+                  <span
+                    className="rider-card-games-played-value"
+>
+                     0
+</span>,
+                ],
+                "className": "rider-card-games-played-title",
+              },
+              "ref": null,
+              "rendered": Array [
+                "SLVSH Games:",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " 0",
+                    "className": "rider-card-games-played-value",
+                  },
+                  "ref": null,
+                  "rendered": " 0",
+                  "type": "span",
+                },
+              ],
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="rider-card-sponsor-title"
+>
+                    Sponsor: 
+</span>,
+                  "Giro",
+                ],
+                "className": "rider-card-sponsor",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Sponsor: ",
+                    "className": "rider-card-sponsor-title",
+                  },
+                  "ref": null,
+                  "rendered": "Sponsor: ",
+                  "type": "span",
+                },
+                "Giro",
+              ],
+              "type": "p",
+            },
+          ],
+          "type": "section",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
