@@ -60,22 +60,3 @@ RiderCard.propTypes = {
   rider: PropTypes.object,
   handleRider: PropTypes.func
 };
-
-// const getStats = () => {
-
-//     const topOffense = () => props.riders.filter(rider => rider.games_played > 1).sort((a, b) => b.Offense - a.Offense).slice(0, 10) 
-//     const topDefense = () => props.riders.filter(rider => rider.games_played > 1).sort((a, b) => b.Defense - a.Defense).slice(0, 10)
-//     const topDifficulty = () => props.riders.filter(rider => rider.games_played > 1).sort((a, b) => b.Difficulty - a.Difficulty).slice(0, 10)
-//     const topOverall = () => props.riders.filter(rider => rider.games_played > 1).sort((a, b) => b.Overall - a.Overall).slice(0, 10)
-    
-//     const stats = props.riders.reduce((statsObj, rider) => {
-//       if (rider.games_played > 1) {
-//         statsObj.topOffense = topOffense()
-//         statsObj.topDefense = topDefense()
-//         statsObj.topDifficulty = topDifficulty()
-//         statsObj.topOverall = topOverall()
-//       }
-//       return statsObj
-//     }, {})
-//     return stats
-//   }
