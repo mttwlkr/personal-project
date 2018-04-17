@@ -3,14 +3,8 @@ import { shallow } from 'enzyme';
 import Header from './Header.js';
 
 describe('Header', () => {
-
-  let wrapper;
-
-  beforeEach(() => {
-    wrapper = shallow(<Header />);
-  });
-
   it('should match the snapshot', () => {
+    const wrapper = shallow(<Header />);
     expect(wrapper).toMatchSnapshot();
   });
 });

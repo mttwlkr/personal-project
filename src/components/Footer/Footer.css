@@ -1,10 +1,13 @@
 .footer {
   margin-top: 2em;
-  padding: 2em 0em 1em 0em;
-  background: #efefef;
+  padding: 1em 0em;
+  background: #fff;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 0px 8px 3px grey;  
+}
+
+.footer-copy {
+  color: #a9a9a9;
 }
 
 p {
@@ -22,9 +25,4 @@ p {
   height: 2em;
   width: 2em;
   margin: 0 2em;
-}
-
-.social-media-logos:hover {
-/*  padding-bottom: 2px;
-  border-bottom: 2px solid #2c3e50;*/
 }

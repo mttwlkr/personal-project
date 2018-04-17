@@ -35,12 +35,18 @@
 
 .-sort-asc {
   font-weight: 800;
-  background: linear-gradient(#2c3e50, #efefef);
+  background-color: #2c3e50;
+  color: #fff;
 }
 
 .-sort-desc {
   font-weight: 800;
-  background: linear-gradient(#efefef, #2c3e50);
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.rt-resizable-header-content:active {
+  background-color: #333333;
 }
 
 .slvsh-stats-header:hover {
@@ -79,9 +85,14 @@
   box-shadow: 0px 0px 20px 0px grey;
 }
 
-.loading-gif {
-  height: 40px;
-  width: 40px;
+.loading-gif-div {
+  padding: 3em 0em;
+  margin: 3em 8em;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 420px) {

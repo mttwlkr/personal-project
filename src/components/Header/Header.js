@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
+import { withRouter } from 'react-router';
 
 class Header extends Component {
-  constructor() {
-    super();
-    this.state = {
-      search: ''
-    };
-  }
-
   render() {
     return (
       <header>
@@ -21,6 +15,7 @@ class Header extends Component {
               alt='slvsh-logo'
               src="http://d1tajj9tvz4hqc.cloudfront.net/assets/logo_blue_md-94f051d3d0084c821e18d0376a98da8f.png"/>
           </NavLink>
+          
           <NavLink 
             to='/games/page/1'
             className='nav-btn nav-games' 
@@ -42,6 +37,7 @@ class Header extends Component {
             style={{ textDecoration: 'none' }}
           >CREATE</NavLink>
         </div>
+
         <div className='login-div'>
           <NavLink 
             to='/login' 
@@ -55,4 +51,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default withRouter(Header);

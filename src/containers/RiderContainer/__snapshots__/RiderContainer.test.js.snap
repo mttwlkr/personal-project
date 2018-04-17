@@ -142,7 +142,7 @@ ShallowWrapper {
                     columns={
                               Array [
                                         Object {
-                                          "Header": "SLVSH STATS (Click for Stats Key)",
+                                          "Header": "SLVSH STATS ▼",
                                           "columns": Array [
                                             Object {
                                               "Header": "Name",
@@ -383,7 +383,7 @@ ShallowWrapper {
             columns={
                         Array [
                                     Object {
-                                      "Header": "SLVSH STATS (Click for Stats Key)",
+                                      "Header": "SLVSH STATS ▼",
                                       "columns": Array [
                                         Object {
                                           "Header": "Name",
@@ -565,7 +565,7 @@ ShallowWrapper {
             },
             "columns": Array [
               Object {
-                "Header": "SLVSH STATS (Click for Stats Key)",
+                "Header": "SLVSH STATS ▼",
                 "columns": Array [
                   Object {
                     "Header": "Name",
@@ -886,7 +886,7 @@ ShallowWrapper {
                         columns={
                                     Array [
                                                 Object {
-                                                  "Header": "SLVSH STATS (Click for Stats Key)",
+                                                  "Header": "SLVSH STATS ▼",
                                                   "columns": Array [
                                                     Object {
                                                       "Header": "Name",
@@ -1127,7 +1127,7 @@ ShallowWrapper {
               columns={
                             Array [
                                           Object {
-                                            "Header": "SLVSH STATS (Click for Stats Key)",
+                                            "Header": "SLVSH STATS ▼",
                                             "columns": Array [
                                               Object {
                                                 "Header": "Name",
@@ -1309,7 +1309,7 @@ ShallowWrapper {
               },
               "columns": Array [
                 Object {
-                  "Header": "SLVSH STATS (Click for Stats Key)",
+                  "Header": "SLVSH STATS ▼",
                   "columns": Array [
                     Object {
                       "Header": "Name",
@@ -1713,7 +1713,7 @@ ShallowWrapper {
                     columns={
                               Array [
                                         Object {
-                                          "Header": "SLVSH STATS (Click for Stats Key)",
+                                          "Header": "SLVSH STATS ▼",
                                           "columns": Array [
                                             Object {
                                               "Header": "Name",
@@ -1954,7 +1954,7 @@ ShallowWrapper {
             columns={
                         Array [
                                     Object {
-                                      "Header": "SLVSH STATS (Click for Stats Key)",
+                                      "Header": "SLVSH STATS ▼",
                                       "columns": Array [
                                         Object {
                                           "Header": "Name",
@@ -2136,7 +2136,7 @@ ShallowWrapper {
             },
             "columns": Array [
               Object {
-                "Header": "SLVSH STATS (Click for Stats Key)",
+                "Header": "SLVSH STATS ▼",
                 "columns": Array [
                   Object {
                     "Header": "Name",
@@ -2457,7 +2457,7 @@ ShallowWrapper {
                         columns={
                                     Array [
                                                 Object {
-                                                  "Header": "SLVSH STATS (Click for Stats Key)",
+                                                  "Header": "SLVSH STATS ▼",
                                                   "columns": Array [
                                                     Object {
                                                       "Header": "Name",
@@ -2698,7 +2698,7 @@ ShallowWrapper {
               columns={
                             Array [
                                           Object {
-                                            "Header": "SLVSH STATS (Click for Stats Key)",
+                                            "Header": "SLVSH STATS ▼",
                                             "columns": Array [
                                               Object {
                                                 "Header": "Name",
@@ -2880,7 +2880,7 @@ ShallowWrapper {
               },
               "columns": Array [
                 Object {
-                  "Header": "SLVSH STATS (Click for Stats Key)",
+                  "Header": "SLVSH STATS ▼",
                   "columns": Array [
                     Object {
                       "Header": "Name",

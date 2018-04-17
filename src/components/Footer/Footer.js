@@ -7,7 +7,6 @@ import YouTube from '../../assets/youtube.svg';
 const Footer = () => {
   return (
     <footer className='footer'>
-      <p>&copy; 2018 Slvsh LLC | All rights reserved</p>
       <section className='social-media-div'>
         
         <a target='_blank' 
@@ -21,7 +20,7 @@ const Footer = () => {
         </a>
 
         <a target='_blank'
-          href='https://youtube.com/theslvsh'
+          href='https://www.youtube.com/slvsh'
           rel='noopener noreferrer'>
           <img 
             className='social-media-logos sml-yt' 
@@ -40,6 +39,7 @@ const Footer = () => {
           />
         </a>
       </section>
+      <p className='footer-copy'>&copy; 2018 Slvsh LLC | All rights reserved</p>
     </footer>
   );
 };

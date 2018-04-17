@@ -22,3 +22,13 @@ button:hover {
 .game-container-card:hover {
   box-shadow: 0px 0px 20px 0px grey;
 }
+
+.loading-gif-div {
+  padding: 3em 0em;
+  margin: 3em 8em;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

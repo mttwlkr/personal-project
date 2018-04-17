@@ -16,6 +16,16 @@
   height: 100%;
 }
 
+.loading-GIF-video-player {
+  padding: 3em 0em;
+  margin: 3em 8em;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-video-player-div {
   margin-top: 70px;
   background: #efefef;
@@ -45,6 +55,10 @@
 
 .video-player-loc-and-date {
   margin-bottom: 1em;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  color: #acacac;
 }
 
 .video-player-editorial-title {

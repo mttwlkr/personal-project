@@ -1,5 +1,5 @@
 export const columns = [{
-  Header: 'SLVSH STATS (Click for Stats Key)',
+  Header: 'SLVSH STATS \u25BC',
   headerClassName: 'slvsh-stats-header',
   columns: [
     { Header: 'Name',

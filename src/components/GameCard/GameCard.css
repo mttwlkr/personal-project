@@ -39,6 +39,12 @@
   text-transform: uppercase;
 }
 
+.slvsh-style,
+.film-style,
+.instabanger-style {
+  font-weight: 800;
+}
+
 .slvsh-style {
   background: #53e2ff;
 }

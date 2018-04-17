@@ -8,6 +8,8 @@ header {
   height: 70px;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0px 0px 20px -6px grey;
+/*  opacity: .9;*/
 }
 
 .slvsh-logo {
@@ -22,7 +24,8 @@ header {
   margin-left: 7%;
 }
 
-.nav-btn {
+.nav-btn,
+.login-div label {
   color: #2c3e50;
   font-family: 'Proxima Nova', lucida, helvetica, sans-serif;
   line-height: 47px;
@@ -36,4 +39,10 @@ header {
 
 .login-div {
   margin-right: 7%;
+  display: flex;
+  align-items: center;
+}
+
+.search-div {
+  margin-right: .5em;
 }

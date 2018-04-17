@@ -18,8 +18,7 @@ export class GameContainer extends Component {
 
   async componentDidMount() {
     const { match } = this.props;
-    if (this.props.games.current_page !== parseInt(match.params.page, 10) &&
-        !this.props.games.posts) {
+    if (this.props.games.current_page !== parseInt(match.params.page, 10)) {
       const pageNumber = parseInt(match.params.page, 10) || 1;
       const games = await getGames(pageNumber);
       this.props.addGamesToStore(games);
@@ -39,6 +38,7 @@ export class GameContainer extends Component {
     const games = await getGames(pageNumber);
     this.props.addGamesToStore(games);
     this.setState({loading: false});
+    window.scrollTo(0, 0);
   };
 
   render() {
@@ -60,11 +60,13 @@ export class GameContainer extends Component {
       <div>
         <section className='game-container'>
           { 
-            this.state.loading && 
-            <img 
-              src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'
-              alt='loading-GIF'
-            />
+            this.state.loading &&
+            <div className='loading-gif-div'> 
+              <img 
+                src='http://www.benettonplay.com/toys/flipbookdeluxe/flipbooks_gif/2007/08/23/28448.gif'
+                alt='loading-GIF'
+              />
+            </div>
           }
           { 
             !this.state.loading &&
