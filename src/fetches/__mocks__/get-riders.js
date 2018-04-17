@@ -1,1 +1,1 @@
-export const getRiders = jest.fn()
+export const getRiders = jest.fn();

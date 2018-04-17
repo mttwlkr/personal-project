@@ -9,6 +9,6 @@ const rootReducer = combineReducers({
   riders,
   gameForPlayer,
   singleRider
-})
+});
 
 export default rootReducer;

@@ -1,1 +1,1 @@
-export const getSingleVideo = jest.fn()
+export const getSingleVideo = jest.fn();

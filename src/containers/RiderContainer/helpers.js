@@ -21,4 +21,4 @@ export const columns = [{
       accessor: 'Overall',
       headerClassName: 'column-header'}      
   ]
-}]
+}];

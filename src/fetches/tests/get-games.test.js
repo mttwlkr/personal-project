@@ -1,5 +1,5 @@
 import { getGames } from '../get-games';
-import { mockAPIGamesData } from '../../mock-data/mockData'
+import { mockAPIGamesData } from '../../mock-data/mockData';
 
 describe('get games', () => {
 
@@ -8,19 +8,19 @@ describe('get games', () => {
     window.fetch = jest.fn().mockImplementation(() => Promise.resolve({
       status: 200,
       json: () => Promise.resolve(mockAPIGamesData)
-    }))
+    }));
 
-    const response = await getGames()
-    expect(response).toEqual(mockAPIGamesData)
+    const response = await getGames();
+    expect(response).toEqual(mockAPIGamesData);
   });
 
   it('should return an error if bad response', async () => {
 
     window.fetch = jest.fn().mockImplementation(() => Promise.reject({
       status: 500
-    }))
+    }));
 
-    const expected = {status: 500}
-    expect(getGames()).rejects.toEqual(expected)
-  })
-})
+    const expected = {status: 500};
+    expect(getGames()).rejects.toEqual(expected);
+  });
+});

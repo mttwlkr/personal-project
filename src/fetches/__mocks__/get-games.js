@@ -1,1 +1,1 @@
-export const getGames = jest.fn()
+export const getGames = jest.fn();

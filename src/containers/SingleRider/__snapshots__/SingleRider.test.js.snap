@@ -1,0 +1,858 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleRider should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SingleRider
+    addSingleRiderToStore={[Function]}
+    addStatsToSingleRider={[Function]}
+    match={
+        Object {
+            "isExact": true,
+            "params": Object {
+              "rider": "23",
+            },
+            "path": "/riders/:rider",
+            "url": "/riders/23",
+          }
+    }
+    riders={
+        Array [
+            Object {
+              "age": 27,
+              "avatar": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/030/original/keefer.jpg?1419916201",
+              "birthdate": "1991-02-16",
+              "country": "us",
+              "id": 30,
+              "name": "Nicky Keefer",
+              "slvsh_avg": 167,
+              "sponsor": "Atomic",
+              "url": "http://www.slvsh.com/riders/30.json",
+            },
+            Object {
+              "age": 22,
+              "avatar": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/023/original/torin.jpg?1417500198",
+              "birthdate": "1995-12-01",
+              "country": "us",
+              "id": 23,
+              "name": "Torin Yater-Wallace",
+              "slvsh_avg": 444,
+              "sponsor": "Red Bull",
+              "url": "http://www.slvsh.com/riders/23.json",
+            },
+            Object {
+              "age": 25,
+              "avatar": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/019/original/lupe.jpg?1416289155",
+              "birthdate": "1992-08-13",
+              "country": "us",
+              "id": 19,
+              "name": "Lupe Hagearty",
+              "slvsh_avg": 444,
+              "sponsor": "Nordica",
+              "url": "http://www.slvsh.com/riders/19.json",
+            },
+          ]
+    }
+    singleRider={
+        Object {
+            "Defense": 0.571,
+            "Difficulty": 0.24,
+            "Lines": 0.583,
+            "Offense": 0.74,
+            "Overall": 0.5335,
+            "age": 26,
+            "avatar": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/005/original/Noah_Wallace.jpg?1427290713",
+            "birthdate": "1991-07-02",
+            "country": "us",
+            "games_played": 3,
+            "id": 5,
+            "name": "Noah Wallace",
+            "slvsh_avg": 489,
+            "slvsh_id": 5,
+            "sponsor": "Giro",
+            "stat_rider_name": "Noah Wallace",
+            "url": "http://www.slvsh.com/riders/5.json",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        false,
+        <div
+          className="single-rider-card"
+          style={
+                    Object {
+                              "display": "flex",
+                            }
+          }
+>
+          <div>
+                    <img
+                              alt="Torin Yater-Wallace"
+                              src="http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/023/original/torin.jpg?1417500198"
+                    />
+                    <div
+                              className="single-rider-card-info-div"
+                    >
+                              <h1>
+                                        Torin Yater-Wallace
+                              </h1>
+                              <p
+                                        className="single-rider-card-title srct-birthday"
+                              >
+                                        Birthday: 
+                                        <span
+                                                  className="single-rider-card-value srcv-birthday"
+                                        >
+                                                  1995-12-01
+                                        </span>
+                              </p>
+                              <p
+                                        className="single-rider-card-title srct-sponsor"
+                              >
+                                        Sponsor: 
+                                        <span
+                                                  className="single-rider-card-value srcv-sponsor"
+                                        >
+                                                  Red Bull
+                                        </span>
+                              </p>
+                              <p
+                                        className="single-rider-card-title srct-games-played"
+                              >
+                                        Games Played: 
+                                        <span
+                                                  className="single-rider-card-value srcv-games-played"
+                                        >
+                                                  0
+                                        </span>
+                              </p>
+                              <FlagIcon
+                                        code="us"
+                                        size="2x"
+                              />
+                    </div>
+          </div>
+</div>,
+      ],
+      "className": "single-rider-background-div",
+    },
+    "ref": null,
+    "rendered": Array [
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              <img
+                            alt="Torin Yater-Wallace"
+                            src="http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/023/original/torin.jpg?1417500198"
+              />
+              <div
+                            className="single-rider-card-info-div"
+              >
+                            <h1>
+                                          Torin Yater-Wallace
+                            </h1>
+                            <p
+                                          className="single-rider-card-title srct-birthday"
+                            >
+                                          Birthday: 
+                                          <span
+                                                        className="single-rider-card-value srcv-birthday"
+                                          >
+                                                        1995-12-01
+                                          </span>
+                            </p>
+                            <p
+                                          className="single-rider-card-title srct-sponsor"
+                            >
+                                          Sponsor: 
+                                          <span
+                                                        className="single-rider-card-value srcv-sponsor"
+                                          >
+                                                        Red Bull
+                                          </span>
+                            </p>
+                            <p
+                                          className="single-rider-card-title srct-games-played"
+                            >
+                                          Games Played: 
+                                          <span
+                                                        className="single-rider-card-value srcv-games-played"
+                                          >
+                                                        0
+                                          </span>
+                            </p>
+                            <FlagIcon
+                                          code="us"
+                                          size="2x"
+                            />
+              </div>
+</div>,
+            undefined,
+          ],
+          "className": "single-rider-card",
+          "style": Object {
+            "display": "flex",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="Torin Yater-Wallace"
+                  src="http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/023/original/torin.jpg?1417500198"
+/>,
+                <div
+                  className="single-rider-card-info-div"
+>
+                  <h1>
+                                    Torin Yater-Wallace
+                  </h1>
+                  <p
+                                    className="single-rider-card-title srct-birthday"
+                  >
+                                    Birthday: 
+                                    <span
+                                                      className="single-rider-card-value srcv-birthday"
+                                    >
+                                                      1995-12-01
+                                    </span>
+                  </p>
+                  <p
+                                    className="single-rider-card-title srct-sponsor"
+                  >
+                                    Sponsor: 
+                                    <span
+                                                      className="single-rider-card-value srcv-sponsor"
+                                    >
+                                                      Red Bull
+                                    </span>
+                  </p>
+                  <p
+                                    className="single-rider-card-title srct-games-played"
+                  >
+                                    Games Played: 
+                                    <span
+                                                      className="single-rider-card-value srcv-games-played"
+                                    >
+                                                      0
+                                    </span>
+                  </p>
+                  <FlagIcon
+                                    code="us"
+                                    size="2x"
+                  />
+</div>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "Torin Yater-Wallace",
+                  "src": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/023/original/torin.jpg?1417500198",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h1>
+                      Torin Yater-Wallace
+</h1>,
+                    <p
+                      className="single-rider-card-title srct-birthday"
+>
+                      Birthday: 
+                      <span
+                                            className="single-rider-card-value srcv-birthday"
+                      >
+                                            1995-12-01
+                      </span>
+</p>,
+                    <p
+                      className="single-rider-card-title srct-sponsor"
+>
+                      Sponsor: 
+                      <span
+                                            className="single-rider-card-value srcv-sponsor"
+                      >
+                                            Red Bull
+                      </span>
+</p>,
+                    <p
+                      className="single-rider-card-title srct-games-played"
+>
+                      Games Played: 
+                      <span
+                                            className="single-rider-card-value srcv-games-played"
+                      >
+                                            0
+                      </span>
+</p>,
+                    <FlagIcon
+                      code="us"
+                      size="2x"
+/>,
+                  ],
+                  "className": "single-rider-card-info-div",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Torin Yater-Wallace",
+                    },
+                    "ref": null,
+                    "rendered": "Torin Yater-Wallace",
+                    "type": "h1",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Birthday: ",
+                        <span
+                          className="single-rider-card-value srcv-birthday"
+>
+                          1995-12-01
+</span>,
+                      ],
+                      "className": "single-rider-card-title srct-birthday",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Birthday: ",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "1995-12-01",
+                          "className": "single-rider-card-value srcv-birthday",
+                        },
+                        "ref": null,
+                        "rendered": "1995-12-01",
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Sponsor: ",
+                        <span
+                          className="single-rider-card-value srcv-sponsor"
+>
+                          Red Bull
+</span>,
+                      ],
+                      "className": "single-rider-card-title srct-sponsor",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Sponsor: ",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Red Bull",
+                          "className": "single-rider-card-value srcv-sponsor",
+                        },
+                        "ref": null,
+                        "rendered": "Red Bull",
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Games Played: ",
+                        <span
+                          className="single-rider-card-value srcv-games-played"
+>
+                          0
+</span>,
+                      ],
+                      "className": "single-rider-card-title srct-games-played",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Games Played: ",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "0",
+                          "className": "single-rider-card-value srcv-games-played",
+                        },
+                        "ref": null,
+                        "rendered": "0",
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "code": "us",
+                      "size": "2x",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          undefined,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          false,
+          <div
+            className="single-rider-card"
+            style={
+                        Object {
+                                    "display": "flex",
+                                  }
+            }
+>
+            <div>
+                        <img
+                                    alt="Torin Yater-Wallace"
+                                    src="http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/023/original/torin.jpg?1417500198"
+                        />
+                        <div
+                                    className="single-rider-card-info-div"
+                        >
+                                    <h1>
+                                                Torin Yater-Wallace
+                                    </h1>
+                                    <p
+                                                className="single-rider-card-title srct-birthday"
+                                    >
+                                                Birthday: 
+                                                <span
+                                                            className="single-rider-card-value srcv-birthday"
+                                                >
+                                                            1995-12-01
+                                                </span>
+                                    </p>
+                                    <p
+                                                className="single-rider-card-title srct-sponsor"
+                                    >
+                                                Sponsor: 
+                                                <span
+                                                            className="single-rider-card-value srcv-sponsor"
+                                                >
+                                                            Red Bull
+                                                </span>
+                                    </p>
+                                    <p
+                                                className="single-rider-card-title srct-games-played"
+                                    >
+                                                Games Played: 
+                                                <span
+                                                            className="single-rider-card-value srcv-games-played"
+                                                >
+                                                            0
+                                                </span>
+                                    </p>
+                                    <FlagIcon
+                                                code="us"
+                                                size="2x"
+                                    />
+                        </div>
+            </div>
+</div>,
+        ],
+        "className": "single-rider-background-div",
+      },
+      "ref": null,
+      "rendered": Array [
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div>
+                <img
+                                alt="Torin Yater-Wallace"
+                                src="http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/023/original/torin.jpg?1417500198"
+                />
+                <div
+                                className="single-rider-card-info-div"
+                >
+                                <h1>
+                                                Torin Yater-Wallace
+                                </h1>
+                                <p
+                                                className="single-rider-card-title srct-birthday"
+                                >
+                                                Birthday: 
+                                                <span
+                                                                className="single-rider-card-value srcv-birthday"
+                                                >
+                                                                1995-12-01
+                                                </span>
+                                </p>
+                                <p
+                                                className="single-rider-card-title srct-sponsor"
+                                >
+                                                Sponsor: 
+                                                <span
+                                                                className="single-rider-card-value srcv-sponsor"
+                                                >
+                                                                Red Bull
+                                                </span>
+                                </p>
+                                <p
+                                                className="single-rider-card-title srct-games-played"
+                                >
+                                                Games Played: 
+                                                <span
+                                                                className="single-rider-card-value srcv-games-played"
+                                                >
+                                                                0
+                                                </span>
+                                </p>
+                                <FlagIcon
+                                                code="us"
+                                                size="2x"
+                                />
+                </div>
+</div>,
+              undefined,
+            ],
+            "className": "single-rider-card",
+            "style": Object {
+              "display": "flex",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Torin Yater-Wallace"
+                    src="http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/023/original/torin.jpg?1417500198"
+/>,
+                  <div
+                    className="single-rider-card-info-div"
+>
+                    <h1>
+                                        Torin Yater-Wallace
+                    </h1>
+                    <p
+                                        className="single-rider-card-title srct-birthday"
+                    >
+                                        Birthday: 
+                                        <span
+                                                            className="single-rider-card-value srcv-birthday"
+                                        >
+                                                            1995-12-01
+                                        </span>
+                    </p>
+                    <p
+                                        className="single-rider-card-title srct-sponsor"
+                    >
+                                        Sponsor: 
+                                        <span
+                                                            className="single-rider-card-value srcv-sponsor"
+                                        >
+                                                            Red Bull
+                                        </span>
+                    </p>
+                    <p
+                                        className="single-rider-card-title srct-games-played"
+                    >
+                                        Games Played: 
+                                        <span
+                                                            className="single-rider-card-value srcv-games-played"
+                                        >
+                                                            0
+                                        </span>
+                    </p>
+                    <FlagIcon
+                                        code="us"
+                                        size="2x"
+                    />
+</div>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Torin Yater-Wallace",
+                    "src": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/023/original/torin.jpg?1417500198",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h1>
+                        Torin Yater-Wallace
+</h1>,
+                      <p
+                        className="single-rider-card-title srct-birthday"
+>
+                        Birthday: 
+                        <span
+                                                className="single-rider-card-value srcv-birthday"
+                        >
+                                                1995-12-01
+                        </span>
+</p>,
+                      <p
+                        className="single-rider-card-title srct-sponsor"
+>
+                        Sponsor: 
+                        <span
+                                                className="single-rider-card-value srcv-sponsor"
+                        >
+                                                Red Bull
+                        </span>
+</p>,
+                      <p
+                        className="single-rider-card-title srct-games-played"
+>
+                        Games Played: 
+                        <span
+                                                className="single-rider-card-value srcv-games-played"
+                        >
+                                                0
+                        </span>
+</p>,
+                      <FlagIcon
+                        code="us"
+                        size="2x"
+/>,
+                    ],
+                    "className": "single-rider-card-info-div",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Torin Yater-Wallace",
+                      },
+                      "ref": null,
+                      "rendered": "Torin Yater-Wallace",
+                      "type": "h1",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Birthday: ",
+                          <span
+                            className="single-rider-card-value srcv-birthday"
+>
+                            1995-12-01
+</span>,
+                        ],
+                        "className": "single-rider-card-title srct-birthday",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Birthday: ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "1995-12-01",
+                            "className": "single-rider-card-value srcv-birthday",
+                          },
+                          "ref": null,
+                          "rendered": "1995-12-01",
+                          "type": "span",
+                        },
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Sponsor: ",
+                          <span
+                            className="single-rider-card-value srcv-sponsor"
+>
+                            Red Bull
+</span>,
+                        ],
+                        "className": "single-rider-card-title srct-sponsor",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Sponsor: ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Red Bull",
+                            "className": "single-rider-card-value srcv-sponsor",
+                          },
+                          "ref": null,
+                          "rendered": "Red Bull",
+                          "type": "span",
+                        },
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Games Played: ",
+                          <span
+                            className="single-rider-card-value srcv-games-played"
+>
+                            0
+</span>,
+                        ],
+                        "className": "single-rider-card-title srct-games-played",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Games Played: ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "0",
+                            "className": "single-rider-card-value srcv-games-played",
+                          },
+                          "ref": null,
+                          "rendered": "0",
+                          "type": "span",
+                        },
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "code": "us",
+                        "size": "2x",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            undefined,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -310,7 +310,8 @@ ShallowWrapper {
                     <p
                               className="video-player-loc-and-date"
                     >
-                              Grandvalira, AD on 04.03.2018
+                              Grandvalira, AD
+                                              on 04.03.2018
                     </p>
           </section>
           <div
@@ -357,7 +358,8 @@ ShallowWrapper {
               <p
                             className="video-player-loc-and-date"
               >
-                            Grandvalira, AD on 04.03.2018
+                            Grandvalira, AD
+                                            on 04.03.2018
               </p>
 </section>,
             <div
@@ -398,7 +400,8 @@ ShallowWrapper {
                 <p
                   className="video-player-loc-and-date"
 >
-                  Grandvalira, AD on 04.03.2018
+                  Grandvalira, AD
+                                  on 04.03.2018
 </p>,
               ],
               "className": "video-player-editorial-title",
@@ -421,11 +424,13 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Grandvalira, AD on 04.03.2018",
+                  "children": "Grandvalira, AD
+                on 04.03.2018",
                   "className": "video-player-loc-and-date",
                 },
                 "ref": null,
-                "rendered": "Grandvalira, AD on 04.03.2018",
+                "rendered": "Grandvalira, AD
+                on 04.03.2018",
                 "type": "p",
               },
             ],
@@ -532,7 +537,8 @@ ShallowWrapper {
                         <p
                                     className="video-player-loc-and-date"
                         >
-                                    Grandvalira, AD on 04.03.2018
+                                    Grandvalira, AD
+                                                    on 04.03.2018
                         </p>
             </section>
             <div
@@ -579,7 +585,8 @@ ShallowWrapper {
                 <p
                                 className="video-player-loc-and-date"
                 >
-                                Grandvalira, AD on 04.03.2018
+                                Grandvalira, AD
+                                                on 04.03.2018
                 </p>
 </section>,
               <div
@@ -620,7 +627,8 @@ ShallowWrapper {
                   <p
                     className="video-player-loc-and-date"
 >
-                    Grandvalira, AD on 04.03.2018
+                    Grandvalira, AD
+                                    on 04.03.2018
 </p>,
                 ],
                 "className": "video-player-editorial-title",
@@ -643,11 +651,13 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Grandvalira, AD on 04.03.2018",
+                    "children": "Grandvalira, AD
+                on 04.03.2018",
                     "className": "video-player-loc-and-date",
                   },
                   "ref": null,
-                  "rendered": "Grandvalira, AD on 04.03.2018",
+                  "rendered": "Grandvalira, AD
+                on 04.03.2018",
                   "type": "p",
                 },
               ],
@@ -885,7 +895,8 @@ ShallowWrapper {
                     <p
                               className="video-player-loc-and-date"
                     >
-                              Grandvalira, Andorra on 04.05.2018
+                              Grandvalira, Andorra
+                                              on 04.05.2018
                     </p>
           </section>
           <div
@@ -932,7 +943,8 @@ ShallowWrapper {
               <p
                             className="video-player-loc-and-date"
               >
-                            Grandvalira, Andorra on 04.05.2018
+                            Grandvalira, Andorra
+                                            on 04.05.2018
               </p>
 </section>,
             <div
@@ -973,7 +985,8 @@ ShallowWrapper {
                 <p
                   className="video-player-loc-and-date"
 >
-                  Grandvalira, Andorra on 04.05.2018
+                  Grandvalira, Andorra
+                                  on 04.05.2018
 </p>,
               ],
               "className": "video-player-editorial-title",
@@ -996,11 +1009,13 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Grandvalira, Andorra on 04.05.2018",
+                  "children": "Grandvalira, Andorra
+                on 04.05.2018",
                   "className": "video-player-loc-and-date",
                 },
                 "ref": null,
-                "rendered": "Grandvalira, Andorra on 04.05.2018",
+                "rendered": "Grandvalira, Andorra
+                on 04.05.2018",
                 "type": "p",
               },
             ],
@@ -1107,7 +1122,8 @@ ShallowWrapper {
                         <p
                                     className="video-player-loc-and-date"
                         >
-                                    Grandvalira, Andorra on 04.05.2018
+                                    Grandvalira, Andorra
+                                                    on 04.05.2018
                         </p>
             </section>
             <div
@@ -1154,7 +1170,8 @@ ShallowWrapper {
                 <p
                                 className="video-player-loc-and-date"
                 >
-                                Grandvalira, Andorra on 04.05.2018
+                                Grandvalira, Andorra
+                                                on 04.05.2018
                 </p>
 </section>,
               <div
@@ -1195,7 +1212,8 @@ ShallowWrapper {
                   <p
                     className="video-player-loc-and-date"
 >
-                    Grandvalira, Andorra on 04.05.2018
+                    Grandvalira, Andorra
+                                    on 04.05.2018
 </p>,
                 ],
                 "className": "video-player-editorial-title",
@@ -1218,11 +1236,13 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Grandvalira, Andorra on 04.05.2018",
+                    "children": "Grandvalira, Andorra
+                on 04.05.2018",
                     "className": "video-player-loc-and-date",
                   },
                   "ref": null,
-                  "rendered": "Grandvalira, Andorra on 04.05.2018",
+                  "rendered": "Grandvalira, Andorra
+                on 04.05.2018",
                   "type": "p",
                 },
               ],

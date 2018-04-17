@@ -5,7 +5,7 @@ import RiderContainer from '../../containers/RiderContainer/RiderContainer';
 import VideoPlayer from '../../containers/VideoPlayer/VideoPlayer.js';
 import Header from '../Header/Header.js';
 import Footer from '../../components/Footer/Footer.js';
-import SingleRider from '../../containers/SingleRider/SingleRider.js'
+import SingleRider from '../../containers/SingleRider/SingleRider.js';
 import { Route } from 'react-router-dom';
 import { withRouter } from 'react-router';
 
@@ -27,4 +27,4 @@ export class App extends Component {
   }
 }
 
-export default withRouter(App)
+export default withRouter(App);

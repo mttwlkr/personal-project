@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 export const mockAPIRidersData = [
   {
     "id": 30,
@@ -275,6 +277,27 @@ export const mockRiderReducerExpected = {
   "games_played": 3 
 }
 
+
+export const mockSingleRider = {
+  "id": 5,
+  "name": "Noah Wallace",
+  "sponsor": "Giro",
+  "avatar": "http://slvsh_prod.s3.amazonaws.com/riders/avatars/000/000/005/original/Noah_Wallace.jpg?1427290713",
+  "country": "us",
+  "birthdate": "1991-07-02",
+  "slvsh_avg": 489,
+  "url": "http://www.slvsh.com/riders/5.json",
+  "age": 26,
+  "slvsh_id": 5,
+  "stat_rider_name": 'Noah Wallace',
+  "Offense": 0.74,
+  "Defense": 0.571,
+  "Lines": 0.583,
+  "Difficulty": 0.24,
+  "Overall": 0.5335,
+  "games_played": 3 
+}
+
 export const mockInstabanger = {
   "id": 810,
   "created_at": "2018-02-20T01:51:40.705Z",
@@ -362,6 +385,20 @@ export const mockMatch = {
   params: {rider: "23"},
   path: "/riders/:rider",
   url: "/riders/23",
+}
+
+export const mockMatchForPage1 = {
+  isExact: true,
+  params: {page: "1"},
+  path: "/games/page/:page",
+  url: "/games/page/1",
+}
+
+export const mockMatchForPage2 = {
+  isExact: true,
+  params: {page: "2"},
+  path: "/games/page/:page",
+  url: "/games/page/2",
 }
 
 export const mockHistory = { 
