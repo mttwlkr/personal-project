@@ -17,7 +17,7 @@
 #### ```npm start```
 
 ## API
-#### SLVSH || Check out SLVSH's live site [SLVSH](https://www.slvsh.com)
+#### SLVSH || Check out [SLVSH](https://www.slvsh.com)'s live site 
 
 ## Tests
 
