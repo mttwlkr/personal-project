@@ -1,7 +1,7 @@
 # SLVSH 2.0
 
 ## Synopsis
-#### SLVSH is a media and events media company that I co-founded and lead production on before I started web development. I'm remaking the SLVSH website from scratch using React's create-react-app. I fetch the SLVSH API's for the latest games, content and riders and add static rider statistics into the Redux store to create detailed rider profiles with inline-svg donut graphs. I also utilize React-Table to show all rider statistics from all 150 Riders. I use Router 4 to dynamically route between games, pages and riders. This MVP has 90% Test Coverage using Jest and Enzyme.
+#### SLVSH is a media and events media company that I co-founded, and lead production on, before I started web development. SLVSH's focus is to create an easier-to-understand ski contest for non-avid skiers. I'm remaking the SLVSH website from scratch using React's create-react-app. I fetch the SLVSH API's for the latest games, content and riders and add static rider statistics into the Redux store to create detailed rider profiles with inline-svg donut graphs. I also utilize React-Table to show all rider statistics from all 150 Riders. I use Router 4 to dynamically route between games, pages and riders. This MVP has 90% Test Coverage using Jest and Enzyme.
 
 ## Project Guidelines
 
